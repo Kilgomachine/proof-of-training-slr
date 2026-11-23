@@ -1,0 +1,21 @@
+TITLE-ABS-KEY(
+(
+( proof* OR prove OR proves OR proving OR proven OR
+verif* OR attest* OR certif* OR audit* OR watermark* )
+W/5
+( train* OR learn* OR "gradient descent" OR SGD OR fine-tun* OR
+finetun* OR distill* )
+)
+AND
+(
+prover OR verifier OR "proof system" OR soundness OR
+"zero-knowledge" OR "zero knowledge" OR zkSNARK OR SNARK OR
+"trusted execution" OR "secure enclave" OR
+"proof-of-learning" OR "proof of learning" OR
+"proof-of-training" OR "proof of training" OR
+nondeterminis* OR "non-deterministic" OR "refereed delegation"
+)
+)
+AND PUBYEAR > 2020
+AND ( LIMIT-TO ( DOCTYPE , "ar" ) OR LIMIT-TO ( DOCTYPE , "cp" ) )
+AND ( LIMIT-TO ( LANGUAGE , "English" ) )

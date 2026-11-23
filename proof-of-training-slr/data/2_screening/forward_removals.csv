@@ -1,0 +1,157 @@
+reason,citing_title,matched_to,similarity
+BACKWARD CANDIDATE,Federated learning with blockchain-based model aggregation and incentives,Federated Learning,1.00
+BACKWARD CANDIDATE,Zero-Knowledge Proof-Based Verifiable Decentralized Machine Learning in Communication Network: A Comprehensive Survey,Zero-knowledge proof-based verifiable decentralized machine learning in co,1.00
+BACKWARD CANDIDATE,Knowledge-Aware Privacy-Preserving Model Customization in Zero-Trust Federated Learning Model Marketplaces,Knowledge-Aware Privacy-Preserving Model Customization in Zero-Trust Feder,1.00
+BACKWARD CANDIDATE,“Malicious or Benign?”: Enhancing the Contribution of Model Updates in Byzantine-Robust Heterogeneous Federated Learning,Malicious or benign?’: Enhancing the contribution of model updates in Byza,1.00
+ALREADY SCREENED,Securing Blockchain-Based Distributed Learning for Heterogeneous Clients Through Knowledge Distillation and Zero-Knowledge Proofs,P269: Securing Blockchain-Based Distributed Learning for Heterogeneous Clien,1.00
+SEED (matched by EID),Pro-ZkFL: Efficient Verifiable Federated Learning Based on Probabilistic Zero-Knowledge Auditing and Reputation Sharding,P039 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,Zero-Knowledge Federated Learning: A New Trustworthy and Privacy-Preserving Distributed Learning Paradigm,Zero-Knowledge Federated Learning: A New Trustworthy and Privacy-Preservin,1.00
+BACKWARD CANDIDATE,"Blockchain-Enabled Federated Learning: A Survey on System Design, Key Challenges, and Future Directions",Blockchain-enabled federated learning: A survey,1.00
+SEED (matched by EID),ZK-HybridFL: Zero-Knowledge Proof-Enhanced Hybrid Ledger for Federated Learning,P044 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,Auditable and Verifiable Federated Learning Based on Blockchain-Enabled Decentralization,Auditable and verifiable federated learning based on blockchain-enabled de,1.00
+ALREADY SCREENED,"RzkFL: a Verifiable, Fast and Privacy-Preserving Framework for Federated Learning Inference Using Recursive Zero-Knowledge Proofs and on-Chain Verification","P288: RzkFL: a Verifiable, Fast and Privacy-Preserving Framework for Federat",1.00
+SEED (matched by EID),Autonomous Trust and Zero-Knowledge Blockchain Framework for Secure Federated Training of Medical Foundation Models,P290 (same EID),1.00 (exact id)
+SEED (matched by EID),Aggregated Zero-Knowledge Proofs Toward Distributed Proof-of-Deep-Learning,P068 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,"Federated Learning Meets Test-Time Adaptation: Methods, Challenges, and Future Directions",Federated Learning,1.00
+SEED (matched by EID),TMT-FL: Enabling Trustworthy Model Training of Federated Learning With Malicious Participants,P302 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,An efficient quantum non-interactive zero knowledge proof for confidential transaction and quantum range proof,An efficient quantum non-interactive zero knowledge proof for confidential,1.00
+SEED (matched by EID),Laminator: Verifiable ML Property Cards using Hardware-assisted Attestations,P310 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,"A Verifiable, Privacy-Preserving, and Poisoning Attack-Resilient Federated Learning Framework","A verifiable, privacy-preserving, and poisoning attack-resilient federated",1.00
+SEED (matched by EID),Hierarchical Verifiable Federated Learning with Recursive Proofs,P089 (same EID),1.00 (exact id)
+ALREADY SCREENED,Privacy-Preserving Transaction Verification in Decentralized Finance Using Zero-Knowledge Proofs and Deep Learning,P095: Privacy-Preserving Transaction Verification in Decentralized Finance U,1.00
+ALREADY SCREENED,A Survey on Verifiable Cross-Silo Federated Learning,P106: A Survey on Verifiable Cross-Silo Federated Learning,1.00
+BACKWARD CANDIDATE,"Federated Learning: A Survey of Core Challenges, Current Methods, and Opportunities",Federated Learning,1.00
+SEED (matched by EID),Founding Zero-Knowledge Proofs of Training on Optimum Vicinity,P333 (same EID),1.00 (exact id)
+SEED (matched by EID),PHV-FL: Personalized Hierarchical Verifiable Federated Learning Scheme for Maritime Target Detection,P335 (same EID),1.00 (exact id)
+ALREADY SCREENED,Zero-Knowledge Proof Mechanisms for Trustless Federated Learning on Blockchain,P342: Zero-Knowledge Proof Mechanisms for Trustless Federated Learning on Bl,1.00
+SEED (matched by EID),Matrix Commitment-Based Ownership Verification for Distributed Machine Learning,P344 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,Blockchain-Enabled Federated Learning in Healthcare: Survey and State-of-the-Art,Blockchain-enabled federated learning in healthcare: survey and state-of-t,1.00
+SEED (matched by EID),Towards Efficient and Reliable Training Assurance of Untrusted Federated Learning Participants Under Hardware Non-Determinism,P370 (same EID),1.00 (exact id)
+ALREADY SCREENED,A data factor market trading mechanism based on federated learning and blockchain,P137: A data factor market trading mechanism based on federated learning and,1.00
+SEED (matched by EID),zkVFL: Verifiable Federated Learning for Free-Rider Attacks via Efficient Zero-Knowledge Proofs,P377 (same EID),1.00 (exact id)
+SEED (matched by EID),"Zero knowledge verifiable, semi asynchronous federated learning for trajectory prediction on permissioned blockchain",P138 (same EID),1.00 (exact id)
+SEED (matched by EID),Integrating zero-knowledge proofs into federated learning: a path to on-chain verifiable and privacy-preserving federated learning frameworks,P144 (same EID),1.00 (exact id)
+SEED (matched by EID),SecurePoL: Integration of Watermarking With Proof-of-Learning to Enhance Security Against Spoofing Attacks,P386 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,PPFLQB: A Privacy-Preserving Federated Learning enhanced Quantum-secure Blockchain layered framework,Ppflqb: A privacy-preserving federated learning enhanced quantum-secure bl,1.00
+ALREADY SCREENED,zkFL: Verifiable Byzantine-Robust Federated Learning Against Malicious Servers,P401: zkFL: Verifiable Byzantine-Robust Federated Learning Against Malicious,1.00
+ALREADY SCREENED,HoneyFed Adaptive Deception With Federated Learning Strategy for Next-Generation Robust MANET Security,P405: HoneyFed Adaptive Deception With Federated Learning Strategy for Next-,1.00
+ALREADY SCREENED,VFL-IDS Framework for IoT,P177: VFL-IDS Framework for IoT,1.00
+ALREADY SCREENED,Trusted Federated Learning: Towards a Partial Zero-Knowledge Proof Approach,P418: Trusted Federated Learning: Towards a Partial Zero-Knowledge Proof App,1.00
+SEED (matched by EID),Zero-Knowledge AI Enhancing Data Privacy in Federated Learning Models,P421 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,Threats and Defenses in the Federated Learning Life Cycle: A Comprehensive Survey and Challenges,Threats and defenses in the federated learning life cycle: A comprehensive,1.00
+SEED (matched by EID),ZKPoFL: Zero-Knowledge Proof of Federated Learning for Cross-Silo Healthcare Collaboration with Consortium Blockchain,P184 (same EID),1.00 (exact id)
+ALREADY SCREENED,"VerfCNN, Optimal Complexity zkSNARK for Convolutional Neural Networks","P433: VerfCNN, Optimal Complexity zkSNARK for Convolutional Neural Networks",1.00
+SEED (matched by EID),DeSA: Decentralized Secure Aggregation for Federated Learning in Zero-Trust D2D Networks,P193 (same EID),1.00 (exact id)
+SEED (matched by EID),BFLP: blockchain-based federated learning protocol with verifiable contribution proof,P197 (same EID),1.00 (exact id)
+SEED (matched by EID),Blockchain-based Federated Learning Utilizing Zero-Knowledge Proofs for Verifiable Training and Aggregation,P456 (same EID),1.00 (exact id)
+ALREADY SCREENED,A survey of zero-knowledge proof based verifiable machine learning,P205: A survey of zero-knowledge proof based verifiable machine learning,1.00
+ALREADY SCREENED,A privacy protection mechanism in distributed reinforcement learning using zero-knowledge proof,P209: A privacy protection mechanism in distributed reinforcement learning u,1.00
+BACKWARD CANDIDATE,Q-BFT: zero-knowledge data quality gate for byzantine fault-tolerant consensus,Q-bft: zero-knowledge data quality gate for byzantine fault-tolerant conse,1.00
+BACKWARD CANDIDATE,FLMarket: Enabling Privacy-preserved Pre-training Data Pricing for Federated Learning,FLMarket: Enabling privacy-preserved pre-training data pricing for federat,1.00
+BACKWARD CANDIDATE,Verifiable Blockchain-Empowered Federated Learning for Secure Data Sharing in the Internet of Medical Things,Verifiable blockchain-empowered federated learning for secure data sharing,1.00
+SEED (matched by EID),Zkfhed: A Verifiable and Scalable Blockchain-Enhanced Federated Learning System,P223 (same EID),1.00 (exact id)
+ALREADY SCREENED,Blockchain Privacy Transaction Optimization Model Based on Zero-Knowledge Proof,P473: Blockchain Privacy Transaction Optimization Model Based on Zero-Knowle,1.00
+ALREADY SCREENED,SoK: The Role of Zero-Knowledge Proofs in Building Confidential and Trustworthy AI,P226: SoK: The Role of Zero-Knowledge Proofs in Building Confidential and Tr,1.00
+ALREADY SCREENED,Federated Learning with Zero-Knowledge Proofs for Healthcare: A Survey,P477: Federated Learning with Zero-Knowledge Proofs for Healthcare: A Survey,1.00
+BACKWARD CANDIDATE,BagChain: A Dual-Functional Blockchain Leveraging Bagging-Based Distributed Machine Learning,Bagchain: A dual-functional blockchain leveraging bagging-based distribute,1.00
+SEED (matched by EID),Security and Verifiability in Federated Learning: A Zero-Knowledge Reputation-Based Blockchain Framework,P244 (same EID),1.00 (exact id)
+ALREADY SCREENED,Exploring the Usability and Applicability of Proof of Learning in Binary Neural Networks,P496: Exploring the Usability and Applicability of Proof of Learning in Bina,1.00
+SEED (matched by EID),Proof of Learning using Zero-Knowledge Proof,P135 (same EID),1.00 (exact id)
+ALREADY SCREENED,Scalable Cryptography for Trustworthy Machine Learning in the LLM Era,P004: Scalable Cryptography for Trustworthy Machine Learning in the LLM Era,1.00
+BACKWARD CANDIDATE,zkGPT: An Efficient Non-interactive Zero-knowledge Proof Framework for LLM Inference,Zkgpt: An efficient non-interactive zero-knowledge proof framework for llm,1.00
+SEED (matched by EID),Computational Attestations of Polynomial Integrity Towards Verifiable Back-Propagation,P392 (same EID),1.00 (exact id)
+ALREADY SCREENED,Verification of Deep Neural Networks with KGZ-Based zkSNARK,P398: Verification of Deep Neural Networks with KGZ-Based zkSNARK,1.00
+SEED (matched by EID),SecVerGSSL: Proof-Based Verified Computation for Graph Self-Supervised Learning,P162 (same EID),1.00 (exact id)
+SEED (matched by EID),DePoL: Assuring training integrity in collaborative learning via decentralized verification,P268 (same EID),1.00 (exact id)
+SEED (matched by EID),Sparrow: Space-Efficient zkSNARK for Data-Parallel Circuits and Applications to Zero-Knowledge Decision Trees,P172 (same EID),1.00 (exact id)
+SEED (matched by EID),Towards Understanding and Enhancing Security of Proof-of-Training for DNN Model Ownership Verification,P041 (same EID),1.00 (exact id)
+SEED (matched by EID),Towards a Re-evaluation of Data Forging Attacks in Practice,P291 (same EID),1.00 (exact id)
+ALREADY SCREENED,FairZK: A Scalable System to Prove Machine Learning Fairness in Zero-Knowledge,P190: FairZK: A Scalable System to Prove Machine Learning Fairness in Zero-K,1.00
+SEED (matched by EID),Trusted Aggregation for Decentralized Federated Learning in Healthcare Consumer Electronics Using Zero-Knowledge Proofs,P066 (same EID),1.00 (exact id)
+ALREADY SCREENED,Developing Verifiable Computations and Homomorphic Encryption to Promote Federated Learning,P092: Developing Verifiable Computations and Homomorphic Encryption to Promo,1.00
+ALREADY SCREENED,Accelerating Zero-Knowledge Proofs Through Hardware-Algorithm Co-Design,P464: Accelerating Zero-Knowledge Proofs Through Hardware-Algorithm Co-Desig,1.00
+SEED (matched by EID),SUMMER: Recursive Zero-Knowledge Proofs for Scalable RNN Training,P345 (same EID),1.00 (exact id)
+ALREADY SCREENED,Tunable Zero-Knowledge Proof of Inference in Machine Learning via Protocols over Z2k,P352: Tunable Zero-Knowledge Proof of Inference in Machine Learning via Prot,1.00
+ALREADY SCREENED,NEURAL INTERACTIVE PROOFS,P124: NEURAL INTERACTIVE PROOFS,1.00
+SEED (matched by EID),Enabling verifiability in federated learning utilizing zero-knowledge proofs and blockchain,P125 (same EID),1.00 (exact id)
+ALREADY SCREENED,Scalable zkSNARKs for Matrix Computations: A Generic Framework for Verifiable Deep Learning,P001: Scalable zkSNARKs for Matrix Computations: A Generic Framework for Ver,1.00
+SEED (matched by EID),PAC Verification of Statistical Algorithms,P511 (same EID),1.00 (exact id)
+SEED (matched by EID),Building Resilient AI: A Solution to Data and Model Poisoning Prevention,P008 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,Federated Learning with Privacy-Preserving Incentives for Aerial Computing Networks,Federated Learning,1.00
+BACKWARD CANDIDATE,FedShield: Privacy Preservation for Blockchain Enabled Federated Learning with Homomorphic Encryption and Zero-Knowledge Proof,FedShield: Privacy Preservation for Blockchain Enabled Federated Learning,0.98
+SEED (matched by EID),Integrity verification of cloud-based neural network model training,P046 (same EID),1.00 (exact id)
+SEED (matched by EID),Proof of Training: Obtaining Verifiable ML Models by Delegating Training to a Blockchain Network,P049 (same EID),1.00 (exact id)
+SEED (matched by EID),Proof of Learning Applied to Binary Neural Networks,P053 (same EID),1.00 (exact id)
+ALREADY SCREENED,Proof of learning: Two Novel Consensus mechanisms for data validation using Blockchain Technology in Water Distribution System,P552: Proof of learning: Two Novel Consensus mechanisms for data validation,1.00
+ALREADY SCREENED,Need for zkSpeed: Accelerating HyperPlonk for Zero-Knowledge Proofs,P055: Need for zkSpeed: Accelerating HyperPlonk for Zero-Knowledge Proofs,1.00
+SEED (matched by EID),Proof of Directed Guiding Gradients: A New Proof of Learning Consensus Mechanism with Constant-time Verification,P571 (same EID),1.00 (exact id)
+ALREADY SCREENED,On the Power of Interactive Proofs for Learning,P074: On the Power of Interactive Proofs for Learning,1.00
+SEED (matched by EID),Enhancing Security of Proof-of-Learning Against Spoofing Attacks Using Feature-Based Model Watermarking,P080 (same EID),1.00 (exact id)
+SEED (matched by EID),zkFDL: An efficient and privacy-preserving decentralized federated learning with zero knowledge proof,P083 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,Provenance of Training without Training Data: Towards Privacy-Preserving DNN Model Ownership Verification,Provenance of Training without Training Data: Towards Privacy-Preserving D,1.00
+SEED (matched by EID),Integrating Blockchain and Deep Learning into Extremely Resource-Constrained IoT: An Energy-Saving Zero-Knowledge PoL Approach,P097 (same EID),1.00 (exact id)
+ALREADY SCREENED,Verifiable Personalized Mutual-Learning based on Blockchain and zk-SNARK,P101: Verifiable Personalized Mutual-Learning based on Blockchain and zk-SNA,1.00
+BACKWARD CANDIDATE,Fed-PK-Judge: Provably Secure Intellectual-Property Protection for Federated Learning,Fed-PK-Judge: Provably secure intellectual-property protection for federat,1.00
+SEED (matched by EID),Secure Collaborative Learning in Mining Pool via Robust and Efficient Verification,P624 (same EID),1.00 (exact id)
+SEED (matched by EID),PoTS: Proof-of-Training-Steps for Backdoor Detection in Large Language Models,P108 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,Federated Learning Based Intrusion Detection System for Healthcare Domain,Federated Learning,1.00
+SEED (matched by EID),TrustDFL: A Blockchain-Based Verifiable and Trusty Decentralized Federated Learning Framework,P112 (same EID),1.00 (exact id)
+ALREADY SCREENED,Survey on Blockchain-Enhanced Machine Learning,P636: Survey on Blockchain-Enhanced Machine Learning,1.00
+ALREADY SCREENED,Validating the Integrity for Deep Learning Models Based on Zero-Knowledge Proof and Blockchain,P119: Validating the Integrity for Deep Learning Models Based on Zero-Knowle,1.00
+BACKWARD CANDIDATE,Mining for Better: An Energy-Recycling Consensus Algorithm to Enhance Stability with Deep Learning,Mining for better: An energy-recycling consensus algorithm to enhance stab,1.00
+SEED (matched by EID),Federify: A Verifiable Federated Learning Scheme Based on zkSNARKs and Blockchain,P131 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,Adversarial Machine Learning in Industry: A Systematic Literature Review,Adversarial machine learning,1.00
+SEED (matched by EID),Optimistic Verifiable Training by Controlling Hardware Nondeterminism,P143 (same EID),1.00 (exact id)
+SEED (matched by EID),LightGuard: Adaptive TEE-GPU Sync for Real-Time Training Integrity,P157 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,VFL-Chain: Bulletproofing Federated Learning in the V2X environments,"VFL-Chain: Bulletproofing Federated Learning in the V2X Environments, Futu",1.00
+SEED (matched by EID),Advancing Federated Learning through Verifiable Computations and Homomorphic Encryption,P198 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,Causes and Effects of Unanticipated Numerical Deviations in Neural Network Inference Frameworks,Causes and effects of unanticipated numerical deviations in neural network,1.00
+BACKWARD CANDIDATE,TAPFed: Threshold Secure Aggregation for Privacy-Preserving Federated Learning,TAPFed: Threshold secure aggregation for privacypreserving federated learn,1.00
+SEED (matched by EID),Unforgeability in Stochastic Gradient Descent,P214 (same EID),1.00 (exact id)
+ALREADY SCREENED,IoT Devices Data Management in Supply Chains by Applying BC and ML,P597: IoT Devices Data Management in Supply Chains by Applying BC and ML,1.00
+SEED (matched by EID),Ensuring Trustworthy Neural Network Training via Blockchain,P599 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,Deep Learning-Based Mitigation of Fabricated Attacks in the Industrial Internet of Things,Deep Learning,1.00
+SEED (matched by EID),PPSS: A privacy-preserving secure framework using blockchain-enabled federated deep learning for Industrial IoTs,P618 (same EID),1.00 (exact id)
+ALREADY SCREENED,zkTaylor: Zero Knowledge Proofs for Machine Learning via Taylor Series Transformation,P225: zkTaylor: Zero Knowledge Proofs for Machine Learning via Taylor Series,1.00
+ALREADY SCREENED,Constructing a Dynamic Trust Assessment Mechanism Combining Zero Knowledge Proof with Unsupervised Learning,P229: Constructing a Dynamic Trust Assessment Mechanism Combining Zero Knowl,1.00
+BACKWARD CANDIDATE,Deep Learning Approaches for Intrusion Detection in IoT Networks: A PRISMA-Guided Systematic Review With Descriptive Meta-Analysis,Deep Learning,1.00
+SEED (matched by EID),'Adversarial Examples' for Proof-of-Learning,P520 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,"Optimization-based Proof of Useful Work: Framework, Modeling, and Security Analysis","Optimization-based Proof of Useful Work: Framework, Modeling, and Security",1.00
+SEED (matched by EID),Attesting Distributional Properties of Training Data for Machine Learning,P267 (same EID),1.00 (exact id)
+SEED (matched by EID),Proof-of-Learning is Currently More Broken Than You Think,P550 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,"Proof of Deep Learning: Approaches, Challenges, and Future Directions","Proof of deep learning: Approaches, challenges, and future directions",1.00
+SEED (matched by EID),Experimenting with Zero-Knowledge Proofs of Training,P303 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,Verifiable Carbon Accounting in Supply Chains,Verifiable carbon accounting in supply chains,1.00
+SEED (matched by EID),PIN: Application-Level Consensus for Blockchain-Based Artificial Intelligence Frameworks,P319 (same EID),1.00 (exact id)
+SEED (matched by EID),Confidential-DPproof: CONFIDENTIAL PROOF OF DIFFERENTIALLY PRIVATE TRAINING,P321 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,Verifying the unseen: interactive proofs for label-invariant distribution properties,Verifying the unseen: interactive proofs for label-invariant distribution,1.00
+BACKWARD CANDIDATE,Federated Learning for 6G Networks: Navigating Privacy Benefits and Challenges,Federated Learning,1.00
+BACKWARD CANDIDATE,Verifiable and Provably Secure Machine Unlearning,Verifiable and provably secure machine unlearning.,1.00
+SEED (matched by EID),Integrity Verifiable Privacy-preserving Federated Learning for Healthcare-IoT,P349 (same EID),1.00 (exact id)
+ALREADY SCREENED,Classical verification of quantum learning,P348: Classical verification of quantum learning,1.00
+BACKWARD CANDIDATE,Model aggregation techniques in federated learning: A comprehensive survey,Model aggregation techniques in federated learning: A comprehensive survey,1.00
+SEED (matched by EID),Tools for Verifying Neural Models' Training Data,P651 (same EID),1.00 (exact id)
+SEED (matched by EID),Byzantine-resistant model verification for decentralized federated learning in intelligent transportation systems,P367 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,A ZEST OF LIME: TOWARDS ARCHITECTURE-INDEPENDENT MODEL DISTANCES,"A zest of lime: Towards architecture-independent model distances, Proc. 10",1.00
+BACKWARD CANDIDATE,"A Survey on Blockchain-Based Federated Learning: Categorization, Application and Analysis",A Survey of Blockchain-Based Federated Learning,0.98
+ALREADY SCREENED,Zero-Knowledge Enhanced Adaptation Learning (ZEAL): A Framework for Verifiable Model Adaptation,P387: Zero-Knowledge Enhanced Adaptation Learning (ZEAL): A Framework for Ve,1.00
+BACKWARD CANDIDATE,Blockchain-based fairness-enhanced federated learning scheme against label flipping attack,Blockchain-based fairnessenhanced federated learning scheme against data p,0.91
+BACKWARD CANDIDATE,"IronForge: An Open, Secure, Fair, Decentralized Federated Learning","IronForge: An open, secure, fair, decentralized federated learning",1.00
+ALREADY SCREENED,Blockchain-Based Practical and Privacy-Preserving Federated Learning with Verifiable Fairness,P534: Blockchain-Based Practical and Privacy-Preserving Federated Learning w,1.00
+SEED (matched by EID),End-to-End Verifiable Decentralized Federated Learning,P412 (same EID),1.00 (exact id)
+ALREADY SCREENED,Proof of Unlearning: Definitions and Instantiation,P419: Proof of Unlearning: Definitions and Instantiation,1.00
+SEED (matched by EID),zkDL: Efficient Zero-Knowledge Proofs of Deep Learning Training,P424 (same EID),1.00 (exact id)
+SEED (matched by EID),An Efficient Proof-of-Learning Framework for Distributed and Secure Blockchains,P429 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,False Claims against Model Ownership Resolution,False claims against model ownership resolution,1.00
+SEED (matched by EID),Zero-Knowledge Quantized Weighted Majority Algorithm,P447 (same EID),1.00 (exact id)
+ALREADY SCREENED,On Learning Verifiers and Implications to Chain-of-Thought Reasoning,P449: On Learning Verifiers and Implications to Chain-of-Thought Reasoning,1.00
+ALREADY SCREENED,A Theory for Worst-Case vs. Average-Case Guarantees for LLMs,P451: A Theory for Worst-Case vs. Average-Case Guarantees for LLMs,1.00
+SEED (matched by EID),Jolt-FL: A General-Purpose Verifiable Federated Learning Framework Powered by zkVM,P453 (same EID),1.00 (exact id)
+ALREADY SCREENED,Deep learning-assisted zero-knowledge proof authentication for patient identity protection and medical data privacy,P460: Deep learning-assisted zero-knowledge proof authentication for patient,1.00
+BACKWARD CANDIDATE,Federated Learning with Assured Privacy and Reputation-Driven Incentives for Internet of Vehicles,Federated Learning,1.00
+BACKWARD CANDIDATE,A Blockchain-Empowered Federated Learning in Healthcare-Based Cyber Physical Systems,A blockchain-empowered federated learning in healthcare-based cyber physic,1.00
+BACKWARD CANDIDATE,Planting Undetectable Backdoors in Machine Learning Models: [Extended Abstract],Planting undetectable backdoors in machine learning models,1.00
+BACKWARD CANDIDATE,RAI2: Responsible Identity Audit Governing the Artificial Intelligence,"RAI2: Responsible identity audit governing the artificial intelligence, Pr",1.00
+SEED (matched by EID),Zero-Knowledge Proofs of Training for Deep Neural Networks,P497 (same EID),1.00 (exact id)
+BACKWARD CANDIDATE,Federated Learning for Credit Card Fraud Detection: Key Fundamentals and Emerging Trends,Federated Learning,1.00
+BACKWARD CANDIDATE,Holding Secrets Accountable: Auditing Privacy-Preserving Machine Learning,Holding secrets accountable: Auditing privacy- preserving machine learning,0.99

@@ -1,0 +1,7 @@
+id,eid,doi,title,venue,year
+P303,2-s2.0-85179838498,10.1145/3576915.3623202,Experimenting with Zero-Knowledge Proofs of Training,CCS 2023 - Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security,2023
+P497,2-s2.0-85215537257,10.1145/3658644.3670316,Zero-Knowledge Proofs of Training for Deep Neural Networks,CCS 2024 - Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security,2024
+P424,2-s2.0-85212945235,10.1109/TIFS.2024.3520863,zkDL: Efficient Zero-Knowledge Proofs of Deep Learning Training,IEEE Transactions on Information Forensics and Security,2025
+P333,2-s2.0-105023871548,10.1145/3719027.3744862,Founding Zero-Knowledge Proofs of Training on Optimum Vicinity,CCS 2025 - Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security,2025
+P600,2-s2.0-85114256523,10.1109/SP40001.2021.00106,Proof-of-learning: Definitions and practice,Proceedings - IEEE Symposium on Security and Privacy,2021
+P143,2-s2.0-105000552914,,Optimistic Verifiable Training by Controlling Hardware Nondeterminism,Advances in Neural Information Processing Systems,2024

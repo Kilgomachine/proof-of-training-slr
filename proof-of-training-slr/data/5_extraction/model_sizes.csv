@@ -1,0 +1,31 @@
+id,type,scope_level,year,parameters_stated,source
+B1418,Trusted hardware,Full,2021,138000000,noncrypto_extraction.csv
+P303,Cryptographic proof,Full,2023,1024,crypto_extraction.csv
+B0986,Aggregation-only proof,Related step,2023,431080,noncrypto_extraction.csv
+P052,Aggregation-only proof,Related step,2023,3000000,noncrypto_extraction.csv
+P214,Math check,Partial,2023,5700000,noncrypto_extraction.csv
+P651,Model behaviour,Related step,2023,1000000000,noncrypto_extraction.csv
+P188,Cryptographic proof,Full,2024,2,crypto_extraction.csv
+P109,Cryptographic proof,Related step,2024,7960,crypto_extraction.csv
+P497,Cryptographic proof,Full,2024,10100000,crypto_extraction.csv
+P143,Redo the work,Full,2024,117000000,noncrypto_extraction.csv
+P020,Redo the work,Sampled,2024,139000000,noncrypto_extraction.csv
+P333,Cryptographic proof,Related step,2025,121,crypto_extraction.csv
+P053,Work puzzle,Related step,2025,1170000,noncrypto_extraction.csv
+P291,Redo the work,Sampled,2025,5750000,noncrypto_extraction.csv
+P424,Cryptographic proof,Full,2025,10000000,crypto_extraction.csv
+P039,Cryptographic proof,Related step,2025,11000000,crypto_extraction.csv
+F0368,Redo the work,Sampled,2025,11000000,noncrypto_extraction.csv
+P310,Trusted hardware,Full,2025,14720000,noncrypto_extraction.csv
+F0408,Model behaviour,Related step,2025,1200000000,noncrypto_extraction.csv
+P108,Redo the work,Partial,2025,1500000000,noncrypto_extraction.csv
+P184,Cryptographic proof,Full,2026,61706,crypto_extraction.csv
+P089,Cryptographic proof,Not detailed,2026,117000,crypto_extraction.csv
+P197,Cryptographic proof,Not detailed,2026,310000,crypto_extraction.csv
+P459,Cryptographic proof,Related step,2026,620000,crypto_extraction.csv
+P264,Cryptographic proof,Partial,2026,3400000,crypto_extraction.csv
+F0006,Cryptographic proof,Partial,2026,11000000,crypto_extraction.csv
+P345,Cryptographic proof,Full,2026,12000000,crypto_extraction.csv
+F0012,Math check,Partial,2026,110000000,noncrypto_extraction.csv
+P344,Model behaviour,Related step,2026,134217728,noncrypto_extraction.csv
+P370,Trusted hardware,Sampled,2026,144000000,noncrypto_extraction.csv

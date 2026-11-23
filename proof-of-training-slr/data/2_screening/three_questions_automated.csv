@@ -1,0 +1,1294 @@
+id,source,q1_training,q2_distributed,q3_evidence,pattern,confidence,flags,coded,note
+F0006,forward,Y,Y,Y,YYY,high,,batch,"ZKP proofs of local training authenticity; random audits, slashing"
+F0018,forward,Y,Y,Y,YYY,high,,batch,replicates off-chain training steps to generate verification evidence
+F0138,forward,Y,Y,Y,YYY,high,,batch,ZKP verifies data owners' training computations in MPC
+F0408,forward,Y,Y,Y,YYY,high,,hand,permissionless peers; per-contribution loss measurement
+F0600,forward,Y,Y,Y,YYY,high,,hand,commit-before-challenge spot check of client training
+F0602,forward,Y,Y,Y,YYY,high,,hand,decentralised fine-tuning; proofs over model checkpoints
+F0628,forward,Y,Y,Y,YYY,high,,batch,Outsourced training replicated across multiple cloud providers; re-execution comparison
+P020,database,Y,Y,Y,YYY,high,,batch,TEE attests FL clients' training integrity; GPU offloading
+P039,database,Y,Y,Y,YYY,high,,batch,FL local training proven via probabilistically challenged zk-SNARK audits
+P042,database,Y,Y,Y,YYY,high,,batch,TEE attests federated GBDT training integrity; Shapley contributions
+P043,database,Y,Y,Y,YYY,high,,batch,client local training integrity; TEE commitments and Bloom filters
+P049,database,Y,Y,Y,YYY,high,,batch,clients delegate training to blockchain nodes; proof-of-training consensus
+P050,database,Y,Y,Y,YYY,high,,batch,remote attestation of client training control-flow; integrity evidence
+P066,database,Y,Y,Y,YYY,high,,batch,zk-SNARK proofs of each client model update and aggregation
+P068,database,Y,Y,Y,YYY,high,,batch,aggregated ZKPs prove users' partial training; proof-of-deep-learning
+P076,database,Y,Y,Y,YYY,high,,batch,FL training process publicly verified via zero-knowledge proofs
+P089,database,Y,Y,Y,YYY,high,,batch,"Device training correctness proven by recursive ZKPs, hierarchical FL"
+P106,database,Y,Y,Y,YYY,high,,batch,survey of protocols verifying parties' cross-silo FL training
+P109,database,Y,Y,Y,YYY,high,,batch,decentralized FL local training integrity; ZKP over polynomial proxy models
+P112,database,Y,Y,Y,YYY,high,,batch,Groth16 proofs of local training forward and backward passes
+P125,database,Y,Y,Y,YYY,high,,batch,Local FL training verified by on-chain multi-constraint zero-knowledge proofs
+P131,database,Y,Y,Y,YYY,high,,hand,zkSNARK proofs over local models in FL
+P135,database,Y,Y,Y,YYY,high,,batch,ZKP proves one's data was used in training
+P144,database,Y,Y,Y,YYY,high,,hand,ZKP verifies the local training process directly
+P151,database,Y,Y,Y,YYY,high,,batch,Server verifies local gradient computation via verifiable perturbations
+P177,database,Y,Y,Y,YYY,high,,batch,zkSNARK proves correctness of local model training in FL
+P184,database,Y,Y,Y,YYY,high,,batch,ZKP over FL training lifecycle plus data provenance
+P187,database,Y,Y,Y,YYY,high,,batch,FL local training integrity via TEE and vector commitments
+P193,database,Y,Y,Y,YYY,high,,batch,zk-SNARK verifies local training; also aggregation integrity proofs
+P197,database,Y,Y,Y,YYY,high,,batch,FL update bound to committed data and prescribed algorithm; ZKP
+P198,database,Y,Y,Y,YYY,high,,batch,"FL local training execution integrity; ZKVM proofs, homomorphic encryption"
+P212,database,Y,Y,Y,YYY,high,,batch,TEE-signed control-flow and counter evidence of local FL training
+P223,database,Y,Y,Y,YYY,high,,batch,ZKP audit that computations followed specified training protocol
+P227,database,Y,Y,Y,YYY,high,,batch,vertical FL; zk-SNARKs verify participants' local training behavior on-chain
+P244,database,Y,Y,Y,YYY,high,,batch,ZKP evidence of honest local FL training; reputation blockchain
+P257,database,Y,Y,Y,YYY,high,,batch,"FL local training; probabilistic Proof-of-Training sampling, incentive design"
+P264,database,Y,Y,Y,YYY,high,,batch,quantised zero-knowledge proofs of local FL training updates
+P268,database,Y,Y,Y,YYY,high,,batch,decentralized duplicated-execution verification of collaborative training; proof-of-learning
+P300,database,Y,Y,Y,YYY,high,,batch,proof-of-training consensus; gradient commitments verify miners' RNN training
+P302,database,Y,Y,Y,YYY,high,,batch,training execution integrity; zk-SNARK proofs and dataset commitments
+P305,database,Y,Y,Y,YYY,high,,batch,"FL client training; TEE remote attestation of training integrity, anti-freeriding"
+P349,database,Y,Y,Y,YYY,high,,batch,TEE and accumulator verify correctness of local FL training
+P370,database,Y,Y,Y,YYY,high,,batch,FL participants' GPU training replicated in TEE; verifiable training
+P375,database,Y,Y,Y,YYY,high,,batch,zk-SNARK and IVC proofs of local training and aggregation
+P377,database,Y,Y,Y,YYY,high,,hand,ZKP evidence of local training; contrasts with detection
+P412,database,Y,Y,Y,YYY,high,,batch,decentralized FL; ZKPs of local learning plus data authenticity
+P429,database,Y,Y,Y,YYY,high,,batch,proof-of-learning consensus; miners training verified as useful work
+P432,database,Y,Y,Y,YYY,high,,batch,ZKP proves backpropagation computed on previous global model
+P453,database,Y,Y,Y,YYY,high,,batch,zkVM proofs of each FL client local training step
+P456,database,Y,Y,Y,YYY,high,,batch,zk-SNARK verifies local training and global aggregation correctness
+P459,database,Y,Y,Y,YYY,high,,batch,FL client update correctness proven via Binius polynomial commitments
+P477,database,Y,Y,Y,YYY,high,,batch,survey of ZKP proofs of local FL training and aggregation
+P545,database,Y,Y,Y,YYY,high,,hand,proof-of-contribution; ZKP over all computations
+P600,database,Y,Y,Y,YYY,high,,batch,proof-of-learning from SGD trajectory; distributed untrusted workers
+P602,database,Y,Y,Y,YYY,high,,batch,zk proofs attest correctness of off-chain learning computation
+P624,database,Y,Y,Y,YYY,high,,batch,mining pool verifies workers' training integrity via sampled reproduction
+P640,database,Y,Y,Y,YYY,high,,batch,consensus nodes' NN training is the proof; secure mapping
+F0012,forward,Y,Y,Y,YYY,med,,batch,distributed training matmul; Freivalds check verifies worker computation
+F0035,forward,Y,Y,Y,YYY,med,,batch,FL training distribution ratio proven via collaborative zk-SNARKs
+F0038,forward,Y,Y,Y,YYY,med,UNLEARNING,batch,clients verify server unlearning via homomorphic hash; UNLEARNING
+F0080,forward,Y,Y,Y,YYY,med,,batch,remote attestation certifies approved clipping/noising/training pipeline
+F0234,forward,Y,Y,Y,YYY,med,UNLEARNING,batch,UNLEARNING zero-knowledge proofs of server's federated unlearning operations
+F0334,forward,Y,Y,Y,YYY,med,OUTSOURCED-SINGLE,batch,outsourced training integrity; sensitive-sample probes OUTSOURCED-SINGLE
+F0414,forward,Y,Y,Y,YYY,med,,batch,blockchain miners train HDC models; proof-of-useful-work verifies models
+F0508,forward,Y,Y,Y,YYY,med,,batch,blockchain verification algorithm for off-chain federated training trustworthiness
+F0536,forward,Y,Y,Y,YYY,med,,batch,distributed deep learning training; redundant recomputation plus commitments verify parties
+F0570,forward,Y,Y,Y,YYY,med,,batch,distributed training; redundant recomputation and robust confirmation of updates
+P044,database,Y,Y,Y,YYY,med,,batch,ZKP validates local model updates on DAG ledger
+P071,database,Y,Y,Y,YYY,med,,batch,"two-party GAN training; ZKP verifies discriminator built, used correctly"
+P092,database,Y,Y,Y,YYY,med,,batch,ZKVM integrity proofs of local ML training computation
+P097,database,Y,Y,Y,YYY,med,,batch,IoT devices train models as mining; zero-knowledge proof-of-learning
+P192,database,Y,Y,Y,YYY,med,UNLEARNING,batch,UNLEARNING deletion proofs; ZKP and Merkle audit logs
+P256,database,Y,Y,Y,YYY,med,,batch,hierarchical FL with ZK verification of gradient computation
+P293,database,Y,Y,Y,YYY,med,,batch,cross-silo FL; TEE proofs over local and global update integrity
+P342,database,Y,Y,Y,YYY,med,,batch,FL IDS; ZKP proves local training without revealing gradients
+P344,database,Y,Y,Y,YYY,med,,batch,matrix commitments prove client training history integrity
+P367,database,Y,Y,Y,YYY,med,,batch,"FL updates verified as from actual local training; ZKP, reputation"
+P418,database,Y,Y,Y,YYY,med,,batch,FL model updates; partial ZKP verification of computation and data
+P421,database,Y,Y,Y,YYY,med,,batch,"FL with zk-SNARKs for verifiable local training, DP noise"
+P475,database,Y,Y,Y,YYY,med,,batch,split learning; ZKPs prove correctness of encrypted training computations
+P498,database,Y,Y,Y,YYY,med,,batch,TEE secures each client local training; multisignature model verification
+P523,database,Y,Y,Y,YYY,med,,batch,"PoL consensus; miners train networks, verified via guiding gradients"
+P571,database,Y,Y,Y,YYY,med,,batch,"blockchain miners train models; gradient-based proof-of-learning, constant-time verification"
+P586,database,Y,Y,Y,YYY,med,,batch,NIZK audits collaborative federated DRL training correctness
+P590,database,Y,Y,Y,YYY,med,,batch,Proof-of-Learning consensus scores node loss reduction as work
+P599,database,Y,Y,Y,YYY,med,,batch,Submitted model integrity by re-computing training intervals on blockchain
+P618,database,Y,Y,Y,YYY,med,,batch,cross-silo FL; Proof-of-Federated-Deep-Learning consensus validates training work
+P630,database,Y,Y,Y,YYY,med,,batch,blockchain Proof-of-Learning consensus; miners training verified for rewards
+F0041,forward,Y,Y,Y,YYY,low,,batch,ZKP chapter claims federated training verification; mechanism very vague
+F0059,forward,Y,Y,Y,YYY,low,,batch,Offloaded computation incl. federated learning; TEE/zkVM correctness proofs
+F0293,forward,Y,Y,Y,YYY,low,,batch,FL wind turbines; TEE enclaves over local training; attestation implied
+F0344,forward,Y,Y,Y,YYY,low,,batch,split VFL embeddings; SNIP proofs and commitments against free-riding
+P145,database,Y,Y,Y,YYY,low,,batch,zkSNARK integrity of FL model updates; anomaly detection application
+P384,database,Y,Y,Y,YYY,low,,batch,ZKP sampled check that gradients were clipped during training
+P447,database,Y,Y,Y,YYY,low,,batch,Aggregator proves quantized weighted-majority weight updates via ZKP
+P496,database,Y,Y,Y,YYY,low,,batch,Proof-of-Learning consensus; miners train BNNs during block generation
+P597,database,Y,Y,Y,YYY,low,,batch,blockchain alternates proof-of-work with proof-of-learning for ML tasks
+F0015,forward,Y,Y,U,YYU,med,,batch,survey of blockchain FL defenses; verification category left unspecified
+F0093,forward,Y,Y,U,YYU,med,,batch,"multi-cloud FL; blockchain plus ZKP, proof target unspecified"
+F0128,forward,Y,Y,U,YYU,med,,batch,"FL training records; blockchain audit logging, verified property unspecified"
+F0130,forward,Y,Y,U,YYU,med,,batch,trustworthy FL taxonomy; trust evidence artifact unspecified
+F0131,forward,Y,Y,U,YYU,med,,batch,"UAV federated learning; zkFed ""model verification"" unspecified"
+F0153,forward,Y,Y,U,YYU,med,,batch,FL with secret sharing and ZKPs; proven statement unstated
+F0171,forward,Y,Y,U,YYU,med,,hand,ZK circuit covers inference; training uses trimmed mean
+F0202,forward,Y,Y,U,YYU,med,,batch,cross-institution FL with blockchain auditability; audit object unspecified
+F0209,forward,Y,Y,U,YYU,med,,batch,FL incentive gaming monitoring and audit budget; mechanism unspecified
+F0393,forward,Y,Y,U,YYU,med,,hand,decentralised training platform; on-chain incentive unclear
+F0510,forward,Y,Y,U,YYU,med,,batch,"blockchain FL platform; claims training verification, mechanism unstated"
+F0613,forward,Y,Y,U,YYU,med,,batch,PPML survey; ZKP verification trend; object unspecified
+P007,database,Y,Y,U,YYU,med,,batch,"FL healthcare updates; ZKP and DLT, verification unspecified"
+P053,database,Y,Y,U,YYU,med,,batch,proof-of-learning consensus requires miner training; verification mechanism unstated
+P075,database,Y,Y,U,YYU,med,,batch,zk-STARK quantum audit of FL; verified object unstated
+P117,database,Y,Y,U,YYU,med,,batch,"cross-domain FL recommendation; ZKP sharding, verification target unstated"
+P137,database,Y,Y,U,YYU,med,,batch,zk-SNARK proofs in FL data market; verified object unstated
+P141,database,Y,Y,U,YYU,med,,batch,"federated cross-chain training; zk-SNARK commitments, statement unspecified"
+P168,database,Y,Y,U,YYU,med,,batch,ZKP in FL for COVID classification; role underspecified
+P196,database,Y,Y,U,YYU,med,,hand,FL with ZKP among privacy tools; role unstated
+P213,database,Y,Y,U,YYU,med,AGGREGATION-ONLY,batch,ZK verifies aggregation; client update credibility unspecified; AGGREGATION-ONLY
+P254,database,Y,Y,U,YYU,med,,batch,"distributed model training; ZKP consensus, verification target unstated"
+P258,database,Y,Y,U,YYU,med,,batch,"FL update legitimacy via ZKP; proven property unstated, anti-poisoning"
+P290,database,Y,Y,U,YYU,med,,batch,"federated medical model updates; ZKP purpose privacy, unstated"
+P358,database,Y,Y,U,YYU,med,,batch,federated XSS sequence learning; zero-knowledge validation target unspecified
+P395,database,Y,Y,U,YYU,med,,batch,"FL for vehicles; zkSNARK checks update validity, property unclear"
+P396,database,Y,Y,U,YYU,med,,batch,Cairo proof of client update validity; mechanism unstated
+P588,database,Y,Y,U,YYU,med,,batch,PoLe consensus: nodes train models as useful work; verification unstated
+F0086,forward,Y,Y,U,YYU,low,,batch,"federated LLM fine-tuning; client proofs, proven statement unclear"
+F0168,forward,Y,Y,U,YYU,low,,batch,blockchain FL healthcare tutorial; verifiability claimed but unspecified
+F0189,forward,Y,Y,U,YYU,low,,batch,legal accountability for FL; verifiable cryptographic artefacts unspecified
+F0211,forward,Y,Y,U,YYU,low,,batch,ZKP-driven collaborative model training; proof target unspecified
+F0341,forward,Y,Y,U,YYU,low,,batch,blockchain AI review cites decentralized verification; object unstated
+F0499,forward,Y,Y,U,YYU,low,,batch,broad FL survey; trustworthiness discussed without verification mechanism
+F0610,forward,Y,Y,U,YYU,low,BYZANTINE-ONLY,batch,"FL behavioral client validation, secure aggregation; BYZANTINE-ONLY; verifiability unspecified"
+P082,database,Y,Y,U,YYU,low,,batch,FL with rerandomizable garbled circuits; verifiable calculation unspecified
+P101,database,Y,Y,U,YYU,low,,batch,Blockchain mutual learning; ZKP endorsement of shared knowledge integrity
+P175,database,Y,Y,U,YYU,low,,batch,"Decentralized personal data ecosystem; enclaves, FL, verification unspecified"
+P272,database,Y,Y,U,YYU,low,,batch,"decentralized FL; ZKP ""update integrity"" unspecified plus reputation filtering"
+P423,database,Y,Y,U,YYU,low,,batch,TEE-based FL training and contribution auditing; attestation unspecified
+P552,database,Y,Y,U,YYU,low,,batch,blockchain proof-of-learning consensus validates data; verification mechanism unstated
+F0028,forward,Y,N,Y,YNY,high,,batch,SGD training commitments; ZKP audit of weights and data
+P041,database,Y,N,Y,YNY,high,,batch,proof-of-training records verify honest training; ownership; single trainer
+P046,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,batch,cloud training integrity; TEE commitments verified by user; OUTSOURCED-SINGLE
+P080,database,Y,N,Y,YNY,high,,batch,training trajectory proof-of-learning plus watermark; spoofing defense
+P108,database,Y,N,Y,YNY,high,,batch,LLM training steps; auditor checks declared recipe via LM-Head
+P143,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,batch,OUTSOURCED-SINGLE auditor exactly replicates training; nondeterminism controlled
+P157,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,batch,TEE duplicated-execution checks of cloud training; OUTSOURCED-SINGLE
+P162,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,batch,proof of GCN-SSL training reproducibility; OUTSOURCED-SINGLE cloud
+P188,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,hand,OUTSOURCED-SINGLE proves correct training of DP regression
+P195,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,hand,OUTSOURCED-SINGLE ZKP of dropout execution in training
+P214,database,Y,N,Y,YNY,high,,batch,SGD checkpoint unforgeability underpinning proof-of-learning trajectory verification
+P282,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,batch,CNN training integrity; zk-SNARK proofs; OUTSOURCED-SINGLE cloud training
+P303,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,batch,OUTSOURCED-SINGLE zero-knowledge proof of training for logistic regression
+P310,database,Y,N,Y,YNY,high,,batch,TEE attestation of training-process properties to external verifiers
+P333,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,batch,zero-knowledge proof of training via optimum vicinity; OUTSOURCED-SINGLE
+P345,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,batch,recursive zkSNARK proofs of RNN backpropagation training; OUTSOURCED-SINGLE
+P386,database,Y,N,Y,YNY,high,,batch,PoL training trajectory plus watermark verification; single trainer
+P392,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,batch,OUTSOURCED-SINGLE ZK-STARK proves outsourced back-propagation training
+P419,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE; UNLEARNING,batch,proof of unlearning; TEE attests algorithm execution; UNLEARNING OUTSOURCED-SINGLE
+P424,database,Y,N,Y,YNY,high,,batch,zero-knowledge proof of deep learning training computation; single trainer
+P463,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,hand,OUTSOURCED-SINGLE TEE integrity for training
+P497,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,batch,zero-knowledge proof of DNN gradient-descent training; OUTSOURCED-SINGLE
+P503,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,batch,MLaaS training integrity; ZK challenge-response sampling OUTSOURCED-SINGLE
+P520,database,Y,N,Y,YNY,high,,batch,proof-of-learning training trajectory spot-checks; forgery attack demonstrated
+P550,database,Y,N,Y,YNY,high,,batch,PoL checkpoint trajectory verification attacked; single trainer prover
+P623,database,Y,N,Y,YNY,high,,batch,Deterministic training replay from checkpoints enables training audit
+P651,database,Y,N,Y,YNY,high,,batch,training data provenance; seed commitment and trajectory checks
+P656,database,Y,N,Y,YNY,high,OUTSOURCED-SINGLE,batch,OUTSOURCED-SINGLE ZKP proof of fair decision tree training
+F0042,forward,Y,N,Y,YNY,med,,batch,claimed dataset use in training; data-probe output-distribution test
+F0058,forward,Y,N,Y,YNY,med,UNLEARNING,batch,UNLEARNING; publicly verifiable proof that data removed from model
+F0183,forward,Y,N,Y,YNY,med,UNLEARNING,batch,"Unlearning verification soundness; gradient forging-set measure bounds, UNLEARNING"
+F0368,forward,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,batch,OUTSOURCED-SINGLE mid-training Merkle verification of weight intervals; anomaly detection
+F0369,forward,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,batch,challenge game verifies off-chain RL model optimality; OUTSOURCED-SINGLE
+F0433,forward,Y,N,Y,YNY,med,UNLEARNING,batch,UNLEARNING completeness measured; shadow-model interpolation score
+F0490,forward,Y,N,Y,YNY,med,OUTSOURCED-SINGLE; UNLEARNING,batch,"Unlearning validated by invisible backdoor triggers, UNLEARNING OUTSOURCED-SINGLE"
+P004,database,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,batch,MPC outsourced training; proof-of-optimality certifies trained model; OUTSOURCED-SINGLE
+P006,database,Y,N,Y,YNY,med,,batch,zk-SNARK proof of UCB learning algorithm execution; single party
+P008,database,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,batch,OUTSOURCED-SINGLE ZKP verifies correct training computation by delegate
+P172,database,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,batch,OUTSOURCED-SINGLE zkSNARK proves decision tree training
+P205,database,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,batch,survey of ZKP proofs for ML training and inference; OUTSOURCED-SINGLE
+P218,database,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,batch,outsourced training computation proofs; PLONK zk-SNARK OUTSOURCED-SINGLE
+P291,database,Y,N,Y,YNY,med,,batch,data forging against gradient trajectory verification; verifier detects forgeries
+P321,database,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,hand,OUTSOURCED-SINGLE ZKP certificate that training was DP
+P339,database,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,batch,training-set exclusivity; shadow models and OOD detector OUTSOURCED-SINGLE
+P348,database,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,batch,interactive proofs verify delegated quantum learning; OUTSOURCED-SINGLE
+P387,database,Y,N,Y,YNY,med,,batch,Fine-tuning integrity proven via KZG polynomial commitments; single party
+P391,database,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,batch,SGX enclave training attestation; HE inference OUTSOURCED-SINGLE
+P403,database,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,batch,MLaaS training effort validation; TEE anomaly detection OUTSOURCED-SINGLE
+P511,database,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,batch,"Interactive proof verifying delegated PAC learning, OUTSOURCED-SINGLE"
+P535,database,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,hand,OUTSOURCED-SINGLE verifiable linear regression training
+P538,database,Y,N,Y,YNY,med,OUTSOURCED-SINGLE,hand,OUTSOURCED-SINGLE PAC verification of delegated learning
+F0004,forward,Y,U,Y,YUY,med,UNLEARNING,batch,end-to-end AI pipeline incl. training; ZKP framework; UNLEARNING
+F0034,forward,Y,N,U,YNU,med,UNLEARNING,hand,UNLEARNING certifies removal not training
+F0176,forward,Y,N,U,YNU,med,UNLEARNING,batch,hash-chain audit trail over fine-tuning and UNLEARNING updates
+F0261,forward,Y,N,U,YNU,med,UNLEARNING,batch,UNLEARNING verification survey; evidence of removal not training
+F0396,forward,Y,N,U,YNU,med,UNLEARNING,batch,UNLEARNING verification via model sensitivity; detects lazy server
+F0541,forward,Y,N,U,YNU,med,UNLEARNING,hand,UNLEARNING measures removal effect
+P267,database,Y,N,U,YNU,med,OUTSOURCED-SINGLE,batch,"OUTSOURCED-SINGLE attests training-data distribution properties, not training work"
+F0253,forward,Y,N,U,YNU,low,UNLEARNING,batch,UNLEARNING survey; metrics measure removal not training
+F0401,forward,Y,N,U,YNU,low,UNLEARNING,batch,"UNLEARNING survey; certified removal, model verification keywords unspecified"
+F0430,forward,Y,N,U,YNU,low,,hand,proof of data attribution; object is attribution
+P409,database,Y,N,U,YNU,low,OUTSOURCED-SINGLE,batch,"TEE MLaaS framework; ""verifiable trust"" unspecified; OUTSOURCED-SINGLE"
+P605,database,Y,U,U,YUU,low,,batch,blockchain-logged LSTM sentiment training; proof-of-learning claim unspecified
+F0007,forward,Y,Y,N,YYN,high,,batch,"collaborative-ML training survey; privacy/security mechanisms, threat taxonomy only"
+F0011,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,SoK of FL backdoor defences; BYZANTINE-ONLY detection not training evidence
+F0013,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,aggregated model verification; homomorphic signatures AGGREGATION-ONLY
+F0031,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,BYZANTINE-ONLY reputation and gradient-consistency metrics exclude malicious clients
+F0036,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,FL gradient privacy and aggregation correctness tags; AGGREGATION-ONLY
+F0040,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,BYZANTINE-ONLY spectrum filtering of malicious client updates
+F0043,forward,Y,Y,N,YYN,high,,batch,"survey of federated and split learning; privacy, efficiency only"
+F0047,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,"FL local models; poisoning detection in robust aggregation, BYZANTINE-ONLY"
+F0048,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,"FL secure aggregation, malicious edge server detection; AGGREGATION-ONLY"
+F0056,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,AGGREGATION-ONLY polynomial commitment verifies aggregation against malicious server
+F0069,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,decentralized FL noisy-client identification via GMM; BYZANTINE-ONLY
+F0070,forward,Y,Y,N,YYN,high,,batch,federated prompt learning survey; no training verification
+F0078,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY; BYZANTINE-ONLY,batch,"FL gradients; Byzantine aggregation, aggregation correctness; BYZANTINE-ONLY AGGREGATION-ONLY"
+F0079,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,"FL aggregation inside TEE; AGGREGATION-ONLY, client training untrusted"
+F0081,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,homomorphic hash verifies FL aggregation result; AGGREGATION-ONLY
+F0082,forward,Y,Y,N,YYN,high,,batch,FL applications in finance; no training-work evidence
+F0092,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY; BYZANTINE-ONLY,batch,AGGREGATION-ONLY BYZANTINE-ONLY commitment verification plus malicious user filtering
+F0098,forward,Y,Y,N,YYN,high,,batch,federated anomaly detector training; no verification of client work
+F0100,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,AGGREGATION-ONLY aggregator audit via HSIC and anomaly detection
+F0102,forward,Y,Y,N,YYN,high,,batch,"FL contributions; trust scores, blockchain incentives, no training evidence"
+F0107,forward,Y,Y,N,YYN,high,,hand,watermark for copyright; ownership not training evidence
+F0109,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,"federated meta-learning aggregation, blockchain storage, Hampel filter; BYZANTINE-ONLY"
+F0110,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,FL backdoor defence; BYZANTINE-ONLY screening and robust aggregation
+F0111,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,hand,BYZANTINE-ONLY secure aggregation plus poisoning defence
+F0112,forward,Y,Y,N,YYN,high,,batch,DP federated learning incentives via contract theory; no verification
+F0113,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,aggregated result correctness; homomorphic hash AGGREGATION-ONLY
+F0116,forward,Y,Y,N,YYN,high,,batch,"FL client effort; potential game equilibria, no verification"
+F0117,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,"FL poisoning forensics; robust aggregation, trust scores; BYZANTINE-ONLY"
+F0122,forward,Y,Y,N,YYN,high,,batch,FL masking privacy and dual secure aggregation; no training evidence
+F0124,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,ZK clipping bounds updates plus robust filtering; BYZANTINE-ONLY
+F0125,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY; BYZANTINE-ONLY,batch,aggregation integrity and poisoning reweighting AGGREGATION-ONLY BYZANTINE-ONLY
+F0132,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY; BYZANTINE-ONLY,batch,TEE verifies aggregation result; AGGREGATION-ONLY BYZANTINE-ONLY
+F0134,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,FL clients verify aggregation integrity by hashing; AGGREGATION-ONLY
+F0135,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,AGGREGATION-ONLY verifies server aggregation results in FL
+F0143,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,"FL poisoning defense, trust-based aggregation; BYZANTINE-ONLY"
+F0146,forward,Y,Y,N,YYN,high,,batch,federated split segmentation with homomorphic encryption; no training evidence
+F0151,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,FL secure aggregation plus poisoning detection; BYZANTINE-ONLY
+F0154,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,BYZANTINE-ONLY secure aggregation with anonymity and poisoning filter
+F0155,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,FL similarity-based grouping removes malicious clients; BYZANTINE-ONLY
+F0157,forward,Y,Y,N,YYN,high,,batch,"Cross-silo FL contribution scores under secure aggregation, not training"
+F0160,forward,Y,Y,N,YYN,high,,batch,decentralized FL prototype training; no verification of client work
+F0165,forward,Y,Y,N,YYN,high,,batch,"DP federated learning noise control; privacy, convergence, no verification"
+F0167,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,FL verifiable secure aggregation plus incentives; AGGREGATION-ONLY
+F0169,forward,Y,Y,N,YYN,high,,batch,Federated LoRA fine-tuning rank scheduling; no verification mechanism
+F0173,forward,Y,Y,N,YYN,high,,batch,"on-device federated averaging for healthcare; privacy only, unverified"
+F0174,forward,Y,Y,N,YYN,high,,hand,authenticates update authorship not training work
+F0175,forward,Y,Y,N,YYN,high,,batch,"split federated training latency; cut-layer optimisation, no verification"
+F0181,forward,Y,Y,N,YYN,high,,batch,far-edge FL topology vision paper; no verification mechanism
+F0198,forward,Y,Y,N,YYN,high,,batch,FHE acceleration for FL aggregation; privacy not training evidence
+F0201,forward,Y,Y,N,YYN,high,,batch,"FL foundations chapter; privacy and ethics, no verification"
+F0203,forward,Y,Y,N,YYN,high,,batch,FL face recognition; homomorphic encryption for privacy only
+F0206,forward,Y,Y,N,YYN,high,,batch,"decentralized healthcare learning review; privacy focus, no training evidence"
+F0216,forward,Y,Y,N,YYN,high,,batch,"personalized FL mixture-of-experts classification; accuracy only, no verification"
+F0218,forward,Y,Y,N,YYN,high,,batch,decentralized federated distillation with pruning; no verification
+F0222,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,AGGREGATION-ONLY homomorphic-hash verification of aggregated models; decentralised FL
+F0223,forward,Y,Y,N,YYN,high,,batch,vertical federated training with encryption and masking; privacy only
+F0225,forward,Y,Y,N,YYN,high,,batch,FL communication and privacy survey; no training evidence
+F0227,forward,Y,Y,N,YYN,high,,batch,"decentralised GAN training; performance only, no verification"
+F0228,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,"FL poisoning defense; blockchain auth, outlier clustering; BYZANTINE-ONLY"
+F0235,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,decentralized FL consensus filters anomalous updates; BYZANTINE-ONLY
+F0237,forward,Y,Y,N,YYN,high,,batch,FL uplink compression with error feedback; no verification
+F0240,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,"multi-server FL; server reputation, Byzantine defense; BYZANTINE-ONLY"
+F0247,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,KZG proof of FL model aggregation; AGGREGATION-ONLY
+F0264,forward,Y,Y,N,YYN,high,,batch,"split learning privacy; adversarial training, channel pruning, no verification"
+F0269,forward,Y,Y,N,YYN,high,,batch,three-tier FL traffic prediction with differential privacy; no training evidence
+F0272,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,server aggregation correctness; replication re-execution AGGREGATION-ONLY
+F0273,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,BYZANTINE-ONLY contrastive buffer separates malicious client updates
+F0276,forward,Y,Y,N,YYN,high,,batch,"federated split learning; homomorphic encryption privacy, no training verification"
+F0277,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,AGGREGATION-ONLY blockchain audits SMPC aggregation; no training proof
+F0278,forward,Y,Y,N,YYN,high,,batch,FL weighted aggregation under threshold Paillier; privacy only
+F0279,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,hardened verifiable secure aggregation; AGGREGATION-ONLY
+F0283,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,trust-score robust aggregation against malicious clients; BYZANTINE-ONLY
+F0285,forward,Y,Y,N,YYN,high,,batch,FL knowledge distillation personalisation; no training verification
+F0290,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,"FL poisoning defense, grouped malicious-client detection; BYZANTINE-ONLY"
+F0294,forward,Y,Y,N,YYN,high,,batch,bit-flipping differential privacy for wireless FL; privacy only
+F0297,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,BYZANTINE-ONLY adaptive client weighting plus differential privacy
+F0300,forward,Y,Y,N,YYN,high,,batch,FL gradient perturbation against inference attacks; privacy only
+F0301,forward,Y,Y,N,YYN,high,,batch,encrypted knowledge distillation in decentralised FL; privacy only
+F0302,forward,Y,Y,N,YYN,high,,batch,federated reinforcement learning crowdsensing; location privacy only
+F0303,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,clipping clustering weighting robust FL; BYZANTINE-ONLY
+F0305,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,"FL robust private aggregation of model updates, BYZANTINE-ONLY"
+F0306,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,FL verifiable aggregation with threshold Paillier; AGGREGATION-ONLY
+F0309,forward,Y,Y,N,YYN,high,,batch,"FL backdoor injection attack; gradient masking, no verification"
+F0311,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,verifiable FL secure aggregation and weight correctness; AGGREGATION-ONLY
+F0315,forward,Y,Y,N,YYN,high,,batch,FL with differential privacy for attack detection; no verification
+F0318,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,FL label-flipping defense via gradient-similarity trust; BYZANTINE-ONLY
+F0324,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,hand,AGGREGATION-ONLY verifies server aggregation
+F0326,forward,Y,Y,N,YYN,high,,batch,"FL document tampering detection; differential privacy, no verification"
+F0327,forward,Y,Y,N,YYN,high,,batch,authentication of FL drones; not training work evidence
+F0329,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,edge cross-verification of weighted aggregation; AGGREGATION-ONLY
+F0331,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,FL differential privacy plus Byzantine resilience; BYZANTINE-ONLY
+F0337,forward,Y,Y,N,YYN,high,,batch,FL medical imaging; hybrid differential privacy only
+F0338,forward,Y,Y,N,YYN,high,,batch,FL membership privacy; pruning perturbations on local models
+F0352,forward,Y,Y,N,YYN,high,,batch,"FL training with homomorphic encryption, quantization, pruning; privacy only"
+F0353,forward,Y,Y,N,YYN,high,,batch,HE and SMPC privacy in federated training; no training evidence
+F0356,forward,Y,Y,N,YYN,high,,batch,survey of cryptographic techniques in FL; privacy not training
+F0361,forward,Y,Y,N,YYN,high,,batch,"FL intrusion detection; layer obfuscation, homomorphic encryption privacy"
+F0362,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,FL server aggregation correctness; homomorphic hash; AGGREGATION-ONLY
+F0370,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,private aggregation and poisoning resistance BYZANTINE-ONLY
+F0390,forward,Y,Y,N,YYN,high,,batch,"Federated intrusion detection; sign-based private aggregation, no training evidence"
+F0392,forward,Y,Y,N,YYN,high,,batch,split learning CNN training under network metrics; no verification
+F0403,forward,Y,Y,N,YYN,high,,batch,"FL Shapley contribution valuation and client selection, not training evidence"
+F0409,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,AGGREGATION-ONLY verifies aggregated result via commitments
+F0411,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,decentralised learning; Byzantine aggregation plus PoW sybil defence; BYZANTINE-ONLY
+F0413,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,AGGREGATION-ONLY review of FL secure aggregation protocols
+F0419,forward,Y,Y,N,YYN,high,,batch,"backdoor attack on federated training; attack, no verification"
+F0434,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,BYZANTINE-ONLY encrypted cosine similarity weights client updates
+F0435,forward,Y,Y,N,YYN,high,,batch,federated graph learning client selection; no verification mechanism
+F0436,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,FL gradients; inverse-gradient anomaly detection weighting; BYZANTINE-ONLY
+F0440,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,hand,AGGREGATION-ONLY double-gradient verification
+F0442,forward,Y,Y,N,YYN,high,,batch,FL incentive Stackelberg game over privacy valuations; no evidence
+F0443,forward,Y,Y,N,YYN,high,,batch,blockchain FL client selection by encryption and RL; no verification
+F0450,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY; BYZANTINE-ONLY,batch,"FL decentralized secure aggregation, malicious-model filtering; AGGREGATION-ONLY BYZANTINE-ONLY"
+F0451,forward,Y,Y,N,YYN,high,,batch,fair FL review; fairness and privacy not training evidence
+F0454,forward,Y,Y,N,YYN,high,,batch,Split federated learning privacy via model decomposition; no verification
+F0460,forward,Y,Y,N,YYN,high,,batch,FL GNN intrusion detection with weight encryption; no verification
+F0463,forward,Y,Y,N,YYN,high,,batch,homomorphic encryption of local FL weights; privacy only
+F0474,forward,Y,Y,N,YYN,high,,batch,FL pruning for communication efficiency; no training verification
+F0483,forward,Y,Y,N,YYN,high,,batch,federated GAN intrusion detection; no training verification
+F0486,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,"FL secure aggregation, proof-of-authority blockchain, DP; AGGREGATION-ONLY"
+F0506,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,LDP privacy and backdoor resistance BYZANTINE-ONLY
+F0507,forward,Y,Y,N,YYN,high,,batch,"systematic review of fog, blockchain and FL; no verification"
+F0521,forward,Y,Y,N,YYN,high,,batch,federated deep learning IDS; accuracy and training time only
+F0531,forward,Y,Y,N,YYN,high,,batch,blockchain FL privacy survey; no training evidence
+F0545,forward,Y,Y,N,YYN,high,,batch,split federated learning with homomorphic encryption; privacy only
+F0550,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,majority aggregation defends synergetic attacks; BYZANTINE-ONLY
+F0564,forward,Y,Y,N,YYN,high,,batch,attack reconstructing FL user data despite DP; no verification
+F0606,forward,Y,Y,N,YYN,high,,batch,hierarchical FL grouping and aggregation weights; no verification
+F0607,forward,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,verifiable private gradient aggregation via homomorphic re-authentication; AGGREGATION-ONLY
+F0611,forward,Y,Y,N,YYN,high,,batch,"FL updates; homomorphic secure aggregation for privacy, no verification"
+F0618,forward,Y,Y,N,YYN,high,,batch,federated continual learning fine-tuning; no verification
+F0622,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,clustered FL peer validation discards malicious models; BYZANTINE-ONLY
+F0623,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,FL updates; differential privacy plus robust filtering; BYZANTINE-ONLY
+F0625,forward,Y,Y,N,YYN,high,,batch,FL intrusion detection; blockchain authentication not training evidence
+F0634,forward,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,robust FL adaptive weighting against Byzantine attacks; BYZANTINE-ONLY
+P014,database,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,TEE verifies signatures and aggregate result; AGGREGATION-ONLY
+P016,database,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,FL aggregator ZKP of correct gradient aggregation; AGGREGATION-ONLY
+P052,database,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,FL data marketplace proves faithful weighted aggregation; AGGREGATION-ONLY
+P073,database,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,BYZANTINE-ONLY TEE checks update consistency; identity binding only
+P083,database,Y,Y,N,YYN,high,AGGREGATION-ONLY,hand,AGGREGATION-ONLY server proves aggregation correct
+P142,database,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,weighted aggregation verification with ZKP AGGREGATION-ONLY
+P180,database,Y,Y,N,YYN,high,,batch,ZKP for device authentication not training; FL plus DP
+P185,database,Y,Y,N,YYN,high,AGGREGATION-ONLY; BYZANTINE-ONLY,batch,"zero-knowledge gradient norm range proofs; BYZANTINE-ONLY, AGGREGATION-ONLY"
+P247,database,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,AGGREGATION-ONLY ZKP input validity for weighted secure aggregation
+P283,database,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,BYZANTINE-ONLY ciphertext accuracy and cosine similarity filter poisoned models
+P285,database,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,verifiable secret sharing checks aggregation and client legitimacy; AGGREGATION-ONLY
+P308,database,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,P2P FL zero-knowledge proofs of aggregation integrity; AGGREGATION-ONLY
+P323,database,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,"FL publicly verifiable per-round aggregation integrity proofs, AGGREGATION-ONLY"
+P332,database,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,AGGREGATION-ONLY collaborative zk-SNARK verifies correct aggregation
+P335,database,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,"FL server aggregation verified by zk-SNARK, AGGREGATION-ONLY"
+P338,database,Y,Y,N,YYN,high,,batch,ZK proofs of update norm constraints; input validation only
+P382,database,Y,Y,N,YYN,high,BYZANTINE-ONLY,batch,"FL digital-twin poisoning defense; trimming, influence monitoring; BYZANTINE-ONLY"
+P401,database,Y,Y,N,YYN,high,AGGREGATION-ONLY; BYZANTINE-ONLY,batch,AGGREGATION-ONLY zkSNARK proves server aggregation; BYZANTINE-ONLY client detection
+P598,database,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,homomorphic hash verifies aggregation correctness; AGGREGATION-ONLY
+P645,database,Y,Y,N,YYN,high,AGGREGATION-ONLY,batch,homomorphic MAC verifies FL aggregated result; AGGREGATION-ONLY
+F0008,forward,Y,Y,N,YYN,med,,batch,survey of FL security and privacy; no training-work verification
+F0019,forward,Y,Y,N,YYN,med,,batch,"blockchain-FL survey; incentives, consensus, privacy; no training evidence"
+F0021,forward,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,"Gradient-commitment consistency plus anomaly filtering of gradients, BYZANTINE-ONLY"
+F0029,forward,Y,Y,N,YYN,med,,batch,"PoDL blockchain consensus; miners train, validation checks accuracy only"
+F0033,forward,Y,Y,N,YYN,med,,batch,proof of data possession in FL; verifies data not training
+F0046,forward,Y,Y,N,YYN,med,,batch,FL threat taxonomy MITRE ATLAS; no verification mechanism
+F0055,forward,Y,Y,N,YYN,med,,batch,"decentralized relay training; incentives for sustainability, no verification"
+F0072,forward,Y,Y,N,YYN,med,,batch,"off-chain training competition, on-chain accuracy evaluation only; not training proof"
+F0073,forward,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,encrypted federated poisoning defence game; BYZANTINE-ONLY detection
+F0083,forward,Y,Y,N,YYN,med,,batch,"FL updates; ZKPs assert update accuracy, not training"
+F0090,forward,Y,Y,N,YYN,med,,batch,"FL edge survey; differential privacy, blockchain for privacy only"
+F0103,forward,Y,Y,N,YYN,med,,batch,"federated PCA across vertically partitioned clients; privacy, no verification"
+F0115,forward,Y,Y,N,YYN,med,,batch,survey of FL attacks and defenses; no training verification
+F0126,forward,Y,Y,N,YYN,med,,batch,"verifies utility scoring and client selection, not training"
+F0137,forward,Y,Y,N,YYN,med,,batch,blockchain audit of model updates; no training evidence
+F0144,forward,Y,Y,N,YYN,med,,batch,blockchain federated healthcare; smart-contract validation not training evidence
+F0145,forward,Y,Y,N,YYN,med,,batch,"FL admission via data-possession proofs, not training computation"
+F0148,forward,Y,Y,N,YYN,med,,batch,review of FL privacy preservation; no training verification
+F0162,forward,Y,Y,N,YYN,med,,batch,membership inference attack on federated embeddings; privacy leakage
+F0170,forward,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,"FL update provenance Merkle hashes, anomaly gradient filtering; BYZANTINE-ONLY"
+F0177,forward,Y,Y,N,YYN,med,,batch,FL artifact provenance via signed manifests; no training evidence
+F0182,forward,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,probe-based poisoning detection in FL; BYZANTINE-ONLY
+F0185,forward,Y,Y,N,YYN,med,AGGREGATION-ONLY,batch,AGGREGATION-ONLY commitments verify aggregated gradients; mask shuffling privacy
+F0186,forward,Y,Y,N,YYN,med,AGGREGATION-ONLY; BYZANTINE-ONLY,batch,chained aggregation verification and anomaly filtering; AGGREGATION-ONLY BYZANTINE-ONLY
+F0192,forward,Y,Y,N,YYN,med,,batch,ledger audits model provenance; no training work evidence
+F0193,forward,Y,Y,N,YYN,med,,batch,"O-RAN FL reputation from verified validation metrics, not training"
+F0194,forward,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,verifies compliance classification; backdoor defense only; BYZANTINE-ONLY
+F0196,forward,Y,Y,N,YYN,med,,batch,Two-party label-DP private training via homomorphic encryption; no evidence
+F0241,forward,Y,Y,N,YYN,med,,batch,survey FL blockchain healthcare; record integrity not training
+F0250,forward,Y,Y,N,YYN,med,,batch,survey of decentralized FL under non-IID; no verification
+F0254,forward,Y,Y,N,YYN,med,,batch,federated DDoS detection with supervision chain; no training evidence
+F0256,forward,Y,Y,N,YYN,med,,batch,Review of blockchain-federated learning manufacturing uses; no training proof
+F0262,forward,Y,Y,N,YYN,med,,batch,survey of federated anomaly detection; no training verification
+F0268,forward,Y,Y,N,YYN,med,,batch,SLR of blockchain-FL architectural patterns; no training proof
+F0271,forward,Y,Y,N,YYN,med,,batch,review of knowledge-driven FL training methods; no verification
+F0281,forward,Y,Y,N,YYN,med,,batch,"blockchain decentralized training, data authentication only; no training proof"
+F0286,forward,Y,Y,N,YYN,med,,batch,verifies client fairness metrics in FL; not training
+F0292,forward,Y,Y,N,YYN,med,,batch,Review of federated learning in agriculture; privacy only
+F0296,forward,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,Byzantine update detection via shadow dataset BYZANTINE-ONLY
+F0299,forward,Y,Y,N,YYN,med,,batch,"FL security survey; TEEs, PUFs for privacy, not training evidence"
+F0308,forward,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,blockchain audit trail plus robust aggregation rules; BYZANTINE-ONLY
+F0319,forward,Y,Y,N,YYN,med,AGGREGATION-ONLY,batch,AGGREGATION-ONLY TEEs secure aggregation; blockchain audit trail
+F0320,forward,Y,Y,N,YYN,med,,batch,"federated GAN training, blockchain stores local models; no proof"
+F0321,forward,Y,Y,N,YYN,med,AGGREGATION-ONLY,batch,aggregated proposal credibility; batch ZKP consensus AGGREGATION-ONLY
+F0323,forward,Y,Y,N,YYN,med,UNLEARNING,batch,federated unlearning via distillation; UNLEARNING; no verification protocol
+F0332,forward,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,BYZANTINE-ONLY ZKP binds updates to validation outcomes; client selection
+F0333,forward,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,review of robust FL defences and aggregation; BYZANTINE-ONLY
+F0335,forward,Y,Y,N,YYN,med,,batch,on-chain reputation from update accuracy; not training evidence
+F0336,forward,Y,Y,N,YYN,med,,batch,hierarchical FL survey; no training verification mechanism
+F0349,forward,Y,Y,N,YYN,med,,batch,"hierarchical FL; pruning, quantization; trustworthy claim without verification"
+F0350,forward,Y,Y,N,YYN,med,,batch,federated anomaly detection with DPoS consensus; no training evidence
+F0355,forward,Y,Y,N,YYN,med,,batch,legal chapter on blockchain incentives for ML trainers; privacy focus
+F0358,forward,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,ZKP of client-side backdoor defense execution BYZANTINE-ONLY
+F0367,forward,Y,Y,N,YYN,med,,batch,blockchain registries for dataset/model licensing provenance; records not proofs
+F0378,forward,Y,Y,N,YYN,med,,batch,Survey of federated LLM training; privacy and robustness only
+F0388,forward,Y,Y,N,YYN,med,AGGREGATION-ONLY,batch,FL client identity authentication plus secure aggregation; AGGREGATION-ONLY
+F0422,forward,Y,Y,N,YYN,med,,batch,FL plus blockchain for disease prediction; no verification
+F0424,forward,Y,Y,N,YYN,med,,batch,review of blockchain plus FL for energy cybersecurity
+F0427,forward,Y,Y,N,YYN,med,,batch,blockchain FL cloud storage with incentives; no training verification
+F0429,forward,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,blockchain FL localization; update checks against malicious nodes; BYZANTINE-ONLY
+F0441,forward,Y,Y,N,YYN,med,,batch,smart-contract contribution evaluation; measures value not training work
+F0447,forward,Y,Y,N,YYN,med,,batch,coded distributed learning with differential privacy; stragglers not verification
+F0449,forward,Y,Y,N,YYN,med,AGGREGATION-ONLY,batch,blockchain FL platform; aggregation and quality weighting; AGGREGATION-ONLY
+F0471,forward,Y,Y,N,YYN,med,,batch,blockchain logs FL transactions; encryption not training evidence
+F0475,forward,Y,Y,N,YYN,med,,batch,DFL survey; GDPR compliance architecture; no training evidence
+F0509,forward,Y,Y,N,YYN,med,,batch,"FL 6G security review; analysis platforms, no training evidence"
+F0511,forward,Y,Y,N,YYN,med,,batch,collaborative digital twin model refinement; blockchain coordination only
+F0513,forward,Y,Y,N,YYN,med,,batch,blockchain decentralized FL architecture layers; traceability not training proof
+F0514,forward,Y,Y,N,YYN,med,,batch,Blockchain-based federated learning for food supply chain; no proof
+F0522,forward,Y,Y,N,YYN,med,,batch,blockchain-aided FL privacy and rewards; no training verification
+F0528,forward,Y,Y,N,YYN,med,,batch,signatures and blockchain authenticate FL parameter updates; not training
+F0530,forward,Y,Y,N,YYN,med,,batch,"federated reinforcement learning privacy; blockchain authentication, no evidence"
+F0547,forward,Y,Y,N,YYN,med,,batch,FL incentive mechanism via blockchain rewards; no training evidence
+F0549,forward,Y,Y,N,YYN,med,,batch,blockchain FL reputation supervises local model quality only
+F0553,forward,Y,Y,N,YYN,med,,batch,survey of blockchain FL design choices; no training evidence
+F0558,forward,Y,Y,N,YYN,med,AGGREGATION-ONLY,batch,blockchain FL fault detection; smart-contract secure aggregation; AGGREGATION-ONLY
+F0560,forward,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,BYZANTINE-ONLY asynchronous FL with DAG ledger survey
+F0572,forward,Y,Y,N,YYN,med,,batch,FL model watermarking for IP; ownership not training evidence
+F0575,forward,Y,Y,N,YYN,med,,batch,decentralized FL health data sharing; no training verification
+F0579,forward,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,blockchain logs training process; adaptive aggregation; BYZANTINE-ONLY
+F0599,forward,Y,Y,N,YYN,med,,batch,FL client selection via data-quality contribution metric only
+F0605,forward,Y,Y,N,YYN,med,,hand,ZKP used for authentication not training
+F0615,forward,Y,Y,N,YYN,med,,batch,blockchain anchors model hashes and metadata; provenance not training
+F0620,forward,Y,Y,N,YYN,med,,batch,"FL bias and fairness auditing; smart contracts, no evidence"
+F0630,forward,Y,Y,N,YYN,med,AGGREGATION-ONLY,batch,AGGREGATION-ONLY signed gradients verify aggregation integrity; cross-domain FL
+F0631,forward,Y,Y,N,YYN,med,,batch,blockchain-audited attribute-based participant selection; no training proof
+P002,database,Y,Y,N,YYN,med,,batch,NIZK and HE protect gradient transmission; privacy not training evidence
+P009,database,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,ZK gradient-norm validation in hierarchical FL; BYZANTINE-ONLY
+P024,database,Y,Y,N,YYN,med,,batch,ZKP authentication for EHR access; not training evidence
+P030,database,Y,Y,N,YYN,med,,batch,challenge-response attests device firmware; federated detector training unverified
+P084,database,Y,Y,N,YYN,med,,batch,"FL private set intersection; ZKP verifies intersection, not training"
+P099,database,Y,Y,N,YYN,med,,batch,"FL counterfeit detection; ZKPs authenticate products, not training"
+P138,database,Y,Y,N,YYN,med,AGGREGATION-ONLY,batch,"FL update clipping proofs plus correct-aggregation proof, AGGREGATION-ONLY"
+P146,database,Y,Y,N,YYN,med,,batch,federated healthcare IDS; ZKP for privacy and audit only
+P209,database,Y,Y,N,YYN,med,,batch,"distributed RL; ZKP message authenticity, differential privacy only"
+P220,database,Y,Y,N,YYN,med,,batch,content provenance via DIDs and blockchain; FL mentioned only
+P221,database,Y,Y,N,YYN,med,,batch,"greedy layered FL inside TEE; privacy, no attestation claim"
+P224,database,Y,Y,N,YYN,med,,batch,"FL digital twin; ZKPs verify identity, not training"
+P262,database,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,"FL update distance and similarity checks against poisoning, BYZANTINE-ONLY"
+P269,database,Y,Y,N,YYN,med,,batch,"distributed distillation; ZKP over shared knowledge, voting removes malicious"
+P274,database,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,"FL update provenance audit and anomaly detection, BYZANTINE-ONLY"
+P276,database,Y,Y,N,YYN,med,,batch,ZKP authentication in federated IoT monitoring; not training evidence
+P319,database,Y,Y,N,YYN,med,,batch,accuracy-based consensus gating; not evidence of training work
+P331,database,Y,Y,N,YYN,med,AGGREGATION-ONLY,batch,"FL aggregated result and pruning proofs; AGGREGATION-ONLY, not gradients"
+P355,database,Y,Y,N,YYN,med,,batch,"FL healthcare; ZK verifies consent, TEE privacy; not training"
+P366,database,Y,Y,N,YYN,med,,batch,survey of differential privacy in FL; privacy only
+P394,database,Y,Y,N,YYN,med,,batch,"FL participant identity ZKP; quality-weighted aggregation, not training"
+P402,database,Y,Y,N,YYN,med,,batch,ZK integrity proofs of client inputs for secure aggregation
+P405,database,Y,Y,N,YYN,med,,batch,FL MANET intrusion detection; ZKP for authentication only
+P416,database,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,NIZK verifies differential privacy; BYZANTINE-ONLY trust-aware aggregation
+P441,database,Y,Y,N,YYN,med,AGGREGATION-ONLY; BYZANTINE-ONLY,batch,FL poisoning audit via ZKP similarity; BYZANTINE-ONLY; AGGREGATION-ONLY
+P467,database,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,"healthcare FL; BFT consensus, ZKP access tokens, audit; BYZANTINE-ONLY"
+P472,database,Y,Y,N,YYN,med,,batch,"FL marketing; ZKPs validate insights, not training execution"
+P490,database,Y,Y,N,YYN,med,,batch,auditable participant selection; ZK proves loss claims not training
+P505,database,Y,Y,N,YYN,med,,batch,proof-of-learning consensus difficulty adjustment; no verification mechanism proposed
+P534,database,Y,Y,N,YYN,med,,batch,FL; ZKPs prove differential-privacy noise addition; VRF fairness
+P575,database,Y,Y,N,YYN,med,,batch,Blockchain consensus rewards node training; model validated by accuracy
+P577,database,Y,Y,N,YYN,med,BYZANTINE-ONLY,batch,BYZANTINE-ONLY commitments authenticate parameters and detect abnormal models
+P589,database,Y,Y,N,YYN,med,,batch,federated risk model; ZKP protects transactions not training
+P604,database,Y,Y,N,YYN,med,,batch,proof-of-training consensus from model quality; not training evidence
+F0032,forward,Y,Y,N,YYN,low,,batch,model ownership verification plus training-effort contribution scoring; not training proof
+F0091,forward,Y,Y,N,YYN,low,,batch,IoT security AI survey; separates edge/cloud/FL training from inference
+F0108,forward,Y,Y,N,YYN,low,,batch,"mHealth Bayes; encrypted multiparty training, no training evidence"
+F0252,forward,Y,Y,N,YYN,low,,batch,"AIoT adversarial threat taxonomy review; poisoning covered, no evidence"
+F0288,forward,Y,Y,N,YYN,low,,batch,FL libraries software architecture survey; no training-work evidence
+F0314,forward,Y,Y,N,YYN,low,,batch,collaborative IDS; fog nodes synchronise model updates; no verification
+F0505,forward,Y,Y,N,YYN,low,,batch,review of ML and federated intrusion detection; no verification
+F0559,forward,Y,Y,N,YYN,low,,batch,covert learning theory; queries split across k servers
+F0569,forward,Y,Y,N,YYN,low,,batch,privacy-preserving ML on blockchain IoT; ledger logging only
+P061,database,Y,Y,N,YYN,low,,batch,federated DoH detection; ZK attests client/resolver integrity only
+P313,database,Y,Y,N,YYN,low,,batch,federated trust adaptation for IoT authentication; ZK proves identity
+P346,database,Y,Y,N,YYN,low,,batch,blockchain GNN organ matching with FL; auditable transactions only
+P414,database,Y,Y,N,YYN,low,,batch,"healthcare blockchain review; FL and ZKP, no training proof"
+P524,database,Y,Y,N,YYN,low,,batch,"Proof-of-learning consensus selects edge models by reputation, not evidence"
+F0064,forward,Y,N,N,YNN,high,,batch,per-instance DP-SGD privacy analysis; bound not training evidence
+F0195,forward,Y,N,N,YNN,high,UNLEARNING,hand,UNLEARNING certified privacy bound
+F0243,forward,Y,N,N,YNN,high,UNLEARNING,batch,UNLEARNING embeds DNN watermark; ownership verification only
+F0418,forward,Y,N,N,YNN,high,UNLEARNING,batch,UNLEARNING per-instance privacy bounds for fine-tuning; no verification
+F0489,forward,Y,N,N,YNN,high,,batch,cost-efficient spot-VM clusters for distributed training; single tenant
+F0519,forward,Y,N,N,YNN,high,UNLEARNING,batch,UNLEARNING survey of solutions; no verification mechanism
+P029,database,Y,N,N,YNN,high,,batch,verifier rewards train design LLM; verifies outputs not training
+P038,database,Y,N,N,YNN,high,,batch,RLVR self-verification of answers; single training process
+P069,database,Y,N,N,YNN,high,,batch,off-policy RL fine-tuning of LLMs; no training verification
+P085,database,Y,N,N,YNN,high,,batch,neural controller training; verifier checks Lyapunov stability properties
+P115,database,Y,N,N,YNN,high,,batch,training modified for DNN robustness verification; property not training
+P118,database,Y,N,N,YNN,high,,batch,RLVR puzzle training; verifier checks answers not training
+P139,database,Y,N,N,YNN,high,,batch,self-play training of LLM theorem provers; single party
+P156,database,Y,N,N,YNN,high,,batch,verifier-guided RL compiler optimisation; checks code equivalence
+P165,database,Y,N,N,YNN,high,,batch,RL verifier rewards train summarisers; verifies outputs not training
+P183,database,Y,N,N,YNN,high,,batch,"neural barrier certificates trained; SOS validates certificates, not training"
+P194,database,Y,N,N,YNN,high,,batch,fine-tuned multimodal reasoning verifier; checks outputs not training
+P206,database,Y,N,N,YNN,high,,batch,agent training environment; unit-test verifiers of outputs
+P242,database,Y,N,N,YNN,high,,batch,remote-sensing VQA fine-tuning; verifiable answer rewards
+P246,database,Y,N,N,YNN,high,,batch,RL training recipe for theorem proving; proof verifier rewards
+P271,database,Y,N,N,YNN,high,,batch,RL from proof-assistant feedback; verifies proofs not training
+P281,database,Y,N,N,YNN,high,,batch,verifier-free RL finetuning of LLMs; no verification
+P304,database,Y,N,N,YNN,high,,batch,RL co-training generator and verifier; verifier checks reasoning
+P316,database,Y,N,N,YNN,high,,batch,neuro-symbolic SAT training with proof certificates; single party
+P325,database,Y,N,N,YNN,high,,batch,GRPO trains claim decomposer; verifies claims not training
+P328,database,Y,N,N,YNN,high,,batch,RLVR fine-tuning for transit forecasting; reward not evidence
+P371,database,Y,N,N,YNN,high,,batch,differentiable logics guide training; verifies model properties only
+P379,database,Y,N,N,YNN,high,,batch,verifier-in-loop RL training for LTL translation; verifies specifications
+P428,database,Y,N,N,YNN,high,,batch,semi-supervised NLI training; verifier checks pseudo-labels only
+P443,database,Y,N,N,YNN,high,,batch,keyword spotting end-to-end training; verifier model is classifier
+P444,database,Y,N,N,YNN,high,,batch,RL trains proof synthesis; verifies proofs not training
+P470,database,Y,N,N,YNN,high,,batch,barrier certificates learned then distilled; SMT verifies certificates only
+P481,database,Y,N,N,YNN,high,,batch,offline RL training with shortcut models; Q-function verifier
+P514,database,Y,N,N,YNN,high,,batch,optimal-control formulation of continual learning dynamics; no verification
+P518,database,Y,N,N,YNN,high,,batch,AdaBoost transfer learning for PU classification; no verification
+P547,database,Y,N,N,YNN,high,,batch,classifier training enforcing verified global robustness properties
+P548,database,Y,N,N,YNN,high,,batch,deep RL trains prover guidance; no training evidence
+P555,database,Y,N,N,YNN,high,,batch,theorem-prover language model co-training; proof success rate
+P583,database,Y,N,N,YNN,high,,batch,"certified-robust training; verifier certifies geometric robustness, not training"
+P641,database,Y,N,N,YNN,high,,batch,RL learns smart contract invariants; verifies contracts not training
+P653,database,Y,N,N,YNN,high,,batch,retrieval-augmented LLM prover training; Lean checks generated proofs
+F0025,forward,Y,N,N,YNN,med,,batch,dataset membership in pre-training; embedding statistics test
+F0026,forward,Y,N,N,YNN,med,UNLEARNING,batch,UNLEARNING forgeability builds witness repudiating membership inference claims
+F0067,forward,Y,N,N,YNN,med,,batch,model ownership via dataset-inference fingerprinting; false positives shown
+F0077,forward,Y,N,N,YNN,med,,batch,training-data poisoning defense via watermarks; provenance not training evidence
+F0106,forward,Y,N,N,YNN,med,OUTSOURCED-SINGLE; UNLEARNING,batch,UNLEARNING; certified graph unlearning in MLaaS; OUTSOURCED-SINGLE
+F0123,forward,Y,N,N,YNN,med,,batch,KAN segmentation architecture trained centrally; no verification
+F0136,forward,Y,N,N,YNN,med,,batch,transformer model trained for battery RUL prediction; centralised
+F0229,forward,Y,N,N,YNN,med,OUTSOURCED-SINGLE,batch,OUTSOURCED-SINGLE cloud data mining service; privacy not verification
+F0249,forward,Y,N,N,YNN,med,,batch,LLM watermark and fingerprint survey; ownership not training
+F0251,forward,Y,N,N,YNN,med,,batch,model watermark embedded during fine-tuning; ownership verification only
+F0282,forward,Y,N,N,YNN,med,,batch,RL-guided wireless 0-1 optimisation; no verification
+F0287,forward,Y,N,N,YNN,med,BYZANTINE-ONLY,batch,"training data poisoning; anomaly detection, robust optimisation; BYZANTINE-ONLY"
+F0348,forward,Y,N,N,YNN,med,,batch,continual learning review for energy management; no verification
+F0374,forward,Y,N,N,YNN,med,,batch,"malicious node detection; centralized deep learning, metaheuristic tuning"
+F0381,forward,Y,N,N,YNN,med,,batch,backdoor repair modifies weights by gradient clipping; single party
+F0383,forward,Y,N,N,YNN,med,,batch,membership inference detects training-data inclusion; copyright auditing
+F0395,forward,Y,N,N,YNN,med,,batch,"IoT anomaly clustering learned; differential evolution, no verification"
+F0405,forward,Y,N,N,YNN,med,,batch,model watermarking for ownership; IP not training evidence
+F0416,forward,Y,N,N,YNN,med,,batch,"Defensive training against model extraction; single party, no verification"
+F0423,forward,Y,N,N,YNN,med,,batch,"evader model trained by gradient feedback; attack, no verification"
+F0470,forward,Y,N,N,YNN,med,,batch,"watermark embedded by fine-tuning; extraction defense, no evidence"
+F0480,forward,Y,N,N,YNN,med,,batch,IoT intrusion detection; metaheuristic hyperparameter tuning runs training
+F0484,forward,Y,N,N,YNN,med,,batch,"diffusion scene-editing training consistency; single party, no verification"
+F0493,forward,Y,N,N,YNN,med,,batch,autoencoder attack detector trained centrally; no training verification
+F0502,forward,Y,N,N,YNN,med,,batch,Metaheuristic weight optimization for IoT attack detection; single party
+F0520,forward,Y,N,N,YNN,med,,batch,position paper on AGI fine-tuning misalignment; no verification
+F0534,forward,Y,N,N,YNN,med,,batch,"DDoS detection ensemble deep learning; centralized training, blockchain storage"
+F0548,forward,Y,N,N,YNN,med,,batch,low-light enhancement network and loss; single party; no verification
+F0554,forward,Y,N,N,YNN,med,,batch,ensemble classifiers trained against evasion attacks; single party
+F0555,forward,Y,N,N,YNN,med,,batch,"Trojan injected pre-trained model; attack, no verification"
+F0556,forward,Y,N,N,YNN,med,OUTSOURCED-SINGLE,batch,OUTSOURCED-SINGLE performance contracts incentivise learning; accuracy not evidence
+F0580,forward,Y,N,N,YNN,med,,batch,extraction defense by robust training; no verification
+F0585,forward,Y,N,N,YNN,med,,batch,dataset obfuscation effects on trained weights; privacy only
+F0596,forward,Y,N,N,YNN,med,OUTSOURCED-SINGLE,batch,outsourced training backdoor by weight manipulation; attack; OUTSOURCED-SINGLE
+F0603,forward,Y,N,N,YNN,med,,batch,Graph property inference attack trains generator; no verification
+F0619,forward,Y,N,N,YNN,med,,batch,Q-learning scheduling policy trained centrally; no verification
+F0624,forward,Y,N,N,YNN,med,UNLEARNING,batch,LLM poisoning taxonomy; training/fine-tuning manipulation; mentions UNLEARNING
+F0626,forward,Y,N,N,YNN,med,,batch,privacy auditing of differentially private training algorithms
+P012,database,Y,N,N,YNN,med,,batch,RLVR environments; verifiers check answers not training work
+P021,database,Y,N,N,YNN,med,,batch,visual tracker online model update; verifier scores samples
+P026,database,Y,N,N,YNN,med,,batch,normative filter constrains RL agent training; norms verified
+P031,database,Y,N,N,YNN,med,,batch,agent policy learning with formal verification; not training evidence
+P033,database,Y,N,N,YNN,med,,batch,LLM fine-tuning for Rust proofs; verifier checks proofs
+P034,database,Y,N,N,YNN,med,,batch,verifier model trained on answer correctness; reasoning steps checked
+P045,database,Y,N,N,YNN,med,,batch,medical LLM RL fine-tuning; verifier checks model answers
+P047,database,Y,N,N,YNN,med,,batch,constrained training via differentiable logics; verifier checks model properties
+P057,database,Y,N,N,YNN,med,,batch,handwriting verification representation learning; biometric not training evidence
+P058,database,Y,N,N,YNN,med,,batch,neural Lyapunov learning; verifier checks stability conditions only
+P059,database,Y,N,N,YNN,med,,batch,GUI grounding action head training; verifier selects regions
+P062,database,Y,N,N,YNN,med,,batch,RL-LLM framework verifies reasoning not training; theoretical only
+P064,database,Y,N,N,YNN,med,,batch,"RL training of LLM self-verification; verifies answers, single party"
+P065,database,Y,N,N,YNN,med,,batch,ML classifiers trained to predict satisfiability; no verification
+P067,database,Y,N,N,YNN,med,,batch,signature biometric verification; SPD manifold meta-learning
+P070,database,Y,N,N,YNN,med,,batch,LLM finetuning with answer verifiers; no training evidence
+P074,database,Y,N,N,YNN,med,OUTSOURCED-SINGLE,batch,interactive proofs verifying PAC learning hypothesis quality; OUTSOURCED-SINGLE
+P079,database,Y,N,N,YNN,med,,batch,RL branching heuristic trained to speed network verification
+P095,database,Y,N,N,YNN,med,,batch,neural networks trained to optimize DeFi transaction ZKPs
+P105,database,Y,N,N,YNN,med,,batch,theorem-proving data extraction and multilingual training; proof search
+P116,database,Y,N,N,YNN,med,,batch,self-verification during post-training sharpening; response quality not work
+P120,database,Y,N,N,YNN,med,,batch,"IaC generation; verifier feedback for RL finetuning, code verified"
+P121,database,Y,N,N,YNN,med,,batch,ILP learns tactic-selection rules; no training verification
+P127,database,Y,N,N,YNN,med,,batch,neural network estimates signature kinematics; biometric verification
+P129,database,Y,N,N,YNN,med,,batch,barrier certificate synthesis; LLM fine-tuning with SOS checks
+P133,database,Y,N,N,YNN,med,,batch,fact-verifier finetuned on LLM feedback; summaries verified
+P150,database,Y,N,N,YNN,med,,batch,learns and formally verifies neural Lyapunov certificates; properties only
+P154,database,Y,N,N,YNN,med,,batch,learned contraction metric formally verified; property not training evidence
+P159,database,Y,N,N,YNN,med,,batch,VLM process reward model training; step-level reasoning verification
+P160,database,Y,N,N,YNN,med,,batch,trains premise selection for theorem proving; proofs verified
+P170,database,Y,N,N,YNN,med,,batch,"online learning for Coq tactics; theorem proving, no verification"
+P176,database,Y,N,N,YNN,med,,batch,verifier-in-loop RL training for quantum programs; verifies outputs
+P181,database,Y,N,N,YNN,med,,batch,wavelet neural network solving fractional equations; no verification
+P182,database,Y,N,N,YNN,med,,batch,"LLM finetuning for theorem proving; proofs checked, not training"
+P199,database,Y,N,N,YNN,med,,batch,certified training for frequency robustness; verifies robustness not training
+P211,database,Y,N,N,YNN,med,,batch,fact verifier fine-tuning; verifies claims not training work
+P229,database,Y,N,N,YNN,med,,batch,clustering and ZKP for IoT trust assessment; no training proof
+P230,database,Y,N,N,YNN,med,,batch,fact-checking retriever and verifier training; claim verification
+P235,database,Y,N,N,YNN,med,,batch,LoRA fine-tuning efficiency; verifier model reviews samples only
+P239,database,Y,N,N,YNN,med,,batch,"instruction-tuned verifier for biomedical extraction; verifies outputs, single party"
+P241,database,Y,N,N,YNN,med,,batch,watermark embedded during NeRF training; proves ownership not training
+P253,database,Y,N,N,YNN,med,,batch,RL training of clause selector for theorem prover; centralised
+P263,database,Y,N,N,YNN,med,,batch,training math verifier with natural-language feedback; verifies solutions
+P273,database,Y,N,N,YNN,med,,batch,preference training for test-time self-verification of reasoning
+P289,database,Y,N,N,YNN,med,,batch,survey of LLM reasoning including training regimes; no verification
+P292,database,Y,N,N,YNN,med,,batch,signature verification metric meta-learning; biometric not training evidence
+P295,database,Y,N,N,YNN,med,,batch,optical CNN training convergence demonstration; no verification
+P296,database,Y,N,N,YNN,med,,batch,trains answer verifiers via rationale pairwise selection; inference verification
+P297,database,Y,N,N,YNN,med,,batch,tree preference training of reasoning-step verifier; outputs verified
+P298,database,Y,N,N,YNN,med,,batch,RL irrigation training with physics safety verifier; constraints only
+P301,database,Y,N,N,YNN,med,,batch,RL trains LLM with Dafny verifier rewards; centralised
+P306,database,Y,N,N,YNN,med,,batch,robot policy training and deployment; mLLM verifier retries tasks
+P312,database,Y,N,N,YNN,med,,batch,GRPO with verifier feedback for network configs; verifies outputs
+P314,database,Y,N,N,YNN,med,,batch,loop invariant generation; fine-tuned LLM with symbolic execution
+P353,database,Y,N,N,YNN,med,,batch,learner-verifier loop synthesizes Lyapunov function; verifies candidate only
+P354,database,Y,N,N,YNN,med,,batch,"certified training bounds against poisoned data; robustness, not evidence"
+P364,database,Y,N,N,YNN,med,,batch,neural barrier function learning; verifier-guided fine-tuning
+P368,database,Y,N,N,YNN,med,,batch,LLM reasoning process verifiers trained; RL policy improvement
+P369,database,Y,N,N,YNN,med,,batch,invariant representation learning for causal estimation; no verification
+P376,database,Y,N,N,YNN,med,,batch,neural Craig interpolant synthesis; CEGIS learner-verifier loop
+P385,database,Y,N,N,YNN,med,,batch,trains generative reward verifiers; verifies LLM solutions
+P388,database,Y,N,N,YNN,med,,batch,Coq formalisation of differentiable logics used as training losses
+P390,database,Y,N,N,YNN,med,,batch,verifiable rewards during RL training; task success not work
+P393,database,Y,N,N,YNN,med,,batch,certified controller training; verifies invariance property not training
+P400,database,Y,N,N,YNN,med,,batch,automated verifier training data for process supervision; verifies steps
+P406,database,Y,N,N,YNN,med,,batch,"LLM finetuned with prover feedback; proofs verified, not training"
+P408,database,Y,N,N,YNN,med,,batch,trains sequence models for proof generation; proofs not training
+P425,database,Y,N,N,YNN,med,,batch,GNN-RNN trained for instantiation proving; no verification
+P437,database,Y,N,N,YNN,med,,batch,trained UNet3+ character localisation; verifier network filters regions
+P438,database,Y,N,N,YNN,med,,batch,"neural network trained to extract theorems; centralised, unverified"
+P449,database,Y,N,N,YNN,med,,batch,PAC learning of reasoning verifiers; verifies reasoning steps
+P451,database,Y,N,N,YNN,med,,batch,self-proving model outputs; transcript learning and verifier feedback
+P452,database,Y,N,N,YNN,med,,batch,watermark embedded in training set; ownership not training evidence
+P457,database,Y,N,N,YNN,med,,batch,LLM planning fine-tuning plus verifier-reward RL; generalization tests
+P462,database,Y,N,N,YNN,med,,batch,SMT-certified bounds on learned reachable sets; counterexample retraining
+P480,database,Y,N,N,YNN,med,,batch,RL learns claim decomposition policy; factuality verification only
+P483,database,Y,N,N,YNN,med,,batch,LLM tree search; verifier trained with temporal difference learning
+P484,database,Y,N,N,YNN,med,,batch,learns planning policies; proves policy correctness not training
+P485,database,Y,N,N,YNN,med,,batch,adversarial training and distillation for intrusion detection models
+P486,database,Y,N,N,YNN,med,,batch,self-supervised training of math reasoning verifier; outputs verified
+P495,database,Y,N,N,YNN,med,,batch,"fact-checking veracity; trained retrieval verifier, LLM debate distillation"
+P501,database,Y,N,N,YNN,med,,batch,GNN trained for clause selection in theorem proving
+P504,database,Y,N,N,YNN,med,,batch,diverse model training for Coq proof synthesis; prover oracle
+P506,database,Y,N,N,YNN,med,,batch,GPT-3 finetuned to describe distribution differences; learned re-ranking verifier
+P509,database,Y,N,N,YNN,med,,batch,reinforcement-learned policy guiding saturation theorem prover search
+P510,database,Y,N,N,YNN,med,,batch,hindsight replay trains clause-scoring network for theorem proving
+P515,database,Y,N,N,YNN,med,,batch,formal reward machine guides RL training; safety not verification
+P516,database,Y,N,N,YNN,med,,batch,safe RL policy training; barrier certificate verifier loop
+P519,database,Y,N,N,YNN,med,,batch,multi-task training of credibility verifier and summariser; tweets
+P527,database,Y,N,N,YNN,med,,batch,"models trained to predict proof tactics; centralised, no verification"
+P528,database,Y,N,N,YNN,med,,batch,"theorem prover guidance trained; premise selection, not evidence"
+P546,database,Y,N,N,YNN,med,,batch,counterexample-guided training of neural interpolant; SMT checks validity
+P549,database,Y,N,N,YNN,med,,batch,self-training agents refine proof search for invariant synthesis
+P559,database,Y,N,N,YNN,med,,batch,theorem prover neural guidance trained on own proofs
+P560,database,Y,N,N,YNN,med,,batch,trains LSTM for Coq tactic prediction; accuracy only
+P565,database,Y,N,N,YNN,med,,batch,concurrent verifier constrains outputs; generalisation analysis of learning
+P566,database,Y,N,N,YNN,med,,batch,adversarial pre-training with verifier scoring; no work evidence
+P568,database,Y,N,N,YNN,med,,batch,abstract interpretation proves prediction robust to poisoned training data
+P572,database,Y,N,N,YNN,med,,batch,RL environments train prover guidance; no training evidence
+P573,database,Y,N,N,YNN,med,,batch,counterexample-guided network repair modifies weights; verifiers check safety
+P579,database,Y,N,N,YNN,med,,batch,HOL4 proof search; LSTM trained for proof prediction
+P580,database,Y,N,N,YNN,med,,batch,meta-verifier checks model IP ownership; not training evidence
+P596,database,Y,N,N,YNN,med,,batch,TTS speaker adaptation model; speaker verification not training
+P606,database,Y,N,N,YNN,med,,batch,"RL-guided theorem prover training; proofs found, no verification"
+P610,database,Y,N,N,YNN,med,,batch,recognizer feedback during TTS model training; no verification
+P612,database,Y,N,N,YNN,med,,batch,"safe RL controller synthesis; verifier certifies safety, not training"
+P613,database,Y,N,N,YNN,med,,batch,learned static-analysis rules proven sound; output property not training
+P614,database,Y,N,N,YNN,med,,batch,RL agent trained for interactive theorem proving; centralised
+P616,database,Y,N,N,YNN,med,,batch,online training for neural theorem proving; accuracy only
+P620,database,Y,N,N,YNN,med,,batch,trains verifier for proof steps; validity not training
+P626,database,Y,N,N,YNN,med,,batch,neural barrier certificate trained and MILP-verified; property not training
+P627,database,Y,N,N,YNN,med,,batch,neural controller and certificate learning; martingale verification
+P634,database,Y,N,N,YNN,med,,batch,learns tactic policy from human proofs; no verification
+P638,database,Y,N,N,YNN,med,,batch,CEGIS trains and verifies neural barrier certificates; property verification
+P642,database,Y,N,N,YNN,med,,batch,counterexample-guided Lyapunov network synthesis; SMT verifies stability criteria
+F0074,forward,Y,N,N,YNN,low,,batch,ownership watermark embedded via training loss; verifies ownership only
+F0101,forward,Y,N,N,YNN,low,,batch,anomaly-detection network trained centrally; no verification of training
+F0119,forward,Y,N,N,YNN,low,,batch,semantic communication survey; covers encoder-decoder training algorithms
+F0298,forward,Y,N,N,YNN,low,,batch,Bayesian surrogate learning for IIoT topology robustness; no verification
+F0372,forward,Y,N,N,YNN,low,,batch,deep RL service scheduling in edge-cloud CPS; no verification
+F0376,forward,Y,N,N,YNN,low,,batch,inference-time adversarial defense; own reconstruction network trained
+F0400,forward,Y,N,N,YNN,low,OUTSOURCED-SINGLE,batch,OUTSOURCED-SINGLE MLaaS trains semantic model; inference-phase obfuscation only
+F0445,forward,Y,N,N,YNN,low,,batch,blockchain IoT security with trained CNN intrusion detector
+F0452,forward,Y,N,N,YNN,low,,batch,attention-GCN entity-relation extraction model trained end-to-end
+F0469,forward,Y,N,N,YNN,low,,batch,"regression model fitted for mental-health prediction; centralised, unverified"
+F0472,forward,Y,N,N,YNN,low,,batch,deep CRF trained for blockchain access control; no verification
+F0586,forward,Y,N,N,YNN,low,,batch,deep IDS with metaheuristic hyperparameter tuning; blockchain communication
+F0587,forward,Y,N,N,YNN,low,,batch,"BP-network reputation for Byzantine consensus; centralized training, unverified"
+F0627,forward,Y,N,N,YNN,low,,batch,"blockchain DDoS detector; hyperparameter-tuned DBN training, no verification"
+P013,database,Y,N,N,YNN,low,,batch,fine-tuned LLM classifier; agentic verification of report predictions
+P025,database,Y,N,N,YNN,low,,batch,conditional invertible network trained for motor fault diagnosis
+P098,database,Y,N,N,YNN,low,,batch,neural barrier certificate synthesis; verifier checks certificate not training
+P100,database,Y,N,N,YNN,low,,batch,zkSNARK verifies detected anomalies; manufacturing detector training only
+P110,database,Y,N,N,YNN,low,,batch,neural controller and certificate synthesis; verifies certificate not training
+P123,database,Y,N,N,YNN,low,,batch,trained process verifier reranks LLM reasoning outputs
+P124,database,Y,N,N,YNN,low,,batch,"prover-verifier games verify task solutions, not training"
+P132,database,Y,N,N,YNN,low,,batch,DNN task offloading; ZKP proves task completion not training
+P149,database,Y,N,N,YNN,low,,batch,LLM fine-tuning for chemistry data extraction; verifier checks extractions
+P166,database,Y,N,N,YNN,low,,batch,"XGBoost trained with SHAP explanations; prediction, no verification"
+P174,database,Y,N,N,YNN,low,,batch,GAN image watermarking with blockchain ZKP; content verification
+P249,database,Y,N,N,YNN,low,,batch,trained verifier and rewarder guide LLM planning; inference-time
+P259,database,Y,N,N,YNN,low,,batch,clinical risk prediction models; verifiers check predictions not training
+P277,database,Y,N,N,YNN,low,,batch,image simplification pipeline distilled into model; verifier checks realism
+P359,database,Y,N,N,YNN,low,,batch,"blockchain proof-of-learning layer validates dataset integrity, not training"
+P397,database,Y,N,N,YNN,low,,batch,barrier-certificate networks trained offline; online reachability safety verification
+P407,database,Y,N,N,YNN,low,,batch,routing configuration verification by learned neural reasoning; centralized training
+P426,database,Y,N,N,YNN,low,,batch,iterative learning control for robot path; no training verification
+P434,database,Y,N,N,YNN,low,,batch,trained answer verifier for LLM evaluation and reward
+P455,database,Y,N,N,YNN,low,,batch,"EHR session privacy ZKP; deep-learning validator trained, not verified"
+P458,database,Y,N,N,YNN,low,,batch,PPO-trained LLM config updater; formal verification of configs
+P471,database,Y,N,N,YNN,low,,batch,surrogate model for crack prediction; accuracy validation only
+P473,database,Y,N,N,YNN,low,,batch,RL tunes ZKP generation for blockchain transactions; not training
+P507,database,Y,N,N,YNN,low,,batch,"relational invariant synthesis; RL-guided search, SMT verifier checks invariants"
+P508,database,Y,N,N,YNN,low,,batch,ML certification argument; statistical verifier tests trained model
+P533,database,Y,N,N,YNN,low,,batch,learner-verifier Lyapunov synthesis; verifies certificate not training
+P578,database,Y,N,N,YNN,low,,batch,"vision transformer trained for beam prediction; centralised, unverified"
+P584,database,Y,N,N,YNN,low,,batch,DRL tool for network configuration verification; not training evidence
+P585,database,Y,N,N,YNN,low,,batch,instruction-finetuned verifier detects knowledge-augmented LM output errors
+P593,database,Y,N,N,YNN,low,,batch,learns linear approximations for neural network verifiers; single party
+P609,database,Y,N,N,YNN,low,,batch,perspective on reasoning feedback loops improving model learning
+P643,database,Y,N,N,YNN,low,,batch,"floorplan reconstruction; learned alignment verifier, no training evidence"
+P650,database,Y,N,N,YNN,low,,batch,deep models trained to steer cloud debugging; no verification
+F0527,forward,Y,U,N,YUN,med,,batch,"book: backdoor poisoning of training, including FL; trigger detection"
+P072,database,Y,U,N,YUN,med,,hand,PoL gates updates on performance criteria
+F0139,forward,Y,U,N,YUN,low,,batch,multi-agent RL for network access selection; no verification
+F0524,forward,Y,U,N,YUN,low,,batch,"mobile edge AIGC survey covering training, fine-tuning, inference"
+P417,database,Y,U,N,YUN,low,,batch,insurance fraud random forest with blockchain records; ZKP mentioned
+F0003,forward,N,N,N,NNN,high,,batch,CNN inference integrity via sumcheck ZKP; prediction not training
+F0005,forward,N,N,N,NNN,high,,batch,open-model supply chain; Sigstore signing and dataset property claims
+F0010,forward,N,N,N,NNN,high,,batch,ZKP for LIME explanations of trained model; not training
+F0017,forward,N,N,N,NNN,high,,batch,GCN inference integrity; zk-SNARK R1CS proof circuits
+F0023,forward,N,N,N,NNN,high,,batch,verifiable CNN inference results; prediction not training
+F0024,forward,N,N,N,NNN,high,OUTSOURCED-SINGLE,batch,zkSNARK verifies model inference not training; OUTSOURCED-SINGLE
+F0030,forward,N,N,N,NNN,high,,hand,proves model performance vs baseline; testing
+F0037,forward,N,N,N,NNN,high,,batch,fuzzing zero-knowledge circuits for bugs; no ML training
+F0039,forward,N,N,N,NNN,high,,batch,generic zkSNARK proof updating; no ML training
+F0044,forward,N,N,N,NNN,high,,batch,interactive proofs for distribution testing; no ML training
+F0049,forward,N,N,N,NNN,high,,batch,space-efficient zkSNARK; general circuits and MLP inference
+F0050,forward,N,N,N,NNN,high,,batch,ZKP hardware accelerator; no machine learning training involved
+F0051,forward,N,N,N,NNN,high,,batch,ZKP circuit code generation DevOps; no training
+F0053,forward,N,N,N,NNN,high,,batch,ZK location proofs via floating-point SNARKs; no training
+F0057,forward,N,N,N,NNN,high,,batch,audits trained model fairness/robustness via Fourier queries
+F0060,forward,N,N,N,NNN,high,,batch,blockchain crowdsensing task-assignment verification; no ML training
+F0062,forward,N,N,N,NNN,high,,batch,Circom circuit constraint analysis tool; no ML training
+F0065,forward,N,N,N,NNN,high,,batch,ZKP device credential registration in DePINs; no ML training
+F0066,forward,N,N,N,NNN,high,,batch,"DNN IP protection survey; watermarking, fingerprinting at deployment"
+F0071,forward,N,N,N,NNN,high,,batch,"Diffusion watermarking survey; generation-stage embedding, not training"
+F0075,forward,N,N,N,NNN,high,AGGREGATION-ONLY,batch,vector commitment primitive; verifiable aggregation application AGGREGATION-ONLY
+F0076,forward,N,N,N,NNN,high,,batch,"data trading models survey; pricing and rights, no training"
+F0085,forward,N,N,N,NNN,high,,batch,APT detection with graph networks and LLMs; detection
+F0087,forward,N,N,N,NNN,high,,batch,"IoT node trust scoring; behavioural analysis, no training"
+F0089,forward,N,N,N,NNN,high,,batch,ZKP access control for EHR sharing; no ML training
+F0094,forward,N,N,N,NNN,high,,batch,AI climate storytelling survey study; no ML training
+F0095,forward,N,N,N,NNN,high,,batch,"Point cloud registration network; no verification, not distributed"
+F0096,forward,N,N,N,NNN,high,,batch,GNN ownership fingerprints from prediction posteriors; not training
+F0097,forward,N,N,N,NNN,high,,batch,IoV threat taxonomy survey; no machine learning training
+F0104,forward,N,N,N,NNN,high,,batch,6G sensing governance framework; no training mechanism
+F0105,forward,N,N,N,NNN,high,,batch,multi-agent system target controllability theory; no machine learning
+F0114,forward,N,N,N,NNN,high,,batch,AIGC service trading and ownership; no model training
+F0118,forward,N,N,N,NNN,high,,batch,KYC digital identity verification; no machine learning training
+F0127,forward,N,N,N,NNN,high,,batch,blockchain identity resolution for consumer IoT; no ML training
+F0129,forward,N,N,N,NNN,high,,batch,"cold chain logistics review; IoT sensing, no ML training"
+F0133,forward,N,N,N,NNN,high,,batch,"zk-SNARK proves quantum inference consistency; inference, not training"
+F0140,forward,N,N,N,NNN,high,,batch,image watermarking survey; no ML training mechanism
+F0142,forward,N,N,N,NNN,high,,batch,IoT intrusion detection and device authentication; no training
+F0147,forward,N,N,N,NNN,high,,batch,cross-domain vehicle authentication; identity not training
+F0149,forward,N,N,N,NNN,high,,batch,"data options pricing; Stackelberg game, no model training"
+F0150,forward,N,N,N,NNN,high,,batch,satellite edge task scheduling game; no model training
+F0152,forward,N,N,N,NNN,high,,batch,"temporal knowledge graph repair; ACO, differential privacy"
+F0156,forward,N,N,N,NNN,high,,batch,LLM robot backdoor trigger filter at inference
+F0158,forward,N,N,N,NNN,high,,batch,IoT topology robustness optimization; no ML training
+F0159,forward,N,N,N,NNN,high,,batch,survey of blockchain data-space incentives; no model training
+F0161,forward,N,N,N,NNN,high,,batch,cross-chain data sharing verifiability; no model training
+F0164,forward,N,N,N,NNN,high,,batch,VPLS tunnel placement optimisation; no machine learning
+F0166,forward,N,N,N,NNN,high,,batch,privacy evaluation of carbon footprint tools; no training
+F0178,forward,N,N,N,NNN,high,,batch,metaverse adoption security framework; no machine learning training
+F0180,forward,N,N,N,NNN,high,,batch,IOPP proximity tests for codes; no ML training
+F0184,forward,N,N,N,NNN,high,,batch,blockchain IoT device authentication and trust scores; no training
+F0188,forward,N,N,N,NNN,high,,batch,"IoV trust management survey; blockchain and AI, no training"
+F0190,forward,N,N,N,NNN,high,,batch,cross-chain relay trust scoring; no machine learning training
+F0197,forward,N,N,N,NNN,high,,batch,supply-chain IoT authentication with ZKP keys; no ML training
+F0204,forward,N,N,N,NNN,high,,batch,verifiable homomorphic encryption for quadratic functions; no ML training
+F0205,forward,N,N,N,NNN,high,,batch,ZKP private asset transfers; no machine learning training
+F0208,forward,N,N,N,NNN,high,,batch,Verifiable multi-key HE neural network inference; not training
+F0210,forward,N,N,N,NNN,high,,batch,post-quantum blockchain review; no machine learning training
+F0212,forward,N,N,N,NNN,high,,batch,ML service misuse detection; rule-based static analysis
+F0213,forward,N,N,N,NNN,high,,batch,ML-integrated blockchain consensus survey; not model training
+F0214,forward,N,N,N,NNN,high,,batch,FPGA MSM accelerator for zkSNARK proving; no ML
+F0219,forward,N,N,N,NNN,high,,batch,sum-check for approximate arithmetic; no ML training object
+F0220,forward,N,N,N,NNN,high,,batch,Blockchain confidentiality literature review; no machine learning training
+F0221,forward,N,N,N,NNN,high,,batch,"pipeline intrusion classification accuracy; centralized model, no verification"
+F0224,forward,N,N,N,NNN,high,,batch,Spielman code SIMD implementation for ZKPs; no training
+F0230,forward,N,N,N,NNN,high,,batch,agentic AI runtime security survey; no training mechanism
+F0231,forward,N,N,N,NNN,high,,batch,verifies classifier correctness by limited disclosure; not training
+F0232,forward,N,N,N,NNN,high,,batch,LLM survey for energy decision support; no training verification
+F0233,forward,N,N,N,NNN,high,BYZANTINE-ONLY,batch,LDP poisoning detection by log-likelihood anomaly; BYZANTINE-ONLY
+F0236,forward,N,N,N,NNN,high,,batch,"IoT authentication and access control; CP-ABE, no training"
+F0238,forward,N,N,N,NNN,high,,batch,anonymous single-sign-on authentication scheme; no ML training
+F0242,forward,N,N,N,NNN,high,,batch,security assurance context ontology; no machine learning training
+F0244,forward,N,N,N,NNN,high,,batch,"Recursive ZKPs for digital-twin ODE simulation, not ML training"
+F0248,forward,N,N,N,NNN,high,,batch,"inference-time backdoor detection; activation analysis, training excluded"
+F0255,forward,N,N,N,NNN,high,,batch,ZKP hardware processor; no ML training involved
+F0258,forward,N,N,N,NNN,high,,batch,bribery-free crowdsourcing submissions; no model training
+F0260,forward,N,N,N,NNN,high,,batch,"blockchain consensus energy; verifiable random function, no ML"
+F0266,forward,N,N,N,NNN,high,,batch,streaming-data storage verification via zk-SNARKs; not training
+F0267,forward,N,N,N,NNN,high,,batch,model fingerprinting ownership verification; finished model identity
+F0270,forward,N,N,N,NNN,high,,batch,distributed collaborative zkSNARK proof delegation; proving not training
+F0274,forward,N,N,N,NNN,high,,batch,PUF hardware security survey for IoT; no ML
+F0275,forward,N,N,N,NNN,high,,batch,"self-sovereign identity; ZKP authentication, no training"
+F0280,forward,N,N,N,NNN,high,,batch,Train-to-ground authentication via homomorphic encryption and ZKP; no ML
+F0284,forward,N,N,N,NNN,high,,batch,"disaster data sharing trust; ZKP identity, no training"
+F0289,forward,N,N,N,NNN,high,,batch,blockchain AI ethics governance framework; no training
+F0304,forward,N,N,N,NNN,high,,hand,blockchain storage of knowledge models; no training
+F0307,forward,N,N,N,NNN,high,,batch,smart-grid data aggregation privacy; no model training
+F0310,forward,N,N,N,NNN,high,,batch,blockchain collaborative storage node migration; no training
+F0313,forward,N,N,N,NNN,high,,batch,blockchain circuit primitives overview; no machine learning training
+F0316,forward,N,N,N,NNN,high,,batch,industrial data circulation reference model; no ML training
+F0322,forward,N,N,N,NNN,high,,batch,TEE data usage control under GDPR; no training
+F0325,forward,N,N,N,NNN,high,,batch,"FHE neural network inference; privacy only, inference stage"
+F0328,forward,N,N,N,NNN,high,,batch,IoT lightweight encryption and device trust scoring
+F0340,forward,N,N,N,NNN,high,,batch,zero-knowledge proof-of-location for vehicle taxation; no learning
+F0342,forward,N,N,N,NNN,high,,batch,Privacy-preserving fairness audit of deployed model; not training
+F0346,forward,N,N,N,NNN,high,,batch,"inference confidence calibration; zkML of inference, not training"
+F0347,forward,N,N,N,NNN,high,,batch,Open RAN 6G security survey; no training mechanism
+F0359,forward,N,N,N,NNN,high,,batch,VANET reputation and anomaly detection; no model training
+F0360,forward,N,N,N,NNN,high,,batch,on-chain/off-chain storage verification for streaming data; no training
+F0363,forward,N,N,N,NNN,high,,batch,benchmarks trained DR classifiers; accuracy testing only
+F0364,forward,N,N,N,NNN,high,,batch,blockchain traceability for outsourced data storage queries
+F0365,forward,N,N,N,NNN,high,,batch,interactive proofs of proximity theory; no ML training
+F0366,forward,N,N,N,NNN,high,,batch,Review of deep learning threat detection in 6G IIoT
+F0373,forward,N,N,N,NNN,high,,batch,recursive zk-SNARK for blockchain scaling; no ML
+F0375,forward,N,N,N,NNN,high,,batch,deep learning blockchain authentication and encryption; not training
+F0377,forward,N,N,N,NNN,high,,batch,formal verification of statistical testing programs; not training
+F0379,forward,N,N,N,NNN,high,,batch,blockchain vaccination record integrity; no ML training
+F0382,forward,N,N,N,NNN,high,,batch,sharded blockchain trust scoring; no model training
+F0385,forward,N,N,N,NNN,high,,batch,"IIoT access control, attribute encryption; no ML training"
+F0387,forward,N,N,N,NNN,high,,batch,vehicle trust management and consensus; no ML training
+F0389,forward,N,N,N,NNN,high,,batch,ZKP of Bellman-Ford bartering optimization; not ML training
+F0391,forward,N,N,N,NNN,high,,batch,formal verification of blockchain health-record system; no ML
+F0397,forward,N,N,N,NNN,high,,batch,survey of blockchain edge resource management; no ML
+F0399,forward,N,N,N,NNN,high,,batch,CNN inference correctness; ZKP via vector oblivious linear evaluation
+F0406,forward,N,N,N,NNN,high,,batch,book on AI in architecture; no ML training mechanism
+F0407,forward,N,N,N,NNN,high,,batch,"VANET identity authentication; ZKP homomorphic, no training"
+F0412,forward,N,N,N,NNN,high,,batch,attribute-based encryption policy hiding; no machine learning
+F0415,forward,N,N,N,NNN,high,,batch,interactive argument verifies distribution property; not training
+F0417,forward,N,N,N,NNN,high,,batch,LLM inference numerical nondeterminism; inference stage only
+F0420,forward,N,N,N,NNN,high,OUTSOURCED-SINGLE,batch,neural network inference proofs in TEE OUTSOURCED-SINGLE
+F0421,forward,N,N,N,NNN,high,,batch,management framework for selective decentralisation; no training
+F0426,forward,N,N,N,NNN,high,,batch,blockchain logistics with metaheuristic route optimization; no training
+F0428,forward,N,N,N,NNN,high,,batch,Secure MPC multimodal model inference service; not training
+F0431,forward,N,N,N,NNN,high,,batch,proof-of-work consensus literature review; no model training
+F0432,forward,N,N,N,NNN,high,,batch,survey of blockchain fair trading; no machine learning
+F0437,forward,N,N,N,NNN,high,,batch,blockchain carbon footprint certification; no machine learning training
+F0444,forward,N,N,N,NNN,high,,batch,cross-chain supply-chain finance privacy protocol; no training
+F0446,forward,N,N,N,NNN,high,,batch,"multilingual corpus construction; data pipeline, no training"
+F0448,forward,N,N,N,NNN,high,,batch,triboelectric true random number generator; no ML training
+F0455,forward,N,N,N,NNN,high,,batch,IoT extreme-environment deployment editorial; no ML training
+F0457,forward,N,N,N,NNN,high,,batch,"cloud replica integrity auditing; storage, not machine learning"
+F0458,forward,N,N,N,NNN,high,,batch,"quantum-resistant cloud blockchain; ZKP, no ML training"
+F0462,forward,N,N,N,NNN,high,,batch,modular multiplier hardware for HE/ZKP; no ML training
+F0464,forward,N,N,N,NNN,high,,batch,zero-knowledge proofs over data cube aggregations; no training
+F0465,forward,N,N,N,NNN,high,,batch,IoRT blockchain access control and data integrity; no training
+F0476,forward,N,N,N,NNN,high,,batch,blockchain trust-based consensus and optimization for IoT
+F0478,forward,N,N,N,NNN,high,,batch,Blockchain vaccination record management; no machine learning training
+F0479,forward,N,N,N,NNN,high,,batch,community network resource sharing ledger; no ML training
+F0481,forward,N,N,N,NNN,high,,batch,ZK verification of database queries; no machine learning
+F0482,forward,N,N,N,NNN,high,,batch,model similarity testing for copyright; garbled circuits
+F0487,forward,N,N,N,NNN,high,,batch,energy-efficient proof-of-work incentives; no machine learning
+F0492,forward,N,N,N,NNN,high,,batch,proof-of-consistency over edge inference results; digital twins
+F0495,forward,N,N,N,NNN,high,,batch,PBFT consensus credit grouping; no machine learning training
+F0500,forward,N,N,N,NNN,high,,batch,blockchain IIoT data sharing with Shapley incentive distribution
+F0503,forward,N,N,N,NNN,high,,batch,smart contract state access control; no ML training
+F0515,forward,N,N,N,NNN,high,,batch,metaverse resource allocation optimization; no ML training
+F0517,forward,N,N,N,NNN,high,,batch,IoT security requirements survey; no machine learning training
+F0526,forward,N,N,N,NNN,high,,batch,Blockchain attribute-based encryption with NIZK key-computation proof; no ML
+F0535,forward,N,N,N,NNN,high,,batch,manipulation-proof audit of model properties; not training evidence
+F0540,forward,N,N,N,NNN,high,,batch,book on AI unpredictability; no mechanism
+F0542,forward,N,N,N,NNN,high,,batch,"data anonymisation before publishing; pre-training pipeline, no verification"
+F0543,forward,N,N,N,NNN,high,OUTSOURCED-SINGLE,batch,outsourced matrix computation privacy attack OUTSOURCED-SINGLE
+F0544,forward,N,N,N,NNN,high,,batch,multilingual comparable corpus construction; no model training
+F0552,forward,N,N,N,NNN,high,,batch,blockchain healthcare architecture survey; no ML training
+F0557,forward,N,N,N,NNN,high,,batch,fog-assisted encrypted LBS queries; no ML training
+F0561,forward,N,N,N,NNN,high,,batch,efficiency analysis of blockchain security firms; no learning
+F0565,forward,N,N,N,NNN,high,,batch,useful-work consensus solving TSP; optimisation not model training
+F0566,forward,N,N,N,NNN,high,,batch,cloud load balancing and security analysis; no ML training
+F0567,forward,N,N,N,NNN,high,OUTSOURCED-SINGLE,batch,outsourced feature extraction correctness OUTSOURCED-SINGLE
+F0571,forward,N,N,N,NNN,high,,hand,ML scores reputation for consensus; not training
+F0573,forward,N,N,N,NNN,high,,batch,blockchain carbon credit storage comparison; no ML training
+F0574,forward,N,N,N,NNN,high,,batch,fuzzy-set trusted computing for blockchain IoT nodes
+F0576,forward,N,N,N,NNN,high,,batch,Authenticated key agreement for smart grid; no machine learning
+F0577,forward,N,N,N,NNN,high,,batch,blockchain protocols and algorithms survey; no ML
+F0578,forward,N,N,N,NNN,high,,batch,drone authentication scheme; identity not machine learning
+F0581,forward,N,N,N,NNN,high,,batch,blockchain consensus selection for construction; no model training
+F0583,forward,N,N,N,NNN,high,OUTSOURCED-SINGLE,batch,outsourced linear inference; matrix-digest verification; OUTSOURCED-SINGLE
+F0584,forward,N,N,N,NNN,high,,batch,blockchain consensus algorithms survey; no machine learning training
+F0589,forward,N,N,N,NNN,high,,batch,DNN fingerprinting via adversarial perturbations for IP; not training
+F0590,forward,N,N,N,NNN,high,,batch,query-based fairness audit of trained model; testing
+F0592,forward,N,N,N,NNN,high,,batch,cloud storage integrity auditing; no machine learning
+F0593,forward,N,N,N,NNN,high,,batch,proof-producing DNN property verification; finished model not training
+F0595,forward,N,N,N,NNN,high,,hand,edge caching and recommendation; no training
+F0598,forward,N,N,N,NNN,high,,batch,sample-based proofs of proximity; no ML training
+F0601,forward,N,N,N,NNN,high,,batch,zkSNARK verifiable IoT computation offloading; no ML training
+F0604,forward,N,N,N,NNN,high,,batch,sumcheck prover time-space tradeoffs; no ML training
+F0608,forward,N,N,N,NNN,high,,batch,blockchain wireless resource management survey; no training
+F0609,forward,N,N,N,NNN,high,,batch,parallel tree model interpretation; explanations not training
+F0612,forward,N,N,N,NNN,high,,batch,blockchain credentials in education review; no ML training
+F0614,forward,N,N,N,NNN,high,,batch,incrementally verifiable computation proving video AI inference
+F0616,forward,N,N,N,NNN,high,,batch,Resource allocation optimization in blockchain metaverse; no ML training
+F0617,forward,N,N,N,NNN,high,,batch,zk-SNARK proving outsourced to single server; no training
+F0621,forward,N,N,N,NNN,high,,batch,polynomial commitment extractability proofs; no machine learning
+F0629,forward,N,N,N,NNN,high,,batch,face anonymization with ZKP data-integrity check; not training
+F0632,forward,N,N,N,NNN,high,,batch,"cloud-assisted two-party computation; garbled circuits, no training"
+F0636,forward,N,N,N,NNN,high,,batch,proof-of-useful-work solving travelling salesman; no ML training
+P005,database,N,N,N,NNN,high,,batch,human technical competence management programme; no machine learning
+P010,database,N,N,N,NNN,high,,batch,"lattice commitment scheme, ZKP; no machine learning"
+P011,database,N,N,N,NNN,high,,batch,"deepfake detection outputs; ZK hashing verifies inference, not training"
+P015,database,N,N,N,NNN,high,,batch,"ZKP biometric continuous authentication; identity, not training"
+P017,database,N,N,N,NNN,high,,batch,incentivised ESG report verification; no model training
+P019,database,N,N,N,NNN,high,,batch,eKYC identity security review; no model training
+P022,database,N,N,N,NNN,high,,batch,"multi-agent LLM inference-time reasoning; no training, no verification"
+P023,database,N,N,N,NNN,high,,batch,QBF proof systems; cube learning is not ML training
+P027,database,N,N,N,NNN,high,,batch,Lyapunov stability certification of control systems; not ML training
+P028,database,N,N,N,NNN,high,,batch,"LLM learning-pathway system; output verifier, no training"
+P032,database,N,N,N,NNN,high,,batch,verifiable coded distributed inference; not training
+P036,database,N,N,N,NNN,high,,batch,TEE attestation of edge model inference; not training
+P054,database,N,N,N,NNN,high,,batch,attacks on trained signature verifier; post-training testing
+P055,database,N,N,N,NNN,high,,batch,ZKP prover hardware acceleration; no ML training
+P056,database,N,N,N,NNN,high,,batch,AI in maritime education; proof of learning metaphorical
+P060,database,N,N,N,NNN,high,,batch,distributed ZK proofs for MPC; no ML training
+P077,database,N,N,N,NNN,high,,batch,blockchain credential certification with ZKPs; no ML training
+P081,database,N,N,N,NNN,high,,batch,language model repairs Isabelle proofs; software verification
+P086,database,N,N,N,NNN,high,,batch,neuro-symbolic theorem proving at inference; no model training
+P087,database,N,N,N,NNN,high,,batch,zero-knowledge verification of trained model fairness metrics
+P088,database,N,N,N,NNN,high,,batch,remote attestation of microcontroller firmware integrity; not training
+P090,database,N,N,N,NNN,high,,batch,theorem provers in proof education; no ML training
+P094,database,N,N,N,NNN,high,,batch,SAT clause learning preprocessing; no model training
+P102,database,N,N,N,NNN,high,,batch,formal analysis of attested TLS remote attestation; no ML
+P104,database,N,N,N,NNN,high,,batch,lattice ZKP construction and e-voting; no ML training
+P107,database,N,N,N,NNN,high,,batch,MLaaS inference result validation via TEE distilled verifier
+P119,database,N,N,N,NNN,high,,batch,zkSNARK proofs of deep model inference in MLaaS
+P122,database,N,N,N,NNN,high,,batch,robustness verification of trained RNNs; inference-stage reachability
+P128,database,N,N,N,NNN,high,,batch,formal safety verification of trained neural controller; post-training
+P130,database,N,N,N,NNN,high,,batch,education ePortfolios; proof of learning only metaphorical
+P134,database,N,N,N,NNN,high,,batch,NIZK proofs for lattice secret keys; no ML training
+P136,database,N,N,N,NNN,high,,batch,privacy-preserving speaker verification matching under MPC; inference only
+P140,database,N,N,N,NNN,high,,batch,forensic DNA protocol verification testing; human laboratories
+P148,database,N,N,N,NNN,high,,batch,deepfake detection framework; ZKP only future work
+P152,database,N,N,N,NNN,high,,batch,QBF solver proof complexity analysis; no ML
+P155,database,N,N,N,NNN,high,,batch,theorem proving DSL for Coq; no machine learning
+P161,database,N,N,N,NNN,high,,batch,IoT firmware/device attestation from RAM traces; learned detector
+P163,database,N,N,N,NNN,high,,batch,Proof theory for concurrent process verification; no ML
+P167,database,N,N,N,NNN,high,,batch,"academic transcript threshold proof; Groth16, no training"
+P173,database,N,N,N,NNN,high,,batch,platform specifying and verifying trained model properties
+P186,database,N,N,N,NNN,high,,batch,seafood parasite inspection standard; no machine learning
+P189,database,N,N,N,NNN,high,,batch,verified converter for trained networks into Coq; post-training
+P190,database,N,N,N,NNN,high,,batch,ZKP proves model fairness; trained model property not training
+P200,database,N,N,N,NNN,high,,batch,mathematics education study of classroom proof progression
+P201,database,N,N,N,NNN,high,,batch,lattice-based NIZK construction; no ML training
+P202,database,N,N,N,NNN,high,,batch,Software model checking tool; no ML training
+P203,database,N,N,N,NNN,high,,batch,training-free theorem proving pipeline; inference only
+P204,database,N,N,N,NNN,high,,batch,tourism micro-credential perceptions; no machine learning
+P207,database,N,N,N,NNN,high,,batch,handwritten signature verification; biometrics not model training
+P215,database,N,N,N,NNN,high,,batch,speculative decoding for recommendation inference; token verification only
+P216,database,N,N,N,NNN,high,,batch,quantum Hoare logic program verification; no learning
+P217,database,N,N,N,NNN,high,,batch,ZK range proofs for educational credentials; no ML
+P222,database,N,N,N,NNN,high,,batch,neural network property verification for power systems; trained-model testing
+P225,database,N,N,N,NNN,high,,batch,zkSNARK verifies ML inference results via Taylor circuits
+P228,database,N,N,N,NNN,high,,batch,ZKP pre-verification for IIoT access control; not training
+P231,database,N,N,N,NNN,high,,batch,SNARK proofs over classifier inference; oracle not training
+P233,database,N,N,N,NNN,high,,batch,aggregatable key-evolving VRF; no machine learning
+P234,database,N,N,N,NNN,high,,batch,"decentralized identity trust anchors, verifiable credentials; no ML"
+P237,database,N,N,N,NNN,high,,batch,semantic-level signature authenticates transmitted semantics; not training
+P238,database,N,N,N,NNN,high,,batch,Formal verification of neural policy behaviour; not training evidence
+P243,database,N,N,N,NNN,high,,batch,microgrid control validation and certification; no ML training
+P248,database,N,N,N,NNN,high,,batch,LLM-guided program invariant synthesis from runs; no training
+P252,database,N,N,N,NNN,high,,batch,public auditing of outsourced cloud storage; not training
+P255,database,N,N,N,NNN,high,,batch,ZKP educational credentials; human learning not model training
+P260,database,N,N,N,NNN,high,,batch,IoT firmware attestation from RAM traces; learned verifier
+P261,database,N,N,N,NNN,high,,batch,decoding-time hallucination guards; verifies generated claims
+P270,database,N,N,N,NNN,high,,batch,neural feedback loop reachability verification; trained-model safety properties
+P279,database,N,N,N,NNN,high,,batch,rootkit detection via TEE and ML; firmware integrity
+P280,database,N,N,N,NNN,high,,batch,post-quantum zk-SNARK construction; no machine learning training
+P284,database,N,N,N,NNN,high,,batch,mathematics education study of novice provers' impasses
+P286,database,N,N,N,NNN,high,,batch,TEE-verified convolution inference on edge devices; not training
+P294,database,N,N,N,NNN,high,,batch,GPU zkSNARK proof acceleration; no ML training verified
+P299,database,N,N,N,NNN,high,,batch,"IoT travel safety, ZKP identity, ML risk prediction"
+P311,database,N,N,N,NNN,high,,batch,AI proof tutor with Lean checker; no ML training
+P315,database,N,N,N,NNN,high,,batch,inference-time visual token scaling with verifier; not training
+P317,database,N,N,N,NNN,high,,batch,e-voting decryption proof verifier; no machine learning
+P318,database,N,N,N,NNN,high,,batch,trained DNN ownership proofs via STARK; no training performed
+P320,database,N,N,N,NNN,high,,batch,deep metric learning iris verification; biometric identity inference
+P322,database,N,N,N,NNN,high,,batch,black-box GNN ownership verification; model identity only
+P324,database,N,N,N,NNN,high,,batch,"cloud sharing, blockchain audit, ML threat detection; no training"
+P329,database,N,N,N,NNN,high,,batch,zero-knowledge transformer inference for tax fraud; inference only
+P334,database,N,N,N,NNN,high,,batch,Lean proof generalization algorithm; no ML training
+P336,database,N,N,N,NNN,high,,batch,amortized complexity proofs in LiquidHaskell; no ML
+P340,database,N,N,N,NNN,high,,batch,query-reusable PCP proof systems theory; no machine learning
+P351,database,N,N,N,NNN,high,,batch,DNN safety verification proof minimisation; not training
+P352,database,N,N,N,NNN,high,,batch,zero-knowledge proof of inference over rings; not training
+P356,database,N,N,N,NNN,high,,hand,inference-time reasoning
+P357,database,N,N,N,NNN,high,,batch,zkML proves CNN diagnosis inference; not training
+P360,database,N,N,N,NNN,high,,batch,Porosity prediction with stochastic XGBoost; no verification
+P361,database,N,N,N,NNN,high,,batch,TEE-verified fault-tolerant deep learning inference; inference only
+P362,database,N,N,N,NNN,high,,batch,cooperative program verification portfolio; no machine learning
+P363,database,N,N,N,NNN,high,,batch,lattice commitments and ZK proofs for encrypted search; no ML
+P373,database,N,N,N,NNN,high,,batch,SNARG constructions for NP; no ML training
+P378,database,N,N,N,NNN,high,,batch,metamorphic testing of analysers and ML models; testing
+P380,database,N,N,N,NNN,high,,hand,device authentication for smart homes
+P381,database,N,N,N,NNN,high,,batch,academic credential ZKP blockchain; no machine learning
+P383,database,N,N,N,NNN,high,,hand,knowledge graph reasoning
+P398,database,N,N,N,NNN,high,,batch,zkSNARK verifies DNN inference in MLaaS; not training
+P399,database,N,N,N,NNN,high,,batch,Deterministic dual-robot path planning; no ML training
+P404,database,N,N,N,NNN,high,,batch,hybrid zk and optimistic verification of ML inference
+P415,database,N,N,N,NNN,high,,batch,"anonymous account ownership proof; TLS forwarding, no training"
+P422,database,N,N,N,NNN,high,,batch,verifier-assisted in-context learning; explicitly no model training
+P427,database,N,N,N,NNN,high,,batch,ZKP hardware acceleration survey; no ML training
+P431,database,N,N,N,NNN,high,,batch,"delegatable anonymous credentials, mercurial signatures; no machine learning"
+P433,database,N,N,N,NNN,high,,batch,optimal-complexity zkSNARK proving CNN inference service integrity
+P435,database,N,N,N,NNN,high,,batch,Hoare-style proof synthesis for program sets; no ML
+P436,database,N,N,N,NNN,high,,batch,blockchain IoT authentication with AI anomaly detection; no training
+P440,database,N,N,N,NNN,high,,batch,RAG eBPF code synthesis; kernel verifier checks syntax
+P442,database,N,N,N,NNN,high,,batch,Coq educational proof tool; no machine learning
+P445,database,N,N,N,NNN,high,,batch,formal verification of virtual coupling train controller
+P446,database,N,N,N,NNN,high,,batch,lookup arguments for SNARKs; no ML training object
+P450,database,N,N,N,NNN,high,,batch,quantum Merkle tree commitments; no machine learning
+P460,database,N,N,N,NNN,high,,batch,"biometric ZKP patient authentication; identity, not training"
+P464,database,N,N,N,NNN,high,,batch,ZKP accelerator co-design; no ML training object
+P465,database,N,N,N,NNN,high,,batch,blockchain transaction privacy with GNN and ZKP; no training
+P468,database,N,N,N,NNN,high,,hand,runtime safety shielding of a controller
+P469,database,N,N,N,NNN,high,,hand,education; students writing proofs
+P474,database,N,N,N,NNN,high,,batch,Coercion-resistant e-voting registration; no ML training
+P476,database,N,N,N,NNN,high,,batch,digital credentials for students; human learning not models
+P478,database,N,N,N,NNN,high,,hand,control-flow attestation of program execution
+P479,database,N,N,N,NNN,high,,batch,router protocol code formally verified; no learning
+P482,database,N,N,N,NNN,high,,batch,quantum oblivious transfer protocol; no machine learning
+P487,database,N,N,N,NNN,high,,batch,FHE hybrid inference with zk-SNARK result verification; not training
+P488,database,N,N,N,NNN,high,,batch,neural network analysis of Buchi automata; no training verification
+P489,database,N,N,N,NNN,high,,batch,round-robin proof-of-stake consensus; no model training
+P491,database,N,N,N,NNN,high,,batch,set agreement impossibility proofs; no ML training
+P492,database,N,N,N,NNN,high,,batch,scholarship platform zk-rollup identities; ML recommendation only
+P500,database,N,N,N,NNN,high,,batch,invoice anomaly detection with OCR and LightGBM; no training
+P502,database,N,N,N,NNN,high,,batch,L0 robustness verification of trained network; post-training testing
+P512,database,N,N,N,NNN,high,,hand,resource allocation; proof-of-learning only a keyword
+P517,database,N,N,N,NNN,high,,batch,SAT clause learning preprocessing; no model training
+P521,database,N,N,N,NNN,high,,batch,model fingerprinting for piracy forensics; ownership not training
+P522,database,N,N,N,NNN,high,,batch,blockchain student record management and credential verification
+P529,database,N,N,N,NNN,high,,batch,ML attests IoT firmware integrity; not model training
+P530,database,N,N,N,NNN,high,,batch,verifiable delegated quantum computation; no machine learning training
+P531,database,N,N,N,NNN,high,,batch,trained model fairness certified by interactive test; not training
+P532,database,N,N,N,NNN,high,,batch,"quantum position verification; LWE hardness, no ML training"
+P537,database,N,N,N,NNN,high,,batch,Blind signature primitive with NIZK auditability; no ML
+P539,database,N,N,N,NNN,high,,batch,quantum zero-knowledge proofs for QMA; no ML training
+P542,database,N,N,N,NNN,high,OUTSOURCED-SINGLE,batch,CNN prediction integrity proofs; zkSNARK inference OUTSOURCED-SINGLE
+P543,database,N,N,N,NNN,high,,batch,deniable ring authentication from broadcast encryption; no ML
+P551,database,N,N,N,NNN,high,,batch,Robotic spoofing of biometric signature verifier; no ML training
+P554,database,N,N,N,NNN,high,,batch,reachability verification of trained RNN robustness; post-training testing
+P556,database,N,N,N,NNN,high,,batch,separation logic proof outline checker; no machine learning
+P557,database,N,N,N,NNN,high,,batch,LPN-based zero-knowledge proofs for commitments; no ML training
+P558,database,N,N,N,NNN,high,,batch,verifier network detects unreliable predictions; inference stage only
+P561,database,N,N,N,NNN,high,,batch,decentralized trust registry verifying e-health credentials
+P562,database,N,N,N,NNN,high,,batch,lattice verifiable oblivious PRF; no ML training
+P567,database,N,N,N,NNN,high,,batch,zero-knowledge argument impossibility results; no ML training
+P569,database,N,N,N,NNN,high,,batch,formal proof database proposal; no ML model training
+P574,database,N,N,N,NNN,high,,batch,rotatable zero-knowledge sets for key transparency; not training
+P582,database,N,N,N,NNN,high,,batch,zkML inference proofs over committed network; inference stage
+P592,database,N,N,N,NNN,high,,batch,distributed zero-knowledge proofs theory; no machine learning training
+P594,database,N,N,N,NNN,high,,batch,anonymous domain ownership proofs; no machine learning
+P595,database,N,N,N,NNN,high,,batch,chain-of-thought prompting at inference; no training mechanism
+P601,database,N,N,N,NNN,high,,batch,remote attestation of embedded software updates; firmware
+P603,database,N,N,N,NNN,high,,batch,FHE certified deletion of ciphertexts; no ML training
+P607,database,N,N,N,NNN,high,,batch,zero-knowledge proof methods review; no machine learning training
+P608,database,N,N,N,NNN,high,,batch,formalised logic calculus; clause learning not ML training
+P611,database,N,N,N,NNN,high,,batch,LLM math solving with answer verifier at runtime
+P615,database,N,N,N,NNN,high,,batch,"micro-credential platform features; human learning, not ML"
+P617,database,N,N,N,NNN,high,,batch,separation-logic proof outline checker; no machine learning
+P621,database,N,N,N,NNN,high,,batch,mathematics education study of combinatorial proof reasoning
+P628,database,N,N,N,NNN,high,,batch,robot iterative learning control; convergence proof not training
+P629,database,N,N,N,NNN,high,,batch,students proof writing with LEAN prover; no ML
+P631,database,N,N,N,NNN,high,,batch,"enclave remote attestation survey; hardware isolation, no ML"
+P633,database,N,N,N,NNN,high,,batch,essay on failure modes of security proofs
+P635,database,N,N,N,NNN,high,,batch,ZKP-verified fairness audit of trained model; not training
+P637,database,N,N,N,NNN,high,,batch,verifiable delegated computation on encrypted data; not training
+P639,database,N,N,N,NNN,high,,batch,SAT clause-learning proof systems; no ML training
+P644,database,N,N,N,NNN,high,,batch,speech utterance classifier for aphasia; accuracy evaluation only
+P646,database,N,N,N,NNN,high,,batch,synthetic signatures attack biometric verifier; identity not training
+P647,database,N,N,N,NNN,high,,batch,Decentralized identity commitment proofs; no ML training
+P649,database,N,N,N,NNN,high,,batch,PUF hardware authentication resilient to ML attacks; hardware
+P652,database,N,N,N,NNN,high,,batch,deductive verification of learned CPS controllers; safety properties
+P654,database,N,N,N,NNN,high,,batch,VR simulator for human operator training; no machine learning
+F0001,forward,N,U,N,NUN,med,,batch,survey of confidential computing for training and inference; privacy
+F0002,forward,N,N,N,NNN,med,,hand,model ownership and identity audit
+F0009,forward,U,N,N,UNN,med,,batch,Open-weight model safety agenda spanning lifecycle; no single mechanism
+F0014,forward,N,N,N,NNN,med,,batch,optimistic verification of floating-point network outputs; inference
+F0016,forward,U,N,N,UNN,med,,batch,"critique of AI verifiability assumptions; no mechanism, stage unspecified"
+F0022,forward,U,U,N,UUN,med,,batch,survey of AI security across training and inference; no verification
+F0027,forward,N,N,N,NNN,med,,batch,DP query mechanism certified via commitments; no model training
+F0045,forward,N,N,N,NNN,med,OUTSOURCED-SINGLE,batch,distribution identity testing theory; testable PAC verification; OUTSOURCED-SINGLE
+F0054,forward,N,N,N,NNN,med,,batch,regulatory penalty design; no training mechanism or verification
+F0063,forward,U,U,N,UUN,med,,batch,LLM alignment research agenda; no mechanism proposed
+F0068,forward,N,N,N,NNN,med,,batch,data trust governs training data provenance; no training computation
+F0084,forward,N,N,N,NNN,med,,batch,"image captioning transformer architecture; accuracy claims, centralized"
+F0088,forward,N,N,N,NNN,med,,batch,malware classification feature fusion; prediction task not training
+F0099,forward,N,N,N,NNN,med,,batch,"IIoT anomaly detection; blockchain consensus, no training evidence"
+F0120,forward,N,N,N,NNN,med,,batch,LLM content watermarking survey; verifies watermarks not training
+F0141,forward,N,N,N,NNN,med,,batch,collaborative SNARK across many provers; no machine learning training
+F0163,forward,N,N,N,NNN,med,,batch,decentralized data marketplace with MPC; no model training
+F0172,forward,N,U,N,NUN,med,,batch,blockchain data provenance before training; verifies data not training
+F0179,forward,N,Y,N,NYN,med,,batch,FL adoption challenges for ESG reporting; Delphi/AHP prioritization
+F0187,forward,N,N,N,NNN,med,,batch,sleep apnea diagnosis review; model accuracy comparison
+F0191,forward,U,N,Y,UNY,med,,batch,TEE certificates of dataset/model/computation properties; lifecycle stage unstated
+F0200,forward,N,N,N,NNN,med,,batch,"encrypted traffic detection; self-supervised model, no training verification"
+F0215,forward,N,N,N,NNN,med,,batch,"pre-purchase data valuation; secure inference scoring, not training"
+F0217,forward,N,N,N,NNN,med,,batch,ZKP-verified homomorphic computation generally; no ML training stage
+F0226,forward,N,N,N,NNN,med,,batch,blockchain MLOps hashes model artifacts and inference records only
+F0239,forward,N,N,N,NNN,med,,batch,"recommender architecture; prediction accuracy, no verification, single party"
+F0245,forward,N,U,N,NUN,med,,batch,"survey of model/dataset IP watermarking, ownership verification; not training"
+F0257,forward,N,N,N,NNN,med,,batch,book on agentic AI governance; no training mechanism
+F0259,forward,N,N,N,NNN,med,,batch,review of ML for food quality prediction; centralised
+F0263,forward,N,N,N,NNN,med,,batch,educational credential blockchain consensus; no ML training
+F0295,forward,N,N,N,NNN,med,,batch,"explainable generative inference for diagnosis; not training, centralised"
+F0312,forward,N,N,N,NNN,med,,batch,"e-commerce risk scoring; ZKP over evaluation logic, not training"
+F0339,forward,U,N,N,UNN,med,,batch,combining ML defenses; lifecycle stage unstated; no verification
+F0343,forward,N,N,N,NNN,med,,batch,malware detection accuracy comparison in healthcare ICPS; no training
+F0357,forward,N,N,N,NNN,med,,batch,position paper on AI specialisation and governance; no mechanism
+F0371,forward,N,U,N,NUN,med,,batch,review of AI crypto tokens; decentralised compute claims only
+F0380,forward,N,N,N,NNN,med,,batch,blockchain computing-power trading with MARL; resource allocation
+F0384,forward,N,N,N,NNN,med,,batch,neural-assisted IoT authentication with ZKP; identity not training
+F0386,forward,N,N,N,NNN,med,,batch,"CNN model ownership; zk-SNARK watermark proofs, not training"
+F0394,forward,N,N,N,NNN,med,,batch,"review of blockchain-AI-cloud integration; deployment focus, no training"
+F0398,forward,N,N,N,NNN,med,,batch,"IoMT blockchain privacy, node reputation; detection models tested"
+F0402,forward,N,Y,N,NYN,med,,batch,secure multiparty LCM/GCD for FL data alignment; verifies inputs
+F0404,forward,N,N,N,NNN,med,,batch,zk-SNARK toolchain survey; no ML training object
+F0410,forward,N,N,N,NNN,med,,batch,privacy techniques survey across data lifecycle; no verification
+F0456,forward,N,N,N,NNN,med,,batch,verifies edge preprocessing and inference results; not training
+F0461,forward,N,N,N,NNN,med,,batch,"streamflow forecasting models; prediction accuracy, no verification"
+F0466,forward,N,N,N,NNN,med,,batch,"Decentralized wireless network incentives; proof of bandwidth, no ML"
+F0467,forward,U,N,N,UNN,med,,batch,HPC checkpointing review; deep-learning replay and fault tolerance
+F0468,forward,N,N,N,NNN,med,,batch,model fingerprint ownership detection; identity not training
+F0473,forward,N,N,N,NNN,med,AGGREGATION-ONLY,batch,"blockchain data aggregation; ZKP, no ML training; AGGREGATION-ONLY"
+F0477,forward,N,N,N,NNN,med,,batch,review of AI improving blockchain; no training verification
+F0485,forward,N,N,N,NNN,med,,batch,"IIoT attack detection, blockchain aggregation; no training verification"
+F0488,forward,N,N,N,NNN,med,OUTSOURCED-SINGLE,batch,contracts delegating data collection; model-quality assessment; OUTSOURCED-SINGLE
+F0491,forward,U,U,U,UUU,med,,batch,"SoK confidential computing for ML; TEE integrity, stage unspecified"
+F0494,forward,N,N,N,NNN,med,,batch,smart-home energy forecasting accuracy; algorithm comparison
+F0496,forward,N,N,N,NNN,med,,batch,adversarial-patch fingerprinting of trained model; ownership not training
+F0497,forward,N,N,N,NNN,med,,batch,"BERT threat detection; privacy encoding, deployment focus"
+F0501,forward,N,N,N,NNN,med,,batch,inference-time posterior perturbation against model stealing; no evidence
+F0504,forward,N,N,N,NNN,med,,batch,interactive proofs for delegated distribution analysis; not model training
+F0512,forward,N,N,N,NNN,med,,batch,distribution-free interactive proofs of proximity; property testing theory
+F0516,forward,N,N,N,NNN,med,,batch,HMM intrusion detection with blockchain; detection not training
+F0523,forward,N,N,N,NNN,med,,batch,memorization metric probes trained LLM; data usage not training
+F0525,forward,N,N,N,NNN,med,,batch,LLM parameter fingerprint identifies base model; ZKP on fingerprint
+F0529,forward,N,N,N,NNN,med,,batch,auditing trained model feature sensitivity via explanations; post-training
+F0532,forward,N,N,N,NNN,med,,batch,e-discovery document production protocol; verifies disclosure not training
+F0533,forward,N,N,N,NNN,med,,batch,"classifier feature interpretability; Merlin-Arthur protocol bounds, not training"
+F0538,forward,N,N,N,NNN,med,,batch,Cloud-assisted two-party computation with garbled circuits; no ML training
+F0539,forward,N,N,N,NNN,med,,batch,blockchain DRL healthcare scheduling; no distributed training verification
+F0546,forward,N,N,N,NNN,med,,batch,metaheuristic optimiser on benchmark functions; no model training
+F0551,forward,N,N,Y,NNY,med,OUTSOURCED-SINGLE,batch,"Interactive proof of claimed distribution-property analysis, OUTSOURCED-SINGLE"
+F0562,forward,N,N,N,NNN,med,,batch,optical data models for dataset drift robustness testing
+F0563,forward,N,N,N,NNN,med,,batch,Blockchain consensus with function optimization; no ML training
+F0568,forward,N,N,U,NNU,med,UNLEARNING,batch,model functional distance metric; UNLEARNING verification one testbed
+F0582,forward,N,N,N,NNN,med,,batch,AGI model ownership essay; no training mechanism verified
+F0588,forward,N,N,N,NNN,med,,batch,"On-chain prediction via smart contracts; training off-chain, inference verified"
+F0594,forward,N,N,N,NNN,med,,batch,blockchain consensus with neural credit evaluation; no training verification
+F0597,forward,N,N,N,NNN,med,,batch,power-system IIoT cybersecurity review; no ML training mechanism
+F0633,forward,N,N,N,NNN,med,,batch,"compile-stage backdoor insertion; after training, defeats integrity checks"
+F0637,forward,N,N,N,NNN,med,,batch,UAV communication security survey; FL only a keyword
+P001,database,N,N,N,NNN,med,,batch,zkSNARKs proving neural network inference; architecture privacy
+P003,database,N,N,N,NNN,med,,batch,"Certification of ML application properties; deployment stage, not training"
+P018,database,N,N,N,NNN,med,,batch,ZK proofs of edge generative inference; not training
+P035,database,N,N,N,NNN,med,,batch,"permissioned blockchain fraud pipeline; ZK authentication, no training mechanism"
+P037,database,N,N,N,NNN,med,,batch,theorem-prover strategy schedules and lemma discovery; no model
+P040,database,N,N,N,NNN,med,,batch,benchmark evaluating reasoning verifiers for RLVR; verifies answers
+P063,database,U,N,N,UNN,med,,batch,Taxonomy mapping healthcare privacy risks to PETs; no mechanism
+P078,database,N,N,N,NNN,med,,batch,iterative verification of LLM graph outputs; inference-time
+P091,database,N,N,N,NNN,med,,batch,verifiers check MLLM cross-modal outputs; inference not training
+P093,database,N,N,N,NNN,med,,batch,IoT threat detection and device authentication; no training verification
+P096,database,N,N,N,NNN,med,,batch,"Lean proof-search interface; theorem proofs, not model training"
+P103,database,N,N,N,NNN,med,,batch,ZKML/OPML registry verifies model inference execution; not training
+P111,database,N,N,N,NNN,med,,batch,validating trained ML state estimation against sensor fusion
+P113,database,N,N,N,NNN,med,,batch,Evidence-span explanations with NLI verifier; inference stage
+P114,database,N,N,N,NNN,med,,batch,GPU batch ZKP generation; verifiable ML inference application
+P126,database,N,Y,N,NYN,med,,batch,telemedicine ZKP authentication with federated risk model; no training evidence
+P147,database,N,N,N,NNN,med,,batch,"eBPF intrusion detection taxonomy; runtime kernel, no training mechanism"
+P153,database,N,N,N,NNN,med,,batch,trained CNN verifies sunspot recognition outputs; not training
+P158,database,N,N,N,NNN,med,,batch,point-cloud registration network; geometric correspondence verification only
+P164,database,N,N,N,NNN,med,,batch,tactic library discovery for theorem provers; no weight training
+P169,database,N,N,N,NNN,med,,batch,ZKP fairness auditing of trained model; not training
+P171,database,N,N,N,NNN,med,,batch,LLM inference proofs zkAttn; mentions outsourced/federated learning motivation
+P178,database,N,N,N,NNN,med,,batch,multi-server verifiable computation of arbitrary function; no ML
+P191,database,N,N,N,NNN,med,,batch,on-device agent negotiation with ZK audit trails; no training
+P208,database,N,N,N,NNN,med,,batch,algebra step-checking teaching platform; no model training verified
+P219,database,N,N,N,NNN,med,,batch,pretrained LM classification of fact-checks; no training mechanism
+P232,database,N,N,N,NNN,med,,batch,LLM embedding watermark verifier; model stealing not training
+P236,database,N,N,N,NNN,med,,batch,interactive theorem prover verification of neural cyber-physical safety
+P240,database,N,N,N,NNN,med,,batch,ML classifier measures SD-JWT linkability; identity privacy
+P245,database,N,N,N,NNN,med,,batch,"test-time scaling for claim verification; verifier model, inference"
+P250,database,N,N,N,NNN,med,,batch,Process reward model verifies reasoning steps at test time
+P251,database,N,N,N,NNN,med,,batch,agenda for verifying LLM-driven systems; runtime correctness
+P265,database,N,N,N,NNN,med,,batch,metric evaluating trained side-channel attack model; post-training testing
+P275,database,N,N,N,NNN,med,,batch,healthcare data compression with ZKP checks; no training evidence
+P278,database,N,N,N,NNN,med,,batch,medical data compression and ZKP authentication; no training
+P287,database,N,N,N,NNN,med,,batch,LLM authoring assistant for learning objectives; usability evaluation
+P288,database,N,Y,N,NYN,med,,batch,recursive ZKP verifies inference; FL training unproven
+P307,database,N,N,N,NNN,med,,batch,abstraction mining guides equational prover; not model training
+P309,database,N,N,N,NNN,med,,batch,sharded blockchain trust oracle for V2X forensics; not training
+P326,database,N,N,N,NNN,med,OUTSOURCED-SINGLE,batch,verifies trained quantum embedding quality; accuracy only; OUTSOURCED-SINGLE
+P327,database,N,N,N,NNN,med,,batch,LM output verification at inference; weak verifier ensembling
+P330,database,N,N,N,NNN,med,,batch,inference-time sequential Monte Carlo verification of reasoning; not training
+P337,database,N,U,N,NUN,med,,batch,IoV privacy survey mentioning federated learning; no mechanism
+P341,database,N,N,N,NNN,med,,batch,"ontology-driven fruit disease detection; no training, no verification"
+P343,database,N,N,N,NNN,med,,batch,LLM code test-case generation; evaluation and reward estimation
+P347,database,N,N,N,NNN,med,,batch,Delegated neural network inference verified via MPC interactive proofs
+P365,database,N,N,N,NNN,med,,batch,LLM coding tutor verification workflow; human learning only
+P372,database,N,N,N,NNN,med,,batch,ZK circuit proves agent output safety; inference-stage guardrail
+P374,database,N,N,N,NNN,med,,batch,blockchain image dataset acquisition; data pipeline before training
+P389,database,N,N,N,NNN,med,,batch,zkSNARK over digital-twin inference and traceability; not training
+P411,database,N,N,N,NNN,med,,batch,Verifier-guided reasoning self-correction at inference; not training
+P413,database,N,N,N,NNN,med,,batch,proof complexity of learnability and automatability; theory only
+P430,database,N,U,N,NUN,med,,batch,blockchain digital cities survey; FL and ZKP mentioned only
+P439,database,N,N,N,NNN,med,OUTSOURCED-SINGLE,batch,verifiable CNN inference and image pipelines OUTSOURCED-SINGLE
+P448,database,N,N,N,NNN,med,,batch,cricket umpire action recognition accuracy; fine-tuned centralized classifier
+P454,database,N,Y,N,NYN,med,,batch,federated sites preprocessing fingerprinted via LIME vectors; not training
+P461,database,N,N,N,NNN,med,,batch,ZKP identity verification with machine learning; identity not training
+P466,database,N,N,N,NNN,med,,batch,robustness verification of trained speech CNNs; testing only
+P494,database,N,Y,N,NYN,med,BYZANTINE-ONLY,batch,"IoT identity management; ZKP, Byzantine-resistant FL component; BYZANTINE-ONLY"
+P499,database,N,N,N,NNN,med,,batch,zk-SNARK matrix multiplication proofs for cloud inference; not training
+P513,database,N,N,N,NNN,med,,batch,active automata learning algorithm; no weight training or verification
+P525,database,N,N,N,NNN,med,,batch,ZK proofs of MLaaS classification correctness; inference stage
+P526,database,N,N,N,NNN,med,,batch,ML verifier flags misclassifications using XAI; inference stage
+P540,database,N,N,N,NNN,med,,batch,ZKP resume screening and DRL contracts; recruitment not training
+P541,database,N,N,N,NNN,med,,batch,formal verification of trained network robustness and privacy properties
+P544,database,N,N,N,NNN,med,,batch,"synthetic signature data generation; pre-training pipeline, no verification"
+P553,database,N,N,N,NNN,med,,batch,Merlin-Arthur classifier certificates; interpretability at inference
+P563,database,N,N,N,NNN,med,,batch,Proof-step recommender for theorem provers; no training evidence
+P564,database,N,N,N,NNN,med,,batch,formal language specifying AI-pilot training scenarios; training-data specification
+P570,database,N,N,N,NNN,med,,batch,"proof-graph generation model; interpretability, not training verification"
+P576,database,N,N,N,NNN,med,,batch,category-theory automated deduction with incidental learning; no verification
+P581,database,N,N,N,NNN,med,,batch,Javanese speech emotion database construction; data validation only
+P587,database,N,N,N,NNN,med,,batch,Learned proof-path selection in neural theorem provers; no verification
+P591,database,N,N,N,NNN,med,,batch,"classifier fairness formally verified; SSAT, not training evidence"
+P619,database,N,N,N,NNN,med,,batch,forensic signature verification; likelihood ratios over background model
+P625,database,N,N,N,NNN,med,,batch,trained verifier reranks LLM code by execution; inference
+P636,database,U,Y,U,UYU,med,,batch,survey blockchain and ML; mentions proof-of-learning and model validation
+P648,database,N,N,N,NNN,med,,batch,"multilingual translation routing architecture; accuracy claims, centralized"
+P655,database,N,N,N,NNN,med,,batch,smart-home privacy technologies review; FL and ZKP listed
+F0020,forward,U,Y,N,UYN,low,,batch,IoT privacy survey covering FL and split learning; stage unclear
+F0052,forward,N,N,N,NNN,low,AGGREGATION-ONLY,batch,AGGREGATION-ONLY vector commitment zkSNARK; no training object
+F0061,forward,N,N,N,NNN,low,,batch,verifies bandit strategy optimality; testing outcome not training
+F0121,forward,U,Y,N,UYN,low,,batch,Distributed resource allocation for edge collaborative learning; no verification
+F0199,forward,U,N,U,UNU,low,OUTSOURCED-SINGLE,batch,ZK proof of PAC privacy noise application; OUTSOURCED-SINGLE
+F0207,forward,U,Y,N,UYN,low,,batch,e-health privacy mechanisms chapter; FL among techniques; stage unclear
+F0246,forward,U,Y,U,UYU,low,,batch,federated ML governance benchmarking note; no abstract available
+F0265,forward,N,N,N,NNN,low,,batch,IoT anomaly detection with blockchain privacy; no verification
+F0291,forward,U,U,U,UUU,low,,batch,no abstract available; cannot assess any question
+F0317,forward,U,Y,U,UYU,low,,batch,zk-SNARK verifiable LLM sensor fusion at edge; stage unclear
+F0330,forward,N,Y,N,NYN,low,,batch,"Distributed data market privacy tutorial; data stage, no training proof"
+F0345,forward,U,Y,Y,UYY,low,,batch,coded redundancy across nodes detects dishonest DeML computation
+F0351,forward,U,Y,N,UYN,low,,batch,coded computing game for decentralised learning; robustness not verification
+F0354,forward,N,Y,N,NYN,low,,batch,"Federated diffusion; cooperative sampling not training, no verification"
+F0425,forward,N,N,N,NNN,low,,batch,IoT intrusion detection with metaheuristic tuning; no verification
+F0438,forward,U,N,N,UNN,low,,batch,semantic communication security survey; training only a case study
+F0439,forward,U,Y,N,UYN,low,,batch,GWAS privacy survey; federated and cryptographic collaborative computation
+F0453,forward,U,N,N,UNN,low,,batch,radiomics stability review; stage unclear; no verification mechanism
+F0459,forward,U,U,N,UUN,low,,batch,book on MPC and HE privacy-preserving AI; stage unstated
+F0498,forward,U,N,N,UNN,low,,batch,"trustworthy GNN survey; six aspects, lifecycle stage unspecified"
+F0518,forward,N,U,N,NUN,low,,batch,covert 5G data hiding; FL role unexplained
+F0537,forward,N,N,N,NNN,low,,batch,PRNG attacks on randomised smoothing certification; not training
+F0591,forward,N,N,N,NNN,low,,batch,e-discovery disclosure protocol using classifier; not training verification
+F0635,forward,U,U,U,UUU,low,,batch,"blockchain for AIoT survey; trust via consensus, stage unspecified"
+P048,database,N,U,N,NUN,low,,batch,learning-based blockchain database adaptivity; infrastructure not training
+P051,database,N,N,N,NNN,low,,batch,"ZKP verifies generative model quality claims; inference, not training"
+P179,database,U,U,U,UUU,low,,batch,blockchain proof-of-learning consensus; mechanism details unclear
+P210,database,U,N,N,UNN,low,,batch,client-side recommender; ZKP authenticates requests; training stage unclear
+P226,database,U,U,U,UUU,low,,batch,SoK on ZKPs for ML verifiability and privacy; mixed
+P266,database,U,U,U,UUU,low,,batch,blockchain proof-of-learning consensus; attack probability only
+P350,database,U,U,U,UUU,low,,batch,"ZKML survey; computation integrity claimed, stage and setting unstated"
+P410,database,N,U,N,NUN,low,,batch,healthcare blockchain architecture with ZK rollups; data integrity only
+P420,database,N,U,N,NUN,low,,batch,teaching data fusion database architecture; FL component only
+P493,database,N,N,N,NNN,low,,batch,LLM autonomous scientific reasoning; inference-stage verifier only
+P536,database,N,N,N,NNN,low,,batch,learner-verifier loop synthesizes Lyapunov functions; no model weights
+P622,database,N,N,N,NNN,low,,batch,proof complexity versus learnability theory; no training mechanism
+P632,database,N,N,N,NNN,low,,batch,runtime predictive monitoring surrogates; conformal guarantees not training

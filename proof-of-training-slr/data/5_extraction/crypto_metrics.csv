@@ -1,0 +1,55 @@
+id,metrics,added_from_full_text,where_in_paper
+P006,"PT, VT, PS, ST, ACC",ACC,"Cost: setup, proof, verification and proof size read from bar charts (pp. 6-7). ACC: Fig. 3, average reward of UCB vs. zkUCB (reward is the bandit's performance measure; judgement call)."
+P008,,,"Only constraint counts, key sizes and a signature size (p. 6); none of the catalogue metrics."
+P039,"CHAIN, OVH, ACC, DET, CONF","ACC, DET, CONF","Latency vs. vanilla FL and gas (Table 1, Fig. 3, p. 3); accuracy and loss under attack (Figs. 4-5); 99.2% detection rate; detection probability above 87% by round 20."
+P066,"PT, PS, ST",PS,"Setup and proving (Table III, p. 6); combined vs. uncombined proofs take 6 vs. 18 MB of storage (p. 6), coded as proof size. The abstract's ""39% lower memory"" has no value in the evaluation, so MEM is not coded."
+P068,"PT, VT",,"Commit, sign (prove), aggregate and verify cost in CPU clocks (Figs. 2-3, p. 5); estimated processing time (Fig. 4)."
+P071,VT,,"Verification time per polynomial evaluation proof (Fig. 1b, pp. 112-113); no prover time or proof size."
+P089,"PT, VT, COM, ACC",ACC,"Per-device proving, gateway and server time, 21 MB per round (Table I, p. 5); accuracy under a backdoor attack and with malicious clients (Figs. 3-4)."
+P109,"PT, VT, PS, COM, OVH, ACC","COM, ACC","Proof generation, verification and proof size; proving is 400-500% of training cost (Table 3, pp. 10-13); communication time by network size (Table 6); accuracy of private and proxy models (Tables 2, 5)."
+P112,"PT, VT, PS, ST, ACC",ACC,"Setup, proof size, verification and plotted proving time (pp. 14-17, Fig. 7); accuracy of the global models (Fig. 5)."
+P125,"PT, VT, OVH, ACC",ACC,"Proof generation and verification next to local training time (p. 5, Fig. 5); accuracy and loss with and without ZKP and under poisoning (Figs. 3-4)."
+P131,"PS, CHAIN",,"Verification-key and proof files 22 KB (p. 11); gas per model update (Table 4, p. 12)."
+P135,,,Analytical only; no reported values.
+P141,"COM, OVH, ACC",ACC,Per-round time 35.6 s vs. 12.5 s for FedAvg; 168 MB per round (pp. 5-6); accuracy 93.5% and F1 0.94 against baselines (Table 3).
+P151,"PT, PS, COM, ACC","COM, ACC",PILE time and proof sizes (Tables III-IV); communication overhead in the scalability tests; accuracy loss of about 0.3%. The privacy-attack success rate (Table II) is not coded as DET.
+P172,"PT, VT, PS, MEM, OVH",OVH,"Prover time, memory, verifier time, proof size (Tables 2-3, p. 13); prover needs 1.4x the space of the native computation."
+P184,"PT, VT, PS",,"Proof generation, proof size and verification compared with KAIZEN (Fig. 2, p. 6)."
+P188,"PT, VT, ACC",ACC,Proving time (Fig. 2) and verification (Fig. 4); accuracy and error of DP vs. non-DP models and over iterations (Tables 1-2).
+P193,"PT, VT, PS, COM, ACC","COM, ACC",Proof times and sizes (pp. 11-12); communication per node (Fig. 5a); accuracy with malicious nodes (Figs. 6-7).
+P197,"PT, VT, PS, COM, CHAIN, OVH, ACC, DET","COM, OVH, ACC, DET","Proving, verification, proof size and gas (Tables 5, 8, 10, 11); communication delay, 21.6% over FedAvg (Fig. 5); accuracy under attack (Figs. 3-4); malicious detection rate."
+P198,"PT, VT, PS, MEM, ACC",ACC,"Proof generation, verification, proof size and RAM (Figs. 8-9, p. 13); model accuracy (Section 4.2.1)."
+P218,,,"Simulated resource scheduling; proof costs appear only as symbolic cost models (Eqs. 4-6, p. 3)."
+P223,"PT, VT, PS, MEM, COM, CHAIN, ACC","COM, CHAIN, ACC","Proof generation and verification (Table II, p. 10), RAM (Fig. 7), request-proof size (Fig. 6), gas (Table IV), communication cost against other systems; accuracy under data poisoning (Fig. 8)."
+P227,"VT, ACC, DET","ACC, DET",Verification response delay (p. 9); AUC over training (Fig. 2); tampering-detection accuracy by share of malicious nodes (Fig. 4). The reconstruction-attack success rate is not coded as DET.
+P256,,,Analytical; no reported values.
+P264,"PT, VT, PS, COM, ACC, ENERGY","COM, ACC, ENERGY","Proof generation, verification and proof size (Tables 5-7, pp. 9-11); communication per round (Table 6); AUC vs. standard FL (Tables 1-4); energy (Section 4.6)."
+P290,"VT, COM, CHAIN, OVH, ACC, DET","COM, OVH, ACC, DET","ZKP verification per update (Table 1, p. 18); blockchain time per round (Table 5, p. 28); communication and latency vs. standard FL (Table 3); accuracy (Fig. 3, Table 2); attack success rate reduction (Table 4)."
+P302,"PT, VT, PS, ST, COM","PS, COM","Online proving and verification (Figs. 10-11, pp. 14-15); CRS generation (p. 13); storage of 13.6-68.2 MB coded as proof size; communication overhead."
+P303,"PT, VT, PS, OVH",,"Prover, verifier and proof size per phase (p. 2 table, pp. 12-13); the online phase costs about 518x plain f64 training and 45x training over the field."
+P321,"PT, ACC",ACC,Proving time for the full run (Fig. 1) and per building block (Table 1); accuracy against privacy level (Fig. 1).
+P333,"PT, COM, ACC, DET","ACC, DET","Time and communication of the proof (Table 2, p. 13); predicted labels changed by a rejection-sampling attack on prior and new schemes (Table 1); prediction accuracy under different epsilon (Section 5.2)."
+P345,"PT, VT, PS, MEM, OVH",OVH,"Prover, verifier, proof size and peak memory (Table 2, pp. 11-12; Fig. 3); prover time relative to training time (Fig. 1)."
+P377,"PT, VT, PS, OVH, ACC",ACC,"Prover, verifier, proof size against per-round training time (Tables III, V); accuracy under free-rider attacks (Tables I-II)."
+P392,"PT, VT, ACC",ACC,"Training-plus-proof time (Table 1, p. 360); verification under 12 ms; training and validation accuracy (Fig. 1)."
+P412,"PT, VT, PS, ST, MEM, CHAIN, ACC","MEM, ACC","Witness, proof, setup and memory by batch size (Table I, p. 7); proof file 16,241 bytes; gas; accuracy by batch size (Fig. 5)."
+P421,ACC,ACC,"Accuracy, precision, recall and F1 (Table II); no proof cost reported. The extraction codes its evaluation as ""none"" (no proof measured)."
+P424,"PT, VT, PS",,"Proving, verification, proof and commitment size (Table I, Fig. 4)."
+P432,"PT, VT, PS, COM, OVH",,"Prover, verifier and communication against training time per round (Table IV, p. 12); proof size for layers (Table III)."
+P447,,,"Circuit sizes only (Table II, p. 6); simulated."
+P453,"PT, VT, PS, OVH, ACC",ACC,"Proving, verification and proof size (Fig. 3, p. 5); 10-15x the time of native training; accuracy vs. standard FL and with malicious clients (Fig. 4)."
+P456,"PT, ST, MEM, CHAIN",,"Witness, proof, compile and setup time, memory (Figs. 3-4) and gas (Fig. 5) (p. 8)."
+P459,"PT, VT, PS, COM, OVH, ACC","COM, OVH, ACC","Prover, verifier and proof size (pp. 14-18, Table 1); time per round, communication and accuracy with vs. without verification (Table 2)."
+P475,"PT, VT, COM, OVH, ACC, DET","COM, OVH, ACC, DET","ZKP generation and verification per epoch, from placeholder code (Table 3, p. 9); accuracy (Table 1); backdoor detection efficiency of its SafeSplit mechanism (Table 4); training time, communication and cryptographic overhead vs. standard split learning (Table 5)."
+P497,"PT, VT, PS, MEM",,"Prover time, proof size, verification and peak memory (Table 2, pp. 12-13)."
+P503,"PT, VT, PS, ST, COM, OVH, ACC, CONF","OVH, ACC, CONF","Key generation, proving, verification and proof size (Table I, p. 5); network cost vs. the scheme without ZKP; RMSE and accuracy degradation (Table II); attack success against the number of sampled steps (Fig. 3)."
+P586,ACC,ACC,Learning scores with vs. without the scheme (Fig. 4); no proof cost reported.
+P602,"PT, ST, MEM, CHAIN, ACC",ACC,"Witness, proof, compile and setup time and memory (Table I, p. 6; Figs. 4-5); gas; accuracy by number of participants (Fig. 6)."
+F0004,,,Framework paper; no evaluation.
+F0006,"PT, VT, PS, MEM, COM, CHAIN, OVH, ACC, DET","COM, OVH, ACC, DET","Proof generation, verification, proof size and prover memory (Table 12, p. 12); time, communication and gas per round vs. vanilla FL (Table 7, p. 8); accuracy under attack (Table 2, Fig. 2); detection rate and false-positive rate."
+F0028,"PT, VT, PS, ACC",,"Proving, verification and proof size (Tables 1-2, p. 5); test accuracy vs. fp32 (Table 4, Figs. 1 and 4)."
+F0083,"PT, VT, PS, ACC, DET","VT, ACC, DET","ZKP generation and validation time per round, 8.0 KB per round of on-chain storage (pp. 247-248); accuracy and attack detection rate (Table 1)."
+F0138,"COM, ACC",ACC,"Training time and communication per sample (Table IV, p. 12; proof cost not isolated); accuracy under poisoning (Table II)."
+F0199,,,"Only RISC Zero cycle counts (Figs. 4-6, p. 8)."
+B0007,"PT, VT, PS, ST, CHAIN, OVH, CONF","CHAIN, CONF","KeyGen, prove and verify vs. native execution (Table 1, p. 13); proof 288 bytes (p. 14); 27,265 gas per hash in the payment contract; 9 or 13 sampled iterations detect misbehaviour with probability above 95% or 99% (p. 11)."
+B0828,"COM, OVH, ACC",ACC,"Computation with and without verification (Fig. 3, p. 12); training traffic (Table VI, p. 14), and verification adds 0.24-1.50 MB of communication; accuracy, precision, recall and F1."

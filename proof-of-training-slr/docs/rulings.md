@@ -1,0 +1,24 @@
+# Written rulings
+
+The criteria were fixed before full-text reading. Questions that arose while reading were settled by written rulings, each applied to every study it affects. Rulings A to I were recorded on 19 October 2026; the amendments at the end were made later and take precedence.
+
+| Ruling | Question | Ruling applied | Option not taken | Studies it settles |
+|---|---|---|---|---|
+| A | What a proof has to cover | A proof that a study offers as its training check makes the study a cryptographic proof. How much of the training the proof covers is recorded as its verification scope. A proof that covers only the trained model's inference or accuracy, or only quantities computed outside training, does not check a training claim (out of scope). | Also exclude studies whose proof covers no step of training (norm bound only, commitment only) | P039 P066 P068 P071 P109 P125 P135 P141 P193 P197 P218 P227 P244 P256 P264 P290 P302 P375 P377 P421 P453 P459 P475 P586 F0006 F0035 F0083 F0334 F0508 |
+| B | Accuracy targets | If the verifiers measure accuracy themselves, against a target, on data released after the models are committed, and the study treats this as the mining puzzle, the type is Work puzzle. If validators only rank models, or the scores are self-reported, the study is out of scope. | Every accuracy gate out of scope | P640 F0029 B0105 B0210 B1647 B1852 P053 (Work puzzle); B0050 F0393 B0996 P300 (out) |
+| C | Checks that only screen updates | Checks that catch poisoned or anomalous updates but never check that training happened (outlier votes, norm screens, backdoor filters) put the study out of scope. | Classify as Model behaviour | P274 P545 P604 F0510 B0483 F0358 B1009 |
+| D | Role of a trusted execution environment | The TEE runs or re-executes the training: Trusted hardware. The TEE only records or signs what happens outside it: classify by the check that uses the record. The TEE runs a statistical test: classify by the test. The TEE only protects privacy and nothing is checked: out of scope. | Any TEE that runs the check is Trusted hardware | B1418 F0191 (Trusted hardware); P050 (Runtime behaviour); P403 (Model behaviour); P020 P349 (Redo the work); B0152 (out) |
+| E | Claims about training data | Checking the trainer's own claim about its training data is in scope (Model behaviour). Tracing whether someone else used one's data, where the trainer claims nothing, is out of scope. | Both out of scope | P267 P339 F0042 (in); B1740 (out) |
+| F | Enablers, attacks and frameworks | A tool that makes a check possible, an attack on a scheme, or a framework that borrows a proof is classified by the type it enables, attacks or borrows. | All three kinds out of scope | P623 B1323 (enablers); P520 P550 P291 (attacks); F0004 (framework) |
+| G | Theses | EC-4 excludes theses. The scheme of the dissertation B0525 is published in P080 and P386, which are included. | Keep theses found by snowballing as grey literature | B0347 B0525 |
+| H | Runtime behaviour as a type | Keep Runtime behaviour as a type (a record of how the training code ran is compared with what the expected code would produce). | Fold it into Trusted hardware | P212 P050 |
+| I | What counts as training | Fitting learned parameters to data counts, whatever the model: bandit statistics (P006), ensemble weights (P447), naive Bayes and trees (P008, P131, P172). A proof that the final model is correct (within epsilon of the optimum, or PAC-good) also counts. Proving training to back an ownership claim counts too; it is not watermarking, so EC-6 does not apply. | Outcome proofs and ownership uses out of scope | P006 P041 P333 P447 P538 P511 |
+
+## Amendments
+
+1. **Aggregation-only proofs (10 November 2026).** Proofs that cover only the server's aggregation of client updates, out of scope under ruling A, are included as a ninth type, *Aggregation-only proof*, defined by this narrower scope; they never enter the counts of the other eight types. Section 3.4 of the paper gives the reasons for and against, and the main counts both ways.
+2. **Preprints (10 November 2026).** Three studies available only as arXiv preprints (B0065, B0210, B0219) are excluded under IC-1.
+3. **EC-7 dropped.** A trusted execution environment that runs or re-executes the training is a mechanism in its own right (ruling D), so the criterion excluding guarantees that rest only on trusted hardware (EC-7) was dropped. The records excluded under it at screening are to be re-screened.
+4. **Norm-bound proofs (clarifies rulings A and C).** A check that only screens updates is out of scope (ruling C) unless the study offers it as its proof of training (ruling A). The four studies that offer a proof of a bound on the update norm as their proof of training (P039, P125, P141, P290) are included and coded at the Related step scope level.
+
+Section 3.4 of the paper summarises the rulings that change the scope.

@@ -1,0 +1,55 @@
+id,scheme,trusted_setup_or_key_authority,honest_data_source,trusted_server_coordinator_or_verifier,honest_majority_or_bounded_collusion,unbiased_randomness,unchecked_input_off_chain_step_or_program,rational_participants,determinism_or_arithmetic_bounds,any_group_not_stated
+B0007,VeriML,stated,,,,,stated,stated,,
+B0828,Hu et al. (SVM in the cloud),stated,stated,,stated,,,,,
+F0004,Verifiable AI pipelines (framework),,stated,stated,,,,,,
+F0006,PoL-BFL,not stated,stated,,stated,stated,,stated,stated,Y
+F0028,ZKAUDIT,stated,stated,,,stated,,,,
+F0083,ZKP-enhanced SMPC FL (healthcare),,,,not stated,,,,,Y
+F0138,Ripple,stated,stated,stated,,,,,,
+F0199,PAC to the Future,,not stated,,,stated,,,,Y
+P006,zkUCB,stated,,,,,,,,
+P008,Building Resilient AI,stated,stated,,,,,,,
+P039,Pro-ZkFL,not stated,,stated,,stated,,stated,,Y
+P066,"Trusted aggregation (DFL, healthcare)",stated,stated,,stated,,,,,
+P068,AZKDL / DPoDL,,,,stated,,,,,
+P071,Secure GANs,stated,,,,,,stated,,
+P089,Hierarchical recursive proofs,,not stated,stated,,,,,,Y
+P109,Polynomial proxy model,stated,not stated,not stated,,,not stated,,,Y
+P112,TrustDFL,stated,not stated,,stated,,,,,Y
+P125,Verifiable FL with ZKP and blockchain,stated,,stated,,,,,,
+P131,Federify,stated,stated,,stated,,,,,
+P135,PoL with lattice ZKP,,not stated,,,,,,,Y
+P141,FCC-PCF,,,stated,,,,,,
+P151,PILE,,stated,stated,,,,,,
+P172,Sparrow,not stated,,,,,,,stated,Y
+P184,ZKPoFL,,stated,stated,,,,,,
+P188,Computational attestations (DP regression),,,,,not stated,stated,,,Y
+P193,DeSA,stated,,stated,stated,,,,,
+P197,BFLP,not stated,not stated,stated,stated,,stated,,,Y
+P198,"Verifiable computations (FL, zkVM)",,stated,stated,,,,,,
+P218,Compute-network scheduling,stated,,,,,,,,
+P223,Zkfhed,,stated,,stated,,stated,stated,,
+P227,FL trusted data sharing,not stated,,not stated,,,,,,Y
+P256,DI3,,not stated,,stated,,,stated,,Y
+P264,TeleZK-FL,stated,not stated,stated,,,,,,Y
+P290,Autonomous trust ZK blockchain,stated,,,stated,,not stated,,,Y
+P302,TMT-FL,stated,stated,stated,,,,,,
+P303,zkPoT (Garg et al.),,stated,,,stated,,,,
+P321,Confidential-DPproof,,stated,,,,,,,
+P333,Founding ZKPoT,,not stated,,,,,,stated,Y
+P345,SUMMER,,,,,,,,,
+P377,zkVFL,,not stated,stated,,,,,,Y
+P392,Computational attestations (back-propagation),,,,,,not stated,,,Y
+P412,End-to-end verifiable DFL,stated,stated,,not stated,,,,,Y
+P421,Zero-knowledge AI (FL),,not stated,not stated,,,,,,Y
+P424,zkDL,,not stated,,,stated,,,,Y
+P432,Verifiable privacy-preserving FL training,,not stated,stated,,,,,,Y
+P447,ZQ-WMA,stated,,stated,,stated,,,,
+P453,Jolt-FL,stated,stated,stated,,,,,,
+P456,BFL with ZKPs (training and aggregation),stated,stated,,not stated,,,,,Y
+P459,Hybrid poly commitments (Binius),stated,,stated,stated,stated,,,,
+P475,HavenSL,,,,,,,,,
+P497,Kaizen,,,,,,,,,
+P503,zkMLaaS,stated,,,,not stated,,,,Y
+P586,PFRL,stated,,not stated,,,,,,Y
+P602,Off-chain verifiable BFL,not stated,stated,,not stated,,,,,Y
