@@ -1,0 +1,21 @@
+id,evidence
+B0007,one mini-batch training step is recomputed in fixed-point arithmetic
+F0006,fixed-point trace-consistency checks with tolerances
+F0028,fixed-point weight update
+P006,quantized UCB1 with polynomial approximations
+P089,CNN training logic in R1CS with fixed-point encoding
+P125,quantized-SGD step (u = -eta g after quantization)
+P131,data shifted positive and parameters scaled by 10^d for integer arithmetic
+P172,commitments to a quantized dataset
+P188,Rust guest program in fixed-point arithmetic
+P264,INT8-quantized forward pass; FP32 training outside the circuit
+P303,fixed-point arithmetic with truncation
+P333,fixed-point interval arithmetic
+P345,fixed-point forward pass (tanh/softmax via lookups)
+P392,Rust no_std guest with fixed-point arithmetic
+P424,quantized ReLU and its backpropagation
+P447,quantized weighted-majority algorithm
+P456,gradient update in fixed-point arithmetic
+P459,binary quantization of the model
+P497,one fixed-point GD step
+P503,quantized training step with polynomial-approximated sigmoid/softmax

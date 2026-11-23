@@ -1,0 +1,55 @@
+id,qac5,limitations,pages,themes
+B0007,Y,"Discusses CRS subversion, aborts/DoS, delivery and algorithm choice.",11-12,"Trust assumption, Other"
+B0828,P,Only fixed-point truncation error and future work are mentioned,"11, 15",Arithmetic or approximation
+F0004,P,Gaps in existing tools discussed; little on own framework's limits,6-9,
+F0006,Y,"Limitations: hardware heterogeneity, model scale, semantic poisoning, fixed parameters",9,"Determinism, Cost or scale, Data poisoning"
+F0028,Y,Data poisoning and revealed architecture named as limitations,4,"Data poisoning, Other"
+F0083,N,No limitations discussed; only a brief future-work sentence,248,
+F0138,Y,"Discusses KGC and MO trust, data poisoning, overhead",13,"Trust assumption, Data poisoning, Cost or scale"
+F0199,P,Notes NIZK overhead limits scale to small applications.,"5, 7",Cost or scale
+P006,N,No limitations or threats to validity discussed,7,
+P008,P,"Brief discussion of efficiency, single proof system, toy model",8,Cost or scale
+P039,N,No limitations or threats to validity are discussed,5,
+P066,Y,"Homogeneous models, fixed inputs, high-resolution cost and synthetic datasets acknowledged","2, 7","Cost or scale, Evaluation"
+P068,P,Only future work on network costs and reduction proof,7,Cost or scale
+P071,N,No limitations or threats to validity discussed.,113,
+P089,P,Only future work noted; no explicit limitations section,5-6,
+P109,P,"Notes proxy accuracy loss, verifier bottleneck, linear proof size.","9, 12, 14","Cost or scale, Arithmetic or approximation"
+P112,P,"Brief list: proving time, circuit-specific setup, communication overhead",18,"Cost or scale, Trust assumption"
+P125,Y,"Limitations: narrow threat model, honest leader, privacy, overhead",6,"Trust assumption, Cost or scale, Other"
+P131,P,"Notes data poisoning, ZoKrates and memory limits; no dedicated section.",10-12,"Data poisoning, Cost or scale"
+P135,N,No limitations or threats to validity discussed,p. 4,
+P141,P,Concedes valid updates may be malicious; no limitations section,"4, 6",Data poisoning
+P151,P,Overheads and deployability discussed; poisoning out of scope; little else,16-17,"Cost or scale, Data poisoning"
+P172,P,Notes larger proofs and layered padding; no limitations section,"3, 12",Cost or scale
+P184,N,No limitations or threats to validity discussed,5-6,
+P188,P,"Notes VRAM batching, unsafe Rust risk, simple model only","69, 72, 76","Cost or scale, Other"
+P193,P,Only notes added time overhead and future efficiency work,13,Cost or scale
+P197,Y,"Scope, determinism, model size and assumption limits discussed at length","pp. 9-10, 25-26","Partial coverage or scope, Determinism, Cost or scale, Trust assumption"
+P198,P,Limitations cover only FHE accuracy and cost overheads,p. 13,"Arithmetic or approximation, Cost or scale"
+P218,N,No limitations or threats to validity are discussed.,5,
+P223,P,Only scattered scope remarks; no limitations section,"5, 10-11",
+P227,P,Only non-IID and communication overhead limitations mentioned briefly.,10,"Cost or scale, Other"
+P256,Y,Dedicated limitations section covering overhead and integration complexity.,5,"Cost or scale, Other"
+P264,Y,"Dedicated section admits partial coverage, setup, quantum limits.",12,"Partial coverage or scope, Trust assumption, Other"
+P290,P,Brief limitations; proof coverage gap not acknowledged.,37,
+P302,Y,"Discusses non-linear cost, fixed data split, encrypted poisoning limits",16-17,"Cost or scale, Other, Data poisoning"
+P303,Y,"Modified training algorithm, proof size and preprocessing cost acknowledged","5, 11-13","Arithmetic or approximation, Cost or scale"
+P321,P,Notes shuffle-versus-Poisson mismatch and pre-commitment data manipulation only,"5-6, 9","Data poisoning, Other"
+P333,P,Notes convex-only scope; no dedicated limitations discussion.,14,Partial coverage or scope
+P345,P,Only model-choice and baseline-comparability caveats; no limitations section,"2, 10, 12",Evaluation
+P377,N,No limitations or threats to validity are discussed.,10,
+P392,P,GPU memory limits and non-private inference briefly noted,"359, 362, 366",Cost or scale
+P412,Y,"Trust in task initiator, CA, replay and overheads discussed",p. 8,"Trust assumption, Cost or scale"
+P421,N,Only future work; no limitations or threats discussed.,6,
+P424,P,"Future work on attention, randomness; verifier-time anomaly noted",pp. 12-13,"Cost or scale, Other"
+P432,P,Model weight leakage and prover overhead noted only briefly,"7, 12","Cost or scale, Other"
+P447,P,Notes accuracy decay over many rounds; no security limitations,6-8,Arithmetic or approximation
+P453,P,"Data poisoning out of scope, honest server, scaling briefly noted",pp. 4-5,"Data poisoning, Trust assumption, Cost or scale"
+P456,Y,Data poisoning and side channels acknowledged as open risks,9-10,"Data poisoning, Other"
+P459,Y,Explicit limitations and threats-to-validity sections,20-22,
+P475,N,No limitations or threats to validity discussed.,10-11,
+P497,Y,"Notes missing ZK, recursion-depth limit, extrapolated baselines","6, 11-12","Partial coverage or scope, Evaluation"
+P503,N,No limitations or threats to validity discussed,6,
+P586,N,No limitations or threats to validity discussed,324-334,
+P602,P,ZoKrates limits and remaining trust assumptions noted briefly,"pp. 4, 8","Cost or scale, Trust assumption"

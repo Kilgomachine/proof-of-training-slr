@@ -1,0 +1,17 @@
+id,also_listed_as,year,title,venue,doi_or_link,kind
+B0049,,2020,A training-integrity privacy-preserving federated learning scheme with trusted execution environment,Information Sciences 522,https://doi.org/10.1016/j.ins.2020.02.037,
+P046,,2026,Integrity verification of cloud-based neural network model training,Neurocomputing,https://doi.org/10.1016/j.neucom.2026.134269,
+P076,B0222,2024,VPFL: Enabling verifiability and privacy in federated learning with zero-knowledge proofs,Knowledge-Based Systems,https://doi.org/10.1016/j.knosys.2024.112115,
+P268,,2025,DePoL: Assuring training integrity in collaborative learning via decentralized verification,Journal of Parallel and Distributed Computing,https://doi.org/10.1016/j.jpdc.2025.105056,
+P282,B0790,2024,VeriCNN: Integrity verification of large-scale CNN training process based on zk-SNARK,Expert Systems with Applications,https://doi.org/10.1016/j.eswa.2024.124531,
+F0018,,2025,Federated cross-chain trust training for distributed smart grid in Web 3.0,Applied Soft Computing,https://doi.org/10.1016/j.asoc.2025.113313,
+F0171,,2026,TOMLS-ZKSDO: A secure off-chain zero knowledge machine learning framework for privacy protection on blockchain,Computer Networks,https://doi.org/10.1016/j.comnet.2026.112685,
+P144,B0547,2025,Integrating zero-knowledge proofs into federated learning: a path to on-chain verifiable and privacy-preserving federated learning frameworks,International Journal of Web Information Systems,https://doi.org/10.1108/IJWIS-01-2025-0024,
+P367,,2026,Byzantine-resistant model verification for decentralized federated learning in intelligent transportation systems,Applied Soft Computing,https://doi.org/10.1016/j.asoc.2025.114193,
+P588,,2022,Pole-2p: Improved consensus algorithm based on Proof of Learning,Proceedings of SPIE - The International Society for Optical Engineering,https://doi.org/10.1117/12.2641280,Paywalled (SPIE Digital Library); the author checked 19 Oct
+P618,,2022,PPSS: A privacy-preserving secure framework using blockchain-enabled federated deep learning for Industrial IoTs,Pervasive and Mobile Computing,https://doi.org/10.1016/j.pmcj.2022.101738,Only the first author's thesis is free (not the article)
+B0244,,2022,A privacy-preserving and verifiable federated learning method based on blockchain,Computer Communications 186,https://doi.org/10.1016/j.comcom.2022.01.002,
+B1244,,2022,Non-interactive verifiable privacy-preserving federated learning,Future Generation Computer Systems 128,https://doi.org/10.1016/j.future.2021.10.017,
+P266,,2024,Comparing a novel proof of learning based consensus protocol with the proof of vote protocol to reduce attack probability in the Ethereum blockchain network,AIP Conference Proceedings,https://doi.org/10.1063/5.0233170,
+B1075,,,zkml: Trustless machine learning for all,GitHub repository and blog post,,
+"Free copies were checked on 18 Oct (publisher open access, open proceedings, arXiv, author pages; no shadow libraries) and the seven free links re-checked on 19 Oct (those seven are now read and classified). ""No"" means only a paywalled publisher page was found.",,,,,,

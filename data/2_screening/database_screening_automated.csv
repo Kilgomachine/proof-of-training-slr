@@ -1,0 +1,657 @@
+id,decision,criterion,note,confidence
+P001,exclude-borderline,EC-5,"zkSNARK framework for verifiable DNN inference; matrix ops, training never mentioned",low
+P002,exclude,EC-5,ZKP and SMPC protect gradient transmission in federated learning; transport security,high
+P003,exclude,EC-5,"Certification of deployed ML application properties: fairness, robustness, privacy",medium
+P004,exclude,EC-4,CCS thesis proposal; on-topic proof-of-optimality thrust but doctoral proposal genre,high
+P005,exclude,EC-5,Corporate technical competence management; human staff training,high
+P006,include,,zk-SNARK proves UCB bandit learning execution over private training data,medium
+P007,exclude-borderline,EC-5,"ZKP, DID and blockchain FL architecture; proof covers identity and traceability",low
+P008,include,,ZKP verifies correct model computation by delegated trainer; anti-poisoning,high
+P009,exclude,EC-5,"ZK layer validates gradient norms during FL aggregation, not the computation",medium
+P010,exclude,EC-5,Lattice commitment scheme; matched on learning with errors/rounding,high
+P011,exclude,EC-5,ZK verifier validates deepfake detector outputs; inference,high
+P012,exclude,EC-5,RLVR reasoning environments; verifiers score generated answers,high
+P013,exclude,EC-5,Agentic LLM verifier re-checks predicted clinical labels; inference scoring,high
+P014,exclude,EC-5,TEE batch-verifies aggregate signatures on uploaded gradients; transport and identity,medium
+P015,exclude,EC-5,ZKP-based continuous biometric authentication,high
+P016,include,,[SCOPE: aggregation] aggregator proves correct aggregation to clients each round,high
+P017,exclude,EC-5,"ML selects ESG report verifiers; ML-as-instrument, no model proof",high
+P018,exclude,EC-5,ZK verification of edge generative AI inference by UAV swarms,high
+P019,exclude,EC-3,Critical review of eKYC identity security in India,medium
+P020,include-borderline,,[SCOPE: TEE] TEE lets model owner verify FL training process integrity,medium
+P021,exclude,EC-5,Visual tracking; verifier is a similarity-scoring module,high
+P022,exclude,EC-5,Multi-agent LLM reasoning; lightweight verifier scores candidate answers,high
+P023,exclude,EC-5,QBF/QCDCL proof systems; cube learning is clause learning,high
+P024,exclude,EC-5,Blockchain self-sovereign identity and access control for health records,high
+P025,exclude,EC-5,Neural fault detection in motor drives; no proof mechanism,high
+P026,exclude,EC-5,Theorem prover constrains RL agent behaviour; norm compliance,high
+P027,exclude,EC-5,CEGIS learner-verifier synthesising Lyapunov stability certificates,high
+P028,exclude,EC-5,LLM learner modeling for education; human learning pathways,high
+P029,exclude,EC-5,RL from verifiable feedback; verifiers score generated designs,high
+P030,exclude,EC-5,Federated swarm remote attestation of IoT device integrity,high
+P031,exclude,EC-4,Vision and research agenda paper on foundation world models,high
+P032,exclude,EC-4,Doctoral research piece on verifiable coded distributed inference,high
+P033,exclude,EC-5,LLM generates formal proofs for Rust code; symbolic verifier,high
+P034,exclude,EC-5,Process-supervised verifier annotating LLM reasoning steps,high
+P035,exclude,EC-5,"Blockchain fraud detection, ZK authentication, consensus tuning",high
+P036,exclude,EC-5,CCA attestation that genuine models run on edge devices; deployment,medium
+P037,exclude,EC-5,Lemma discovery and strategy training for inductive theorem proving,high
+P038,exclude,EC-5,RLVR with self-verification of LLM solutions,high
+P039,include,,"ZKP audits of FL local updates, probabilistically challenged; computational integrity",high
+P040,exclude,EC-5,Benchmark evaluating reasoning verifiers for RLVR,high
+P041,include,,Formal analysis and generic construction of proof-of-training schemes for DNNs,high
+P042,include-borderline,,[SCOPE: TEE] TEE ensures federated GBDT training integrity and contribution scoring,medium
+P043,include-borderline,,[SCOPE: TEE] TEE commitments prove clients actually trained; free-rider detection,medium
+P044,include-borderline,,ZKP validation of FL local model updates; proof object under-specified,low
+P045,exclude,EC-5,Medical verifier checks LLM answers; verifier-based RL,high
+P046,include-borderline,,[SCOPE: TEE] verifies integrity of cloud-based neural network model training,medium
+P047,exclude,EC-5,Differentiable logics; NN verifier checks trained network properties,high
+P048,exclude,EC-4,Vision paper on adaptive permissioned blockchain databases,high
+P049,include,,Blockchain consensus trains models and proves training on client-provided data,high
+P050,include-borderline,,[SCOPE: TEE] TEE attests local FL training control flow to server,medium
+P051,exclude,EC-5,ZK proof of deployed generative model quality; inference-time verification,medium
+P052,include,,[SCOPE: aggregation] ZK proof of faithful weighted aggregation in data marketplace,high
+P053,include-borderline,,Proof-of-learning consensus mining by training binary networks; mechanism unspecified,low
+P054,exclude,EC-5,Synthetic attacks on offline handwritten signature verifier; biometrics,high
+P055,exclude,EC-5,ASIC accelerator for HyperPlonk zero-knowledge proving,high
+P056,exclude,EC-5,AI in maritime education; proof of learning means student assessment,high
+P057,exclude,EC-5,Online handwriting biometric verification model,high
+P058,exclude,EC-5,Learner-verifier framework for control Lyapunov functions,high
+P059,exclude,EC-5,GUI grounding with a verifier selecting action regions,high
+P060,exclude,EC-5,Distributed zero-knowledge proof theory; no ML training target,high
+P061,exclude,EC-5,ZK attestation of DoH client and resolver integrity,high
+P062,exclude,EC-5,Conceptual RL-LLM framework; verifier partitions reasoning horizons,high
+P063,exclude,EC-3,Literature-derived taxonomy mapping privacy risks to privacy-enhancing technologies,medium
+P064,exclude,EC-5,RL trains LLMs to self-verify their own answers,high
+P065,exclude,EC-5,ML classifiers predict SAT satisfiability; theorem proving,high
+P066,include,,zk-SNARK verifiable local training and aggregation in federated healthcare,high
+P067,exclude,EC-5,Metric meta-learning for signature biometric verification,high
+P068,include,,Aggregated ZK proofs of distributed model training; proof-of-deep-learning mining,high
+P069,exclude,EC-5,Off-policy RL fine-tuning; generative verifier is a model,high
+P070,exclude,EC-5,Theory of verifier-based test-time compute scaling,high
+P071,include,,ZKP proves discriminator built correctly and used to train generator,medium
+P072,exclude-borderline,EC-5,Verifiable on-chain inference; PoL gate admits updates meeting performance criteria,low
+P073,exclude,EC-5,TEE checks geometric consistency of encrypted updates and node identity,medium
+P074,include-borderline,,Interactive proof systems verifying delegated agnostic PAC learning; theory,medium
+P075,exclude,EC-5,zk-STARK tags audit DP noise and privacy compliance in FL,low
+P076,include,,ZKP lets third party publicly verify the federated training process,high
+P077,exclude,EC-5,Blockchain credential certification for human lifelong learning,high
+P078,exclude,EC-5,Verifier module iteratively corrects LLM graph generation outputs,high
+P079,exclude,EC-4,Invited talk; RL branching heuristic for neural network verification,medium
+P080,include,,Watermark-strengthened proof-of-learning resisting spoofing of training trajectory,medium
+P081,exclude,EC-5,ML repairs Isabelle/HOL proofs for software verification,high
+P082,include,,[SCOPE: aggregation] client verifies server aggregation correctness via zero-knowledge proof,medium
+P083,include,,FL aggregation correctness proven by server to clients via ZKP [SCOPE: aggregation],high
+P084,exclude,EC-5,"ZKP covers private set intersection, not training computation",high
+P085,exclude,EC-5,Lyapunov/ROA certificate for learned controller; object is stability,high
+P086,exclude,EC-5,LLM theorem proving for olympiad inequalities; proof object is mathematics,high
+P087,exclude,EC-5,"ZKP audits fairness metric over model outcomes, not training",high
+P088,exclude,EC-5,Remote attestation of device memory; ML is the verifier's classifier,high
+P089,include,,"ZK proofs bind device identity, data integrity and local training correctness",high
+P090,exclude,EC-5,"Theorem provers as teaching tools; human education, not model training",high
+P091,exclude,EC-5,Fine-tuned model verifies MLLM outputs; object is inference,high
+P092,include-borderline,,ZKVM integrity verification of ML computation in federated learning; target underspecified,low
+P093,exclude,EC-5,ZKP for device authentication; DL is the anomaly detector,high
+P094,exclude,EC-5,SAT clause learning and proof preprocessing; unrelated to ML training,high
+P095,exclude,EC-5,ZKPs prove DeFi transactions; deep learning optimizes proof generation,high
+P096,exclude,EC-5,Lean 4 interface for machine-assisted theorem proving,high
+P097,include,,Zero-knowledge proof-of-learning consensus; miners prove DL model training,medium
+P098,exclude,EC-5,CEGIS barrier certificate synthesis; object is system safety,high
+P099,exclude,EC-5,ZKP authenticates products in supply chain; ML detects counterfeits,high
+P100,exclude,EC-5,"zk-SNARKs verify detected anomalies, not model training",high
+P101,include-borderline,,Blockchain mutual learning with ZKP on shared knowledge; proof target unclear,low
+P102,exclude,EC-5,Formal analysis of attested TLS protocol; no ML training,high
+P103,exclude,EC-4,Demo paper; registry verifies model identity and inference execution,medium
+P104,exclude,EC-5,ZKPs from Learning Parity with Noise; lattice crypto keyword match,high
+P105,exclude,EC-5,Framework for proof data synthesis and neural theorem proving,high
+P106,exclude,EC-3,Survey of verifiable cross-silo federated learning protocols,high
+P107,exclude,EC-5,Validates MLaaS inference results inside TEE; object is inference,high
+P108,include,,Auditor verifies LLM developer followed declared training recipe per step,high
+P109,include,,ZKP over polynomial proxy models verifies local training computation integrity,high
+P110,exclude,EC-5,Learner-verifier synthesis of control barrier certificates; object is safety,high
+P111,exclude,EC-5,Compares ML with Kalman filtering for state estimation; preliminary V&V study,medium
+P112,include,,Groth16 proofs of local training forward and backward passes,high
+P113,exclude,EC-5,NLI verifier checks evidence spans supporting model explanations,high
+P114,exclude,EC-5,GPU accelerator for batch ZKP generation; ML application is inference,medium
+P115,exclude,EC-5,Trains stable neurons to speed DNN robustness verification,high
+P116,exclude,EC-5,Model self-verifies its own generations during post-training,high
+P117,exclude-borderline,EC-5,ZKP sharding for cross-domain recommendation privacy; verifiability claim unexplained,low
+P118,exclude,EC-5,Rule-based verifier scores puzzle answers for RLVR training,high
+P119,exclude,EC-5,zk-SNARK circuits for convolution and activation; proves MLaaS inference,medium
+P120,exclude,EC-5,Formal verifier feedback rewards LLM-generated infrastructure code,high
+P121,exclude,EC-5,ILP rules explain tactic prediction in interactive theorem provers,high
+P122,exclude,EC-5,Reachability-based robustness verification of recurrent neural networks,high
+P123,exclude,EC-5,Process-based verifier scores LLM reasoning steps,high
+P124,exclude,EC-5,"Prover-verifier games; object is task answers, not training",high
+P125,include,,Multi-constraint ZKP per local update enables verification of local training,high
+P126,exclude,EC-5,ZKP authentication pipeline for telemedicine; ML scores risk,high
+P127,exclude,EC-5,Neural estimation of kinematic features for signature biometrics,high
+P128,exclude,EC-5,Neural network verifier falsifies learned controllers; object is safety,high
+P129,exclude,EC-5,LLM generates barrier certificates validated by SOS/LMI checks,high
+P130,exclude,EC-4,Work-in-progress education study on ePortfolios; proof of learning is idiomatic,high
+P131,include-borderline,,zkSNARK-verifiable model parameters in blockchain FL; proof coverage needs full text,medium
+P132,exclude,EC-5,"ZKP proves offloading capability and task completion, not training",high
+P133,exclude,EC-5,Fine-tunes a model to verify summary facts,high
+P134,exclude,EC-5,MPC-in-the-head NIZK for lattice secret keys; LWE keyword match,high
+P135,include,,ZKP proves prover's own data was correctly used for training,high
+P136,exclude,EC-5,Privacy-preserving speaker verification; biometric matching under MPC,high
+P137,exclude-borderline,EC-5,zk-SNARKs in data trading market; proof seems to cover contribution valuation,low
+P138,include,,On-chain proof of correct aggregation plus clipping proofs [SCOPE: aggregation],high
+P139,exclude,EC-5,Self-play LLM theorem prover with formal verifiers,high
+P140,exclude,EC-5,Forensic DNA protocol verification testing; human laboratory training,high
+P141,include-borderline,,zk-SNARK commitments claimed to guarantee verifiable local training; details thin,medium
+P142,include,,ZKP verifies server's weighted aggregation of gradients [SCOPE: aggregation],high
+P143,include,,Optimistic verifiable training; auditor replicates training despite GPU nondeterminism,high
+P144,include,,ZKP verifies segmented local training process and aggregation correctness,high
+P145,exclude-borderline,EC-5,zk-SNARK over FL model updates; evaluation only covers detection accuracy,low
+P146,exclude,EC-5,ZKP blockchain for EHR privacy and auditing; FL detects intrusions,high
+P147,exclude,EC-3,Taxonomy and review of eBPF-based intrusion detection systems,high
+P148,exclude,EC-3,Systematic review of deepfake detection methods,high
+P149,exclude,EC-5,Verifier checks LLM-extracted chemistry reaction data,high
+P150,exclude,EC-5,CEGAR verification of neural Lyapunov-barrier certificates,high
+P151,include,,Server verifies computation process of local gradients via zero-knowledge proofs,high
+P152,exclude,EC-5,Proof-theoretic analysis of QBF solver; clause learning keyword match,high
+P153,exclude,EC-5,CNN independently verifies sunspot recognition outputs,high
+P154,exclude,EC-5,Neural contraction metrics verified for dynamical system stability,high
+P155,exclude,EC-4,Work-in-progress DSL for Coq interactive theorem proving,low
+P156,exclude,EC-5,Formal equivalence verifier rewards LLM compiler optimizations,high
+P157,include-borderline,,TEE duplicated-execution checks of cloud training integrity [SCOPE: TEE],high
+P158,exclude,EC-5,Geometric correspondence verification in point cloud registration,high
+P159,exclude,EC-5,Multimodal process reward model verifies reasoning steps,high
+P160,exclude,EC-5,Learning-guided automated theorem proving over Mizar library,high
+P161,exclude,EC-5,Deep learning attestation of IoT device RAM traces; identity,high
+P162,include,,Proof of GCN self-supervised training by checking training reproducibility,high
+P163,exclude,EC-4,Short paper refining proof systems for concurrent process verification,medium
+P164,exclude,EC-5,Mining reusable tactics from interactive theorem prover proofs,high
+P165,exclude,EC-5,RL with model-based reward verifier scoring summaries; ML-sense verification,high
+P166,exclude,EC-5,XAI decision-tree railway prediction; no proof of training,high
+P167,exclude,EC-5,ZKP transcript threshold proof; credentials not training,high
+P168,exclude-borderline,EC-5,ZKP plus blockchain FL for COVID classification; ZKP used for confidentiality,low
+P169,exclude,EC-5,ZKP fairness auditing of deployed ML systems; not training,high
+P170,exclude,EC-5,Online learning for Coq tactic prediction; formal theorem proving,high
+P171,exclude,EC-5,"zkLLM/zkAttn proofs of LLM inference, not training",medium
+P172,include,,zkSNARK proofs of decision-tree training and prediction,high
+P173,exclude,EC-5,Platform verifying NN properties like robustness; not training,high
+P174,exclude,EC-5,GAN image watermarking with blockchain; verifies watermark authenticity,high
+P175,exclude,EC-5,Personal data ecosystem; verification covers credentials and sharing,medium
+P176,exclude,EC-5,Verifier-in-loop RL; verifier is tool scoring generated programs,high
+P177,include,,ZKP lets FL clients prove correctness of local model training,medium
+P178,exclude,EC-5,Generic multi-server verifiable computation scheme; no ML training,high
+P179,exclude-borderline,EC-5,Blockchain tourism with GAN proof-of-learning consensus; object unclear,low
+P180,exclude,EC-5,ZKP for AIoT device authentication; identity not training,high
+P181,exclude,EC-5,Wavelet neural network for fractional PDEs; spurious proof match,high
+P182,exclude,EC-5,LLM plus symbolic automated theorem proving,high
+P183,exclude,EC-5,Learner-refiner synthesis of barrier certificates; formal methods,high
+P184,include,,ZKPs cover full FL training lifecycle plus data provenance,high
+P185,exclude,EC-5,Zero-knowledge validation of gradient L2/Linf norms only,high
+P186,exclude,EC-5,Seafood parasite ISO method verification; human staff training,high
+P187,include-borderline,,FL client verification of data and training integrity [SCOPE: TEE],medium
+P188,include,,zkSNARK attestation of correct DP linear regression training,high
+P189,exclude,EC-5,Verified converter for trained networks into Coq; not training,high
+P190,exclude,EC-5,"Zero-knowledge proof of model fairness property, not training",high
+P191,exclude,EC-5,On-device negotiation agents; ZKP hides financial constraints,high
+P192,include-borderline,,Federated unlearning with ZKP verifiable deletion; unlearning updates weights,low
+P193,include,,zk-SNARKs verify local training process and aggregation integrity,high
+P194,exclude,EC-5,Multimodal chain-of-thought verifier model; ML-sense verification,high
+P195,include,,ZKP proves correct dropout execution in training steps,medium
+P196,exclude-borderline,EC-4,ZKP verifies FL training process but venue is abstracts book,medium
+P197,include,,Training correctness proof binds update to committed data and algorithm,high
+P198,include,,ZKVM produces execution integrity proofs for federated learning nodes,high
+P199,exclude,EC-5,Frequency-domain robustness verification and certified training of networks,high
+P200,exclude,EC-5,Mathematics education study of classroom proof progression,high
+P201,exclude,EC-5,Lattice NIZK from learning with errors; crypto theory,high
+P202,exclude,EC-5,Lightweight software model-checking tool,high
+P203,exclude,EC-5,Neuro-symbolic automated theorem proving pipeline,high
+P204,exclude,EC-5,Tourism micro-credential programme perceptions; human education,high
+P205,exclude,EC-3,Survey of zero-knowledge verifiable machine learning,high
+P206,exclude,EC-5,SWE agent training environment; verifiers rank agent trajectories,high
+P207,exclude,EC-5,ML handwritten signature authentication; biometrics,high
+P208,exclude,EC-5,Algebra formative assessment platform; human education,high
+P209,exclude,EC-5,ZKP secures distributed RL communication integrity; transport,high
+P210,exclude,EC-5,Merkle ZKP authenticates recommender requests; identity,high
+P211,exclude,EC-5,Training multimodal fact-checking models; ML-sense verification,high
+P212,include-borderline,,Runtime attestation of FL local training via signed evidence [SCOPE: TEE],medium
+P213,include,,ZK protocol verifies server aggregation integrity [SCOPE: aggregation],medium
+P214,include,,Proves SGD checkpoints unforgeable; underpins proof-of-learning soundness,high
+P215,exclude,EC-5,Speculative decoding with hash-set verifier; inference acceleration,high
+P216,exclude,EC-5,Quantum Hoare logic for program verification,high
+P217,exclude,EC-5,Zero-knowledge range proof for educational credentials,high
+P218,include-borderline,,Compute-network scheduling with zk-SNARK verifiable outsourced training; proof secondary,low
+P219,exclude,EC-5,Deep learning maps political orientation in fact-checked news,high
+P220,exclude,EC-5,Blockchain provenance framework for fake news detection,high
+P221,exclude,EC-7,Hierarchical FL training inside TEE; no verifiable argument,medium
+P222,exclude,EC-5,GPU-accelerated verification of power-system ML model properties,high
+P223,include,,ZKP audit verifies data provenance and adherence to training protocol,high
+P224,exclude,EC-5,ZKP used for metaverse identity verification alongside FL,high
+P225,exclude-borderline,EC-5,Taylor-series zkML circuits verifying result correctness; likely inference,low
+P226,exclude,EC-3,Systematization-of-knowledge review of ZKPs for AI,high
+P227,include,,zk-SNARKs verify participants' local training behaviour on chain,medium
+P228,exclude,EC-5,ZK pre-verification for IIoT attribute-based access control,high
+P229,exclude,EC-5,Unsupervised clustering plus ZKP for IoT device trust scoring,high
+P230,exclude,EC-5,Evidence-revisiting fact verification model; ML-sense verification,high
+P231,exclude,EC-5,SNARK proofs of classifier inference for blockchain oracles,high
+P232,exclude,EC-6,Embedding watermarking to detect model stealing; IP protection,high
+P233,exclude,EC-5,Aggregatable key-evolving verifiable random functions; blockchain crypto,high
+P234,exclude,EC-5,Blockchain trust anchors for decentralized identity; TRAIN name match,high
+P235,exclude,EC-5,Cascade anomaly detection with multimodal verifier model,high
+P236,exclude,EC-5,Theorem-prover verification of neural cyber-physical systems,high
+P237,exclude,EC-5,Neural signer/verifier authenticating transmitted semantic symbols,high
+P238,exclude,EC-5,Learner-verifier neural certificates for policy safety verification,high
+P239,exclude,EC-5,Instruction-tuned LLM verifier for biomedical information extraction,high
+P240,exclude,EC-5,ML attack on SD-JWT credential unlinkability; identity,high
+P241,exclude,EC-6,NeRF model watermarking for copyright ownership proof,high
+P242,exclude,EC-5,GRPO with verifiable rewards for remote-sensing VQA,high
+P243,exclude,EC-5,Microgrid control validation with barrier certificates; not training,high
+P244,include,,ZKPs give evidence of honest local training before update submission,medium
+P245,exclude,EC-5,Trained verifier selects reasoning paths for claim checking,high
+P246,exclude,EC-5,GRPO improvements for theorem proving with formal verifier rewards,high
+P247,exclude,EC-5,"ZKP validates FL client input weights and bounds for secure aggregation, not training",medium
+P248,exclude,EC-5,"CEGIS-style learning of program invariants; formal methods, no ML training proof",high
+P249,exclude,EC-5,LLM agent planning guided by verifier and rewarder models; ML scoring,high
+P250,exclude,EC-5,process reward model verifying reasoning steps; ML scoring,high
+P251,exclude,EC-5,research agenda for verifying LLM-driven systems; target is system behaviour,low
+P252,exclude,EC-5,public auditing of outsourced cloud data integrity; no ML training,high
+P253,exclude,EC-5,reinforcement learning for clause selection in a theorem prover,high
+P254,exclude-borderline,EC-5,"position-style framework; ZKP consensus secures FL coordination, training proof unspecified",low
+P255,exclude,EC-5,"blockchain credentials for human learners; ZKP for privacy, education",high
+P256,include-borderline,,blockchain-AI architecture; one component is ZKP verification of gradient computation,low
+P257,include,,incentive design around probabilistic Proof-of-Training verification of FL agents,high
+P258,exclude-borderline,EC-5,ZKP checks legitimacy of FL updates; abstract does not specify computation proof,low
+P259,exclude,EC-5,clinical risk prediction with distilled verifier models; ML application,high
+P260,exclude,EC-5,device firmware attestation from RAM traces; attestation not training,high
+P261,exclude,EC-5,provable hallucination mitigation during generation; inference-time guarantees,high
+P262,exclude,EC-5,FL poisoning defence via distance and similarity checks on updates,medium
+P263,exclude,EC-5,LLM critic verifying mathematical solutions; ML scoring,high
+P264,include,,zk-SNARK proofs of client-side training integrity on edge devices in FL,high
+P265,exclude,EC-5,information-theoretic metric for deep-learning side-channel attacks,high
+P266,include-borderline,,"proof-of-learning consensus versus proof-of-vote; attack probability only, no mechanism",low
+P267,include-borderline,,"prover attests training-data distributional properties to verifier; data, not the training run",low
+P268,include,,decentralized re-execution verification of training integrity in collaborative learning,high
+P269,exclude-borderline,EC-5,"ZKP checks correctness of shared distilled knowledge, most likely inference outputs",low
+P270,exclude,EC-5,backward reachability for neural feedback loops; deployed behaviour,high
+P271,exclude,EC-5,RL from Lean prover feedback for theorem proving; formal methods,high
+P272,exclude-borderline,EC-5,ZKP on FL update integrity plus privacy for knowledge graphs; transport-level,low
+P273,exclude,EC-5,LLM test-time self-verification of its own reasoning outputs,high
+P274,include-borderline,,blockchain audit of FL update provenance; zkSNARK covers only summary properties,low
+P275,exclude,EC-5,ZKP plus quantum deep learning for healthcare data compression,high
+P276,exclude,EC-5,IoT environmental monitoring with ZKP authentication; identity not training,high
+P277,exclude,EC-5,image simplification pipeline with a learned photorealism verifier,high
+P278,exclude,EC-5,"near-duplicate of P275; ZKP healthcare compression, no training proof",high
+P279,exclude,EC-5,rootkit detection via TEE/TPM plus ML; system integrity attestation,high
+P280,exclude,EC-5,post-quantum zk-SNARK construction; matched on learning with errors,high
+P281,exclude,EC-5,"verifier-free RL for LLM incentive training; reward signal, not proof",high
+P282,include,,zk-SNARK integrity proofs for large-scale CNN training in the cloud,high
+P283,exclude,EC-5,FL poisoning defence evaluating model accuracy under homomorphic encryption,medium
+P284,exclude,EC-5,mathematics education study of novice student provers; human learners,high
+P285,include,,[SCOPE: aggregation] verifiable secure aggregation plus client legitimacy in FL,medium
+P286,exclude,EC-5,TEE-verified deep learning inference on edge devices; inference,high
+P287,exclude,EC-5,"LLM assistant authoring learning objectives; human education, idiomatic proof-of-concept",high
+P288,exclude,EC-5,recursive ZKPs for verifiable inference on locally trained models,high
+P289,exclude,EC-3,"survey of LLM reasoning, inference scaling and agentic systems",high
+P290,include,,zk-SNARKs check that local updates ran proper gradient descent in federated training,medium
+P291,include,,analyses data-forging attacks against proofs that a model trained on a dataset,medium
+P292,exclude,EC-5,offline handwritten signature verification; biometrics,high
+P293,exclude-borderline,EC-7,[SCOPE: TEE] FL update and aggregation verification rooted entirely in trusted hardware,low
+P294,exclude,EC-5,GPU acceleration of zkSNARK proof generation; no ML training target,medium
+P295,exclude,EC-5,"optical convolutional network hardware; training speedup, no verification claim",high
+P296,exclude,EC-5,training answer verifiers on valid rationales; ML scoring,high
+P297,exclude,EC-5,step-level reasoning verifier via preference learning; ML scoring,high
+P298,exclude,EC-5,RL irrigation control with physics-based safety verifiers; control constraints,high
+P299,exclude,EC-5,blockchain IoT travel safety; ZKP for user identity,high
+P300,include,,proof-of-training consensus with gradient commitment protocol verifying RNN training claims,high
+P301,exclude,EC-5,RL with Dafny verifier feedback for formal software verification,high
+P302,include,,zk-SNARK verification of FL training execution plus training-dataset authenticity,high
+P303,include,,zero-knowledge proof of training protocol for logistic regression,high
+P304,exclude,EC-5,jointly RL-training generator and verifier for reasoning; ML scoring,high
+P305,exclude-borderline,EC-7,[SCOPE: TEE] FL training integrity established solely by client-side TEE attestation,low
+P306,exclude,EC-5,robot policies with an mLLM verifier for retries; deployment,high
+P307,exclude,EC-5,learned abstractions for equational theorem proving; formal methods,high
+P308,include,,[SCOPE: aggregation] zero-knowledge proofs of aggregation integrity in peer-to-peer FL,medium
+P309,exclude,EC-5,"sharded blockchain for V2X forensics; evidence integrity, not training",high
+P310,exclude-borderline,EC-7,"[SCOPE: TEE] ML property attestation covering training, rooted in TEE hardware",low
+P311,exclude,EC-5,AI proof tutor with Lean checker; education and formal proofs,high
+P312,exclude,EC-5,LLM network configuration with verification feedback; config correctness,high
+P313,exclude,EC-5,FL-assisted IoT authentication scheme; identity and key management,high
+P314,exclude,EC-5,benchmark and LLM method for loop invariant generation; formal methods,high
+P315,exclude,EC-5,verifier-guided visual reasoning at inference time; ML scoring,high
+P316,exclude,EC-5,neural SAT solver generating resolution proofs; formal methods,high
+P317,exclude,EC-5,decryption proof verifier for internet voting; no machine learning,high
+P318,exclude,EC-6,ZKP-based ownership claim over trained DNN models; IP protection,high
+P319,include-borderline,,AI-quality consensus for blockchain FL; assures training quality without proof mechanism,low
+P320,exclude,EC-5,iris recognition verification on head-mounted displays; biometrics,high
+P321,include,,zero-knowledge certificate that training satisfied the claimed differential-privacy guarantee,high
+P322,exclude,EC-6,black-box ownership verification and fingerprinting of GNNs,high
+P323,include,,[SCOPE: aggregation] publicly verifiable per-round FL aggregation; ownership watermark secondary,medium
+P324,exclude,EC-5,cloud data sharing with ML threat detection; access control and auditing,high
+P325,exclude,EC-5,RL for claim decomposition aligned to a verifier; ML scoring,high
+P326,exclude-borderline,EC-5,"prover-verifier protocol on quantum embedding separation; model property, not training",medium
+P327,exclude,EC-5,ensembling weak verifiers to select LM outputs; ML scoring,high
+P328,exclude,EC-5,RLVR for transit incident duration prediction; reward verifier,high
+P329,exclude,EC-5,zkML proving transformer inference for tax audit; object is inference,high
+P330,exclude,EC-5,LLM math reasoning verifier via sequential Monte Carlo; ML-sense verification,high
+P331,include,,Verifiable FL: ZK proofs of pruning and aggregation result [SCOPE: aggregation],medium
+P332,include,,Collaborative zk-SNARK proof of correct FL aggregation [SCOPE: aggregation],medium
+P333,include,,zkPoT proving trained model lies in optimum vicinity of committed data,high
+P334,exclude,EC-5,Lean algorithm generalizing mathematical proofs; object is proofs,high
+P335,include,,"Verifiable FL, zk-SNARK validates server aggregation [SCOPE: aggregation]",medium
+P336,exclude,EC-5,LiquidHaskell amortized complexity proofs; no ML training target,high
+P337,exclude,EC-3,Overview of privacy and security solutions for Internet of Vehicles,high
+P338,exclude,EC-5,Lattice ZKPs over secure-aggregation inputs: norm and key constraints,high
+P339,include-borderline,,OOD check whether unauthorized data entered training set; trusted verifier,medium
+P340,exclude,EC-5,PCP and ZK-PCP query reusability theory; no ML training,high
+P341,exclude,EC-5,Ontology-driven fruit disease detection; spurious verification match,high
+P342,exclude-borderline,EC-5,"Blockchain FL IDS; ZKP authenticates updates, training proof unspecified",low
+P343,exclude,EC-5,Test-case generation for LLM code verification and RLVR rewards,high
+P344,include-borderline,,Matrix-commitment proofs of client training history; ownership framing risks EC-6,medium
+P345,include,,Recursive zkPoT for RNN training including BPTT and parameter updates,high
+P346,exclude,EC-5,Blockchain GNN organ matching; proofs cover transactions not training,high
+P347,exclude,EC-5,MPC plus interactive proofs for delegated computation; evaluated on inference,medium
+P348,include,,Interactive proof system: classical verifier checks untrusted prover's learning result,medium
+P349,include,,Accumulator-based verification of FL local training inside TEE [SCOPE: TEE],medium
+P350,exclude,EC-3,Comprehensive survey of zero-knowledge machine learning,high
+P351,exclude,EC-5,Minimizing UNSAT proofs produced by DNN property verifiers,high
+P352,exclude,EC-5,Tunable zero-knowledge proof of inference over Z2k,high
+P353,exclude,EC-5,CEGIS synthesis of polynomial Lyapunov functions; object is stability,high
+P354,exclude-borderline,EC-5,Certified robustness bounds on parameters under poisoning; no prover-verifier claim,medium
+P355,exclude,EC-5,Blockchain healthcare data sharing; ZK covers consent not training,high
+P356,exclude,EC-5,Belief-step verifier scoring theory-of-mind reasoning traces,high
+P357,exclude,EC-5,ZKML pipeline proving CNN COVID diagnosis inference,high
+P358,exclude,EC-5,"Federated XSS detection; ZKP role unspecified, likely update validation",low
+P359,exclude,EC-5,Blockchain validation of sentiment dataset; 'proof of learning' spurious,medium
+P360,exclude,EC-5,Stochastic XGBoost porosity prediction; unrelated to proofs,high
+P361,exclude,EC-5,TEE-protected Freivalds checks of DNN inference on edge GPUs,high
+P362,exclude,EC-5,Cooperative program verification tool; 'learning' is program analysis,medium
+P363,exclude,EC-5,Ring-LWR commitments for searchable encryption; lattice-learning term spurious,high
+P364,exclude,EC-5,Verification-aided learning of neural barrier functions; object is safety,high
+P365,exclude,EC-5,Turn-by-turn LLM verifier for coding tutoring dialogues,high
+P366,exclude,EC-3,Survey of differential privacy techniques for federated learning,high
+P367,include,,ZKP verification that FL updates derive from actual local training,medium
+P368,exclude,EC-5,Process reward verifiers scoring LLM reasoning steps,high
+P369,exclude,EC-5,Invariant surrogate representation learning for causal effect estimation,high
+P370,include,,TEE-plus-GPU verification of FL participants' training correctness [SCOPE: TEE],medium
+P371,exclude,EC-4,Research preview comparing differentiable logics; open problems as contribution,medium
+P372,exclude,EC-5,ZK circuit proving agent output safety; object is inference,high
+P373,exclude,EC-5,SNARG constructions from non-signaling PCPs; LWE match spurious,high
+P374,exclude,EC-5,Blockchain image acquisition and tampering detection; no training proof,high
+P375,include,,zk-SNARK and IVC proofs of local training and aggregation on-chain,high
+P376,exclude,EC-5,CEGIS synthesis of neural Craig interpolants for nonlinear arithmetic,high
+P377,include,,ZKP of local training integrity to stop free-rider federated clients,high
+P378,exclude,EC-4,Keynote on metamorphic testing of systems without oracles,high
+P379,exclude,EC-5,Neurosymbolic NL-to-LTL translation with verifier-in-the-loop reward,high
+P380,exclude,EC-5,ZKP mutual authentication for smart home IoT devices,high
+P381,exclude,EC-5,ZKP verification of academic credentials on blockchain,high
+P382,exclude,EC-5,FL poisoning defense; ZKP certifies update norm boundedness,high
+P383,exclude,EC-5,Causal knowledge graph with LLM verifier for urban events,high
+P384,exclude,EC-5,ZKP sampled verification of gradient clipping range in federated graphs,high
+P385,exclude,EC-5,Generative reward models verifying LLM candidate solutions,high
+P386,include,,Proof-of-Learning combined with watermarking to resist spoofing attacks,high
+P387,include,,KZG-commitment proofs of language model fine-tuning integrity,medium
+P388,exclude,EC-5,Coq formalisation of differentiable logics; object is loss semantics,high
+P389,exclude,EC-5,zk-SNARK constrains diffusion model inference for traceability twins,medium
+P390,exclude,EC-5,RL from verifiable rewards; verifier scores manipulation trial outcomes,high
+P391,exclude-borderline,EC-7,SGX training plus HE inference; training integrity rests on attestation,low
+P392,include,,Zero-knowledge proofs of back-propagation correctness for outsourced training,high
+P393,exclude,EC-5,Certified invariant polytopes for neural controllers; object is safety,high
+P394,exclude,EC-5,ZKP-based participant authentication for blockchain federated learning,high
+P395,exclude-borderline,EC-5,zkSNARK filters low-quality FL updates; proof target unspecified,low
+P396,exclude-borderline,EC-5,Blockchain genomic FL; Cairo proofs of update validity unspecified,low
+P397,exclude,EC-5,Neural barrier certificates for online reachability safety verification,high
+P398,exclude,EC-5,zkSNARK verification of DNN inference for MLaaS clients,high
+P399,exclude,EC-5,Deterministic dual-robot kinematic path planning framework,high
+P400,exclude,EC-5,Model-induced process supervision verifier for reasoning steps,high
+P401,include,,zk-SNARK lets clients verify server-side FL aggregation [SCOPE: aggregation],medium
+P402,exclude,EC-5,ZKP integrity of secret-shared inputs in federated aggregation,medium
+P403,include,,Anomaly detection in TEE validates MLaaS training effort [SCOPE: TEE],medium
+P404,exclude,EC-5,Hybrid optimistic and ZK verification of ML inference operators,high
+P405,exclude,EC-5,MANET honey encryption with ZKP authentication and federated detection,high
+P406,exclude,EC-5,LLM generation of formal proofs for code verification,high
+P407,exclude,EC-5,Neural algorithmic reasoning verifier for routing protocol configurations,high
+P408,exclude,EC-5,LLM proof sequence generation for HOL4 theorem prover,high
+P409,exclude,EC-5,TEE-based privacy-preserving MLaaS demo; target is data confidentiality,low
+P410,exclude,EC-5,Layer-2 blockchain healthcare architecture; proofs cover data integrity,medium
+P411,exclude,EC-5,Fine-tuned verifier checks LLM reasoning chains; object is reasoning not training,high
+P412,include,,"ZKP+blockchain FL proving integrity of local learning, aggregation and data provenance",medium
+P413,exclude,EC-5,Proof complexity theory linking learnability and automatability; no training verification,high
+P414,exclude,EC-3,Systematic review of blockchain smart contract frameworks in healthcare AI,high
+P415,exclude,EC-5,Anonymous proof of account ownership; object is identity,high
+P416,exclude,EC-5,"FL with NIZK for verifiable DP and secure parameter transmission, not computation",medium
+P417,exclude,EC-5,AI fraud detection plus smart contracts; ZKP only an architecture component,high
+P418,exclude-borderline,EC-4,Short vision piece outlining partial ZKP verification research directions for FL,medium
+P419,include-borderline,,Proof-of-unlearning definitions plus SGX instantiation auditing learning [SCOPE: TEE],medium
+P420,exclude,EC-5,Educational database architecture; zero-knowledge mention incidental,high
+P421,include,,FL framework using zk-SNARK circuits for verifiable training of local updates,medium
+P422,exclude,EC-5,LLM agent-based model generation; verifier checks model executability,high
+P423,exclude-borderline,EC-7,TEE-only secure FL training; auditing is contribution measurement [SCOPE: TEE],medium
+P424,include,,zkDL: zero-knowledge proofs of deep network training including backpropagation,high
+P425,exclude,EC-5,Neural term synthesis for instantiation-based theorem proving,high
+P426,exclude,EC-5,"Robot iterative learning control; convergence proof, not training verification",high
+P427,exclude,EC-3,Survey of ZKP hardware acceleration 2021-2025,high
+P428,exclude,EC-5,Semi-supervised NLI; verifier checks LLM pseudo-labels,high
+P429,include,,Proof-of-Learning consensus where miners' ML training work is verified,high
+P430,exclude,EC-3,Review of blockchain for digital cities; ZKP and FL mentioned,medium
+P431,exclude,EC-5,Delegatable anonymous credentials; object is credential delegation,high
+P432,include,,VPNNT zero-knowledge proof that client gradients computed on previous global model,high
+P433,exclude,EC-5,"zkSNARK for CNN inference, not training",high
+P434,exclude,EC-5,LLM answer verifier and outcome reward model,high
+P435,exclude,EC-5,Hoare-style proof synthesis for infinite program sets,high
+P436,exclude,EC-5,Blockchain authentication framework for 5G IoT edge,high
+P437,exclude,EC-5,Verifier network filters character regions in historical manuscripts,high
+P438,exclude,EC-5,Neural theorem extraction from formal proofs,high
+P439,exclude,EC-5,"Sumcheck proofs for convolution and CNN evaluation pipelines, not training",medium
+P440,exclude,EC-5,LLM eBPF program synthesis checked by kernel verifier,high
+P441,exclude-borderline,EC-5,"ZKP consistency binding of FL updates detects poisoning, not training computation",low
+P442,exclude,EC-5,Coq-based educational proof-writing software,high
+P443,exclude,EC-5,Keyword spotting pipeline; verifier is an audio model,high
+P444,exclude,EC-5,Reinforcement learning for Coq proof synthesis,high
+P445,exclude,EC-5,Formal verification of train control model in KeYmaera X,high
+P446,exclude,EC-5,Lookup arguments for SNARKs; verifiable ML only a motivating application,high
+P447,include,,ZKP that aggregator honestly updates weighted-majority expert weights during online learning,high
+P448,exclude,EC-5,Transfer learning for cricket umpire action recognition,high
+P449,exclude,EC-5,PAC framework for learning verifiers of reasoning steps,high
+P450,exclude,EC-5,Quantum Merkle trees for succinct commitments,high
+P451,exclude,EC-5,Self-proving models prove output correctness; object is inference,high
+P452,exclude,EC-6,NeRF watermarking for copyright ownership verification,high
+P453,include,,Jolt-FL zkVM proofs of each client's local training step,high
+P454,exclude-borderline,EC-5,"Statistical fingerprint verifies preprocessing configuration, not weight-producing computation",low
+P455,exclude,EC-5,Session ZKP for EHR access privacy verification,high
+P456,include,,zk-SNARK verification of local training and global aggregation on blockchain,high
+P457,exclude,EC-5,Verifier-reward RL for LLM planning generalization,high
+P458,exclude,EC-5,Formal network config verification feedback for LLM generation,high
+P459,include,,Polynomial commitment scheme proving FL clients computed updates correctly,high
+P460,exclude,EC-5,Deep learning ZKP biometric authentication for patients,high
+P461,exclude,EC-5,ZKP identity verification protocol with ML prediction,high
+P462,exclude,EC-5,SMT-certified error bounds on learned reachable sets,high
+P463,include-borderline,,TEE plus stochastic verification of outsourced neural network training [SCOPE: TEE],medium
+P464,exclude,EC-5,ZKP hardware accelerator; no training-specific proof,high
+P465,exclude,EC-5,Blockchain transaction privacy with GNN-based regulation,high
+P466,exclude,EC-5,Neural network robustness verification for speech models,high
+P467,exclude,EC-5,Dual-chain FL; ZKP used for access tokens and policy enforcement,medium
+P468,exclude,EC-5,Data-driven shielding guaranteeing safety of learned controllers,high
+P469,exclude,EC-5,Study of mathematics students using Lean theorem prover,high
+P470,exclude,EC-5,Neural barrier certificate synthesis verified by SMT solver,high
+P471,exclude,EC-5,Phase-field crack simulation with SVR surrogate model,high
+P472,exclude,EC-5,"FL marketing framework; ZKP validation target unspecified, privacy-oriented",low
+P473,exclude,EC-5,RL-tuned ZKP for blockchain transaction privacy,high
+P474,exclude,EC-5,Coercion-resistant e-voting credential registration,high
+P475,include-borderline,,Split learning with HE and ZKP asserting correctness of training computations,medium
+P476,exclude,EC-5,Qualitative study of digital micro-credentials for students,high
+P477,exclude,EC-3,Survey of ZKP-enabled federated learning in healthcare,high
+P478,exclude,EC-5,Zero-knowledge control-flow attestation of program execution,high
+P479,exclude,EC-5,Formal verification of SCION router protocol and code,high
+P480,exclude,EC-5,RL claim decomposition tuned to factuality verifiers,high
+P481,exclude,EC-5,Offline RL using Q-function as inference-time verifier,high
+P482,exclude,EC-5,Quantum oblivious transfer protocol,high
+P483,exclude,EC-5,Verifier-guided tree search for LLM reasoning,high
+P484,exclude,EC-5,Learning generalized planning policies with correctness proofs,high
+P485,exclude,EC-5,AI intrusion detection; ZKP for privacy in federated threat sharing,high
+P486,exclude,EC-5,Self-supervised training of mathematical reasoning verifier,high
+P487,exclude,EC-5,FHE hybrid inference with zk-SNARK verification of inference results,high
+P488,exclude,EC-5,Neural network analysis of Buchi automata properties,high
+P489,exclude,EC-5,Round-robin proof-of-stake consensus; proof-of-learning only mentioned,high
+P490,exclude,EC-5,"ZKP audits FL participant selection, not the training computation",medium
+P491,exclude,EC-5,Distributed computing impossibility proofs; learning is idiomatic,high
+P492,exclude,EC-5,Blockchain scholarship platform with ZKP identity and ML recommendation,high
+P493,exclude,EC-5,"LLM autonomous scientific reasoning; verifier scores hypotheses, not training",high
+P494,exclude,EC-5,Blockchain IoT identity management with ZKPs; object is device identity,high
+P495,exclude,EC-5,LLM debate-based fact-checking; verification target is claims,high
+P496,exclude,EC-1,"Extended version of P053, Proof of Learning applied to BNNs",medium
+P497,include,,Zero-knowledge proof of training for DNNs over committed data and model,high
+P498,exclude-borderline,EC-7,FL training secured by TEE plus multisig only [SCOPE: TEE],medium
+P499,exclude,EC-5,"ZKP acceleration for outsourced matrix multiplication; verifiable inference, not training",medium
+P500,exclude,EC-5,OCR plus LightGBM invoice anomaly detection; 'verification' is idiomatic,high
+P501,exclude,EC-5,Learned clause selection guidance for saturation theorem prover,high
+P502,exclude,EC-5,L0 robustness verification of an already-trained network,high
+P503,include,,zkMLaaS: zero-knowledge proof of training integrity for outsourced training,high
+P504,exclude,EC-5,Machine learning for Coq proof-script synthesis; formal methods noise,high
+P505,exclude,EC-4,Poster on difficulty tuning in energy-recycling (PoL) consensus,high
+P506,exclude,EC-5,Learned verifier re-ranks natural-language descriptions of distribution differences,high
+P507,exclude,EC-5,Learning-guided relational invariant synthesis with SMT verifier,high
+P508,exclude-borderline,EC-5,Avionics certification of ML; statistical verifier targets model performance,low
+P509,exclude,EC-5,Reinforcement learning guidance for saturation-based theorem prover,high
+P510,exclude,EC-5,Neural clause scoring for first-order theorem proving,high
+P511,include,,PAC verification: interactive proofs that a delegated learning outcome is correct,medium
+P512,exclude-borderline,EC-5,Resource allocation in blockchain MEC; PoL consensus is only background,medium
+P513,exclude,EC-5,"Active automata learning; equivalence queries, not ML training proof",high
+P514,exclude,EC-5,Continual learning via optimal control; 'proof of concept' idiom,high
+P515,exclude,EC-5,Formal reward machine and barrier function for safe RL policy,high
+P516,exclude,EC-5,"Barrier certificates verify safety of learned policy, not training",high
+P517,exclude,EC-5,SAT preprocessing with PR clause learning; clause-learning sense,high
+P518,exclude,EC-5,PU learning method; 'proof of training error bound' is spurious,high
+P519,exclude,EC-5,Tweet credibility verifier and summarizer; target is rumour veracity,high
+P520,include,,Spoofing attack showing Proof-of-Learning training proofs can be forged,high
+P521,exclude,EC-6,Task-agnostic model fingerprinting for ownership and IP forensics,high
+P522,exclude,EC-5,Blockchain student transcript storage and verification; human education records,high
+P523,exclude,EC-4,AAAI student abstract of PoL consensus; full version is P571,high
+P524,exclude-borderline,IC-2,PoL consensus picks edge models by reputation; no training claim verified,medium
+P525,exclude-borderline,EC-5,Verifiable MLaaS proof systems showcased on SVM classification; training coverage unclear,low
+P526,exclude,EC-5,Classifier that verifies XAI outputs of malware classifications,high
+P527,exclude,EC-5,Learning tactic prediction for interactive theorem proving,high
+P528,exclude,EC-5,ENIGMA learned guidance and premise selection for E prover,high
+P529,exclude,EC-5,ML-based firmware attestation from IoT memory dumps,high
+P530,exclude,EC-5,Secure quantum MPC; matched on learning with errors,high
+P531,exclude,EC-5,Certifies fairness of an already-trained model regardless of training,high
+P532,exclude,EC-5,Quantum position verification; learning with errors match only,high
+P533,exclude,EC-5,Learner-verifier loop synthesises Lyapunov functions for hybrid systems,high
+P534,exclude,EC-5,"FL ZKPs cover DP noise addition and randomness, not gradients",medium
+P535,include,,GuardLR: verifiable privacy-preserving linear regression training against malicious cloud,high
+P536,exclude,EC-5,"Duplicate of P533; Lyapunov certificate synthesis, object not training",high
+P537,exclude,EC-5,Publicly auditable conditional blind signatures; no machine learning,high
+P538,include,,Interactive proof systems for PAC verification of delegated learning outcomes,medium
+P539,exclude,EC-5,Certified everlasting zero-knowledge proofs for QMA; no ML,high
+P540,exclude,EC-5,ZKP resume screening plus DRL contract theory for recruitment,high
+P541,exclude,EC-4,Roadmap paper outlining unified NN robustness and privacy verification,medium
+P542,exclude,EC-5,ZKP for integrity of CNN prediction process; verifiable inference,high
+P543,exclude,EC-5,Deniable ring authentication from broadcast encryption; identity primitive,high
+P544,exclude,EC-5,Synthetic 3D on-air signature generation for biometric verifiers,high
+P545,include-borderline,,ZKPs over FL aggregator contribution assessment and outlier removal [SCOPE: aggregation],medium
+P546,exclude,EC-5,CEGIS synthesis of neural Craig interpolants; formal methods,high
+P547,exclude,EC-5,Verifier enforces global robustness property of trained security classifier,medium
+P548,exclude,EC-5,Deep RL agent for first-order logic theorem proving,high
+P549,exclude,EC-5,Self-training agent for loop invariant synthesis and theorem proving,high
+P550,include,,Reproducible spoofing attacks and assumption analysis of Proof-of-Learning verification,high
+P551,exclude,EC-5,Robotic spoofing of 3D on-air signature biometric verifier,high
+P552,exclude,EC-5,PoL-named consensus validates water-system sensor data; target is data,medium
+P553,exclude,EC-5,Interactive classification certificates per datapoint; object is feature selection,high
+P554,exclude,EC-5,Star reachability robustness verification of recurrent neural networks,high
+P555,exclude,EC-5,Co-training language models on proof artifacts for theorem proving,high
+P556,exclude,EC-5,Proof outline checker for TaDA separation logic,high
+P557,exclude,EC-5,Zero-knowledge proofs for LPN commitments; lattice cryptography match,high
+P558,exclude,EC-5,Generative verifier network detects unreliable predictions at inference,high
+P559,exclude,EC-5,Neurally guided lazy paramodulation theorem prover,high
+P560,exclude,EC-5,LSTM tactic prediction for Coq proof automation,high
+P561,exclude,EC-5,E-health credential trust registry; matched on TRAIN acronym,high
+P562,exclude,EC-5,Verifiable oblivious PRF from ideal lattices; no ML,high
+P563,exclude,EC-5,Transformer recommender for interactive proof construction,high
+P564,exclude,EC-5,Formal language for AI-pilot flight exercises; checks flight performance,medium
+P565,exclude,EC-5,Concurrent verifier constrains model input-output pairs at inference,high
+P566,exclude,EC-5,Generator-verifier adversarial pre-training for logical reasoning in LMs,high
+P567,exclude,EC-5,Black-box impossibility results for two-round weak zero-knowledge arguments,high
+P568,exclude-borderline,EC-5,"Proves a prediction is poisoning-robust; property, not a training claim",medium
+P569,exclude,EC-5,Speculative piece on databases of formal proofs with computational content,medium
+P570,exclude,EC-5,Generating multiple natural-language proof graphs for rule reasoning,high
+P571,include,,"PoL consensus: miners prove model training, verified in constant time",medium
+P572,exclude,EC-5,Gym environments for RL-guided saturation theorem provers,high
+P573,exclude,EC-5,Termination analysis of counterexample-guided neural network repair,medium
+P574,exclude,EC-5,Rotatable zero-knowledge sets for key transparency directories,high
+P575,exclude,EC-1,Demo version of PoLe full paper P640; duplicate record.,high
+P576,exclude,EC-5,"Automated theorem-proving algorithm; proves math statements, not training.",high
+P577,exclude,EC-5,"FL ZKP authenticates model-parameter reliability, not the training computation.",medium
+P578,exclude,EC-5,mmWave beam prediction model; no proof to any party.,high
+P579,exclude,EC-5,Deep learning guides HOL4 proof search; object is theorems.,high
+P580,exclude,EC-6,Fingerprint-detection model IP protection via ownership verifier.,high
+P581,exclude,EC-5,Javanese speech emotion database; verifiers are human annotators.,high
+P582,exclude,EC-5,"ZK proofs for neural-network inference, not training.",high
+P583,exclude,EC-5,Certified geometric robustness; property of the trained model.,high
+P584,exclude,EC-5,DRL finds minimum link failures for network config verification.,high
+P585,exclude,EC-5,Small LM verifier scores knowledge-augmented LM outputs.,high
+P586,include,,FL DRL with NIZK auditing correctness of collaborative training [SCOPE: aggregation].,medium
+P587,exclude,EC-5,Neural theorem prover proof-path selection policy.,high
+P588,include,,Improved Proof-of-Learning consensus; model training is the verified work.,medium
+P589,exclude,EC-5,ZKP hides financial transaction data; FL is a separate component.,high
+P590,include-borderline,,Proof-of-Learning consensus for IoT Q-learning; verification detail thin.,medium
+P591,exclude,EC-5,SSAT verification of fairness metrics of trained classifiers.,high
+P592,exclude,EC-5,Distributed zero-knowledge proof theory; no ML training target.,high
+P593,exclude,EC-5,Synthesizes linear approximations for neural network robustness verification.,high
+P594,exclude,EC-5,"Anonymous domain ownership proofs; identity, not training.",high
+P595,exclude,EC-5,Chain-of-thought prompting for LLM reasoning; spurious verifier mention.,high
+P596,exclude,EC-5,Speaker-attractor text-to-speech; speaker verification embeddings only.,high
+P597,include-borderline,,Supply-chain blockchain alternating PoW and Proof-of-Learning; proof target unclear.,low
+P598,include,,Verifies correctness of federated aggregation via homomorphic hash [SCOPE: aggregation].,high
+P599,include,,Blockchain verifiers re-compute training intervals to authenticate trained models.,high
+P600,include,,Seminal proof-of-learning: prover shows parameters resulted from gradient descent.,high
+P601,exclude,EC-5,"Remote attestation of embedded software integrity; firmware, not training.",high
+P602,include,,Learning nodes submit ZK proofs of correct off-chain FL computation.,high
+P603,exclude,EC-5,Quantum certified deletion for LWE; lattice cryptography match.,high
+P604,include,,Proof-of-training consensus electing block producers by training quality.,medium
+P605,exclude-borderline,EC-5,Sentiment analysis LSTM; Proof-of-Learning layer is ledger data management.,low
+P606,exclude,EC-5,Reinforcement learning guidance for automated theorem proving.,high
+P607,exclude,EC-3,Review of zero-knowledge proof methods.,high
+P608,exclude,EC-5,"Isabelle formalization of SCL(FOL); clause learning, not ML.",high
+P609,exclude,EC-3,Perspective review of the machine learning and logic intersection.,medium
+P610,exclude,EC-5,Accent reduction in speech synthesis; speaker verifier is a tool.,high
+P611,exclude,EC-5,GPT/Codex math problem solving with answer-ranking verifier.,high
+P612,exclude,EC-5,Learner-verifier synthesis of safe controllers via barrier certificates.,high
+P613,exclude,EC-5,"Proves soundness of learned analysis rules, not the training run.",medium
+P614,exclude,EC-5,Deep RL for interactive theorem proving in HOL4.,high
+P615,exclude,EC-5,Micro-credential platforms; proofs of learning means human education credentials.,high
+P616,exclude,EC-5,Transformer proof search for neural theorem proving.,high
+P617,exclude,EC-5,Proof outline checker for separation logic TaDA.,high
+P618,include-borderline,,Blockchain FL with Proof-of-Federated-Deep-Learning consensus; proof target under-specified.,low
+P619,exclude,EC-5,Offline handwritten signature verification for forensics; biometrics.,high
+P620,exclude,EC-5,Trained verifier checks natural-language proof steps.,high
+P621,exclude,EC-5,Mathematics education study of combinatorial proof reasoning.,high
+P622,exclude,EC-5,Proof complexity: learning algorithms versus Frege automatability.,high
+P623,include-borderline,,Deterministic checkpointing and faithful replay of training; no prover-verifier claim.,medium
+P624,include,,RPoL lets pool managers verify workers' training integrity by sampling.,high
+P625,exclude,EC-5,Trained verifier reranks generated programs by execution results.,high
+P626,exclude,EC-5,Neural barrier certificates verifying opacity of control systems.,high
+P627,exclude,EC-3,Survey of learner-verifier methods for stochastic control certificates.,medium
+P628,exclude,EC-5,Robot iterative learning control; proof of learning convergence is idiomatic.,high
+P629,exclude,EC-5,Undergraduate mathematics education study using the LEAN prover.,high
+P630,include-borderline,,Business data sharing with modified PoLe verification and reward process.,medium
+P631,exclude,EC-3,Review of enclave remote attestation architectures.,medium
+P632,exclude,EC-3,Tutorial reviewing learning-based predictive monitoring with conformal guarantees.,medium
+P633,exclude,EC-5,Essay on failures of cryptographic security proofs.,medium
+P634,exclude,EC-5,TacticToe learns tactics for HOL4 theorem proving.,high
+P635,exclude-borderline,EC-5,"ZK-proved fairness audit of a model; property, not training.",medium
+P636,exclude,EC-3,Survey of blockchain-enhanced machine learning.,high
+P637,exclude,EC-5,"Verifiable computation on encrypted data; generic delegation, not training.",high
+P638,exclude,EC-5,CEGIS synthesis of neural barrier certificates for hybrid systems.,high
+P639,exclude,EC-5,CDCL proof systems and clause learning; proof complexity.,high
+P640,include,,PoLe consensus: neural network training itself serves as the proof.,high
+P641,exclude,EC-5,RL learns smart-contract invariants to aid arithmetic safety proofs.,high
+P642,exclude,EC-5,SMT-verified synthesis of Lyapunov neural networks; stability property.,high
+P643,exclude,EC-5,Learned alignment verifier for floorplan reconstruction.,high
+P644,exclude,EC-5,Deep learning utterance verifier for aphasia naming tests.,high
+P645,include,,Participants verify correctness of federated secure aggregation [SCOPE: aggregation].,high
+P646,exclude,EC-5,Synthetic on-air signatures attacking a biometric verifier.,high
+P647,exclude,EC-5,Zero-knowledge proofs of existence for decentralized identities.,high
+P648,exclude,EC-5,Language-specific routing for multilingual translation; spurious verifies match.,high
+P649,exclude,EC-5,Cascaded PUF resisting ML modeling attacks; device authentication.,high
+P650,exclude,EC-5,Deep learning steers state-space traversal for cloud debugging.,high
+P651,include,,Proof-of-Training-Data: trainer convinces verifier which data produced weights.,high
+P652,exclude,EC-4,Short work-in-progress note on KeYmaera X verification of CPS.,medium
+P653,exclude,EC-5,LeanDojo benchmark and retrieval-augmented LLM theorem prover.,high
+P654,exclude,EC-5,VR simulator for training human equipment operators.,high
+P655,exclude,EC-3,Review of smart home privacy protection technologies.,high
+P656,include,,ZK proof that a decision-tree training algorithm ran fairly.,high

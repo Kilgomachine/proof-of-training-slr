@@ -1,0 +1,126 @@
+id,type,who_checks,year,scope_level,basis
+B0007,Cryptographic proof,Single verifier,2021,Sampled,"Sampled steps, each in full"
+B0828,Cryptographic proof,Single verifier,2023,Full,Every training step
+F0004,Cryptographic proof,Single verifier,2025,Not detailed,Borrowed proofs
+F0006,Cryptographic proof,Blockchain,2026,Sampled,"Sampled steps, each in full"
+F0028,Cryptographic proof,Single verifier,2024,Full,Every training step
+F0083,Cryptographic proof,Blockchain,2026,Related step,A commitment or knowledge only
+F0138,Cryptographic proof,FL server,2026,Partial,Part of the training
+F0199,Cryptographic proof,Single verifier,2026,Full,Every training step
+P006,Cryptographic proof,Single verifier,2024,Full,Every training step
+P008,Cryptographic proof,Single verifier,2024,Full,Every training step
+P039,Cryptographic proof,FL server,2025,Related step,A norm bound only
+P066,Cryptographic proof,Peers,2025,Partial,Forward pass only
+P068,Cryptographic proof,Blockchain,2025,Not detailed,Relation not given or only sketched by the authors
+P071,Cryptographic proof,Single verifier,2026,Partial,Forward pass only
+P089,Cryptographic proof,FL server,2026,Not detailed,Relation not given or only sketched by the authors
+P109,Cryptographic proof,FL server,2024,Related step,A commitment or knowledge only
+P112,Cryptographic proof,Blockchain,2024,Full,Every training step
+P125,Cryptographic proof,FL server,2025,Related step,A norm bound only
+P131,Cryptographic proof,Blockchain,2024,Full,Every training step
+P135,Cryptographic proof,FL server,2025,Related step,A commitment or knowledge only
+P141,Cryptographic proof,FL server,2026,Related step,A norm bound only
+P151,Cryptographic proof,FL server,2023,Full,Every training step
+P172,Cryptographic proof,Single verifier,2024,Full,Every training step
+P184,Cryptographic proof,Blockchain,2026,Full,Every training step
+P188,Cryptographic proof,Single verifier,2024,Full,Every training step
+P193,Cryptographic proof,Peers,2026,Partial,Forward pass only
+P197,Cryptographic proof,Blockchain,2026,Not detailed,Relation not given or only sketched by the authors
+P198,Cryptographic proof,FL server,2023,Full,Every training step
+P218,Cryptographic proof,Single verifier,2025,Not detailed,Relation not given or only sketched by the authors
+P223,Cryptographic proof,Blockchain,2025,Full,Every training step
+P227,Cryptographic proof,FL server,2026,Not detailed,Relation not given or only sketched by the authors
+P256,Cryptographic proof,FL server,2026,Not detailed,Relation not given or only sketched by the authors
+P264,Cryptographic proof,FL server,2026,Partial,Forward pass only
+P290,Cryptographic proof,Blockchain,2026,Related step,A norm bound only
+P302,Cryptographic proof,FL server,2025,Partial,Forward pass only
+P303,Cryptographic proof,Single verifier,2023,Full,Every training step
+P321,Cryptographic proof,Single verifier,2024,Full,Every training step
+P333,Cryptographic proof,Single verifier,2025,Related step,The outcome only
+P345,Cryptographic proof,Single verifier,2026,Full,Every training step
+P377,Cryptographic proof,FL server,2026,Partial,Part of the training
+P392,Cryptographic proof,Single verifier,2026,Full,Every training step
+P412,Cryptographic proof,Blockchain,2024,Full,Every training step
+P421,Cryptographic proof,FL server,2025,Not detailed,Relation not given or only sketched by the authors
+P424,Cryptographic proof,Single verifier,2025,Full,Every training step
+P432,Cryptographic proof,FL server,2024,Full,Every training step
+P447,Cryptographic proof,Single verifier,2025,Full,Every training step
+P453,Cryptographic proof,FL server,2025,Full,Every training step
+P456,Cryptographic proof,Blockchain,2024,Full,Every training step
+P459,Cryptographic proof,FL server,2026,Related step,A commitment or knowledge only
+P475,Cryptographic proof,FL server,2025,Not detailed,Relation not given or only sketched by the authors
+P497,Cryptographic proof,Single verifier,2024,Full,Every training step
+P503,Cryptographic proof,Single verifier,2022,Sampled,"Sampled steps, each in full"
+P586,Cryptographic proof,FL server,2021,Related step,A commitment or knowledge only
+P602,Cryptographic proof,Blockchain,2022,Full,Every training step
+B1294,Redo the work,Peers,2022,Sampled,peers recompute randomly chosen steps of each other
+B1323,Redo the work,Single verifier,2022,Full,record-and-replay tool; enables exact replay of the whole run (no verifier of its own)
+F0368,Redo the work,Blockchain,2025,Sampled,validators retrain anomalous intervals (Merkle-committed checkpoints)
+F0414,Redo the work,Blockchain,2025,Full,every miner re-runs the winner's nonce-seeded training
+F0508,Redo the work,Blockchain,2024,Partial,contract recomputes the seed-derived canary columns of the training trace
+F0628,Redo the work,Single verifier,2025,Sampled,RTTD: random training segments re-run on other servers
+P020,Redo the work,FL server,2024,Sampled,task publisher re-executes randomly sampled training rounds
+P049,Redo the work,Blockchain,2025,Full,nodes re-run each training stage and compare model hashes exactly
+P080,Redo the work,Single verifier,2024,Full,verifyAll replays every logged step; a top-Q check and a feature watermark are added
+P108,Redo the work,Single verifier,2025,Partial,auditor re-executes training of selected layers only (PoTS)
+P143,Redo the work,Single verifier,2024,Full,auditor re-runs the whole training with rounding logs; disputes narrowed by binary search
+P162,Redo the work,Single verifier,2024,Sampled,PoGSSL: largest updates per epoch re-run in secure computation
+P291,Redo the work,Single verifier,2025,Sampled,re-evaluates forging attacks on PoL
+P349,Redo the work,FL server,2024,Sampled,TEE recomputes sampled per-sample gradients
+P386,Redo the work,Single verifier,2025,Full,SecurePoL: the verifier replays every logged checkpoint interval (top-Q distance per interval)
+P429,Redo the work,Blockchain,2026,Sampled,committee spot-checks training stages
+P520,Redo the work,Single verifier,2022,Sampled,attacks PoL (adversarial examples)
+P550,Redo the work,Single verifier,2023,Sampled,attacks PoL (top-Q re-execution)
+P599,Redo the work,Blockchain,2023,Sampled,verifiers re-train selected iterations
+P600,Redo the work,Single verifier,2021,Sampled,re-runs the largest updates per epoch (top-Q) within a tolerance
+P623,Redo the work,Single verifier,2022,Full,deterministic training and replay tool (DETrain); enables full replay
+P624,Redo the work,FL server,2023,Sampled,RPoL: sampled checkpoints matched with LSH
+B1418,Trusted hardware,Single verifier,2021,Full,enclave runs the non-linear parts and checks offloaded linear operations
+F0191,Trusted hardware,Single verifier,2026,Full,training runs inside the enclave
+P042,Trusted hardware,Peers,2024,Full,training runs inside the enclave
+P043,Trusted hardware,FL server,2024,Sampled,enclave re-executes sampled training
+P157,Trusted hardware,Single verifier,2026,Sampled,enclave re-executes sampled training
+P187,Trusted hardware,FL server,2026,Full,training runs inside the enclave
+P305,Trusted hardware,FL server,2025,Full,training runs inside the enclave
+P310,Trusted hardware,Single verifier,2025,Full,training runs inside the enclave
+P370,Trusted hardware,FL server,2026,Sampled,enclave re-executes sampled training
+P463,Trusted hardware,Single verifier,2026,Full,enclave checks the GPU matrix products (Freivalds-type)
+B1340,Model behaviour,Single verifier,2022,Related step,"statistical test on the model, its updates or its data"
+F0042,Model behaviour,Single verifier,2026,Related step,"statistical test on the model, its updates or its data"
+F0408,Model behaviour,FL server,2025,Related step,"statistical test on the model, its updates or its data"
+P041,Model behaviour,Single verifier,2025,Related step,"statistical test on the model, its updates or its data"
+P267,Model behaviour,Single verifier,2024,Related step,"statistical test on the model, its updates or its data"
+P339,Model behaviour,Single verifier,2026,Related step,"statistical test on the model, its updates or its data"
+P344,Model behaviour,FL server,2026,Related step,"statistical test on the model, its updates or its data"
+P403,Model behaviour,Single verifier,2024,Related step,"statistical test on the model, its updates or its data"
+P651,Model behaviour,Single verifier,2023,Related step,"statistical test on the model, its updates or its data"
+B0105,Work puzzle,Blockchain,2019,Related step,target measured on the trained model
+B1647,Work puzzle,Blockchain,2020,Related step,target measured on the trained model
+B1852,Work puzzle,Blockchain,2019,Related step,target measured on the trained model
+F0029,Work puzzle,Blockchain,2024,Related step,target measured on the trained model
+P053,Work puzzle,Blockchain,2025,Related step,target measured on the trained model
+P571,Work puzzle,Blockchain,2023,Related step,target measured on the trained model
+P640,Work puzzle,Blockchain,2021,Related step,target measured on the trained model
+F0012,Math check,FL server,2026,Partial,Freivalds check of outsourced forward-pass matrix products only
+P214,Math check,Single verifier,2023,Partial,rank certificate that a logged step comes from its minibatch
+P511,Math check,Single verifier,2023,Related step,PAC verification of the outcome
+P535,Math check,Peers,2022,Full,every minibatch gradient passes an information-theoretic MAC check
+P538,Math check,Single verifier,2021,Related step,PAC verification of the learned hypothesis (outcome)
+P050,Runtime behaviour,FL server,2025,Partial,"control-flow and variable-use trace, not the values computed"
+P212,Runtime behaviour,FL server,2026,Partial,"control-flow counts and hardware counters, not the values computed"
+P257,Incentives,FL server,2025,Not detailed,"reward and audit probability; the check itself is cited, not specified"
+B0088,Aggregation-only proof,FL clients,2023,Related step,the server's aggregation only
+B0153,Aggregation-only proof,Blockchain,2022,Related step,the server's aggregation only
+B0493,Aggregation-only proof,Blockchain,2025,Related step,the server's aggregation only
+B0780,Aggregation-only proof,FL clients,2024,Related step,the server's aggregation only
+B0986,Aggregation-only proof,FL clients,2023,Related step,the server's aggregation only
+P016,Aggregation-only proof,FL clients,2025,Related step,the server's aggregation only
+P052,Aggregation-only proof,Blockchain,2023,Related step,the server's aggregation only
+P082,Aggregation-only proof,FL clients,2025,Related step,the server's aggregation only
+P083,Aggregation-only proof,Blockchain,2024,Related step,the server's aggregation only
+P138,Aggregation-only proof,Blockchain,2026,Related step,the server's aggregation only
+P142,Aggregation-only proof,FL clients,2024,Related step,the server's aggregation only
+P213,Aggregation-only proof,FL clients,2024,Related step,the server's aggregation only
+P323,Aggregation-only proof,FL clients,2026,Related step,the server's aggregation only
+P331,Aggregation-only proof,FL clients,2024,Related step,the server's aggregation only
+P335,Aggregation-only proof,FL clients,2026,Related step,the server's aggregation only

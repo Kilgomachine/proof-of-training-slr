@@ -1,0 +1,55 @@
+id,code_linked,link_as_given
+B0007,N,
+B0828,Y,https://github.com/leid19/Pvsvm
+F0004,N,
+F0006,Y,https://github.com/weixiubo/PoL-BFL
+F0028,Y,https://anonymous.4open.science/r/zkml72D8/README.md
+F0083,N,
+F0138,N,
+F0199,N,
+P006,N,
+P008,Y,https://github.com/qatkk/PrivSecureML
+P039,N,
+P066,N,
+P068,N,
+P071,N,
+P089,N,
+P109,N,
+P112,N,
+P125,N,
+P131,Y,https://github.com/qatkk/FederatedNaiveBayesZKP
+P135,N,
+P141,N,
+P151,N,
+P172,Y,https://github.com/ChristodoulosPappas/Sparrow-Full-Version (ref. 6); https://github.com/anonymousg3bz6q2/Sparrow (ref. 7)
+P184,N,
+P188,Y,"https://github.com/drcapybara/capy2vML (ref. 30, first author's repository)"
+P193,N,
+P197,N,
+P198,N,
+P218,N,
+P223,Y,https://github.com/GuangguangLu/Zkfhed
+P227,N,
+P256,N,
+P264,N,
+P290,N,
+P302,N,
+P303,Y,https://github.com/... (URL cut at a line break in the text; the paper says the prototype can be found there)
+P321,Y,https://github.com/brave-experiments/Confidential-DPproof; https://github.com/Gefei-Tan/Confidential-DPProof-zk
+P333,N,
+P345,Y,https://github.com/liyuange/SUMMER
+P377,N,
+P392,Y,"https://github.com/drcapybara/capy2vML (ref. 22, first author's repository)"
+P412,Y,https://github.com/eechn/End-to-End-Verifiable-Decentralized-FederatedLearning
+P421,N,
+P424,Y,https://github.com/jvhs0706/zkdl-train
+P432,N,
+P447,N,
+P453,N,
+P456,Y,https://github.com/ElmiraEbrahimi/Veriblock-FL
+P459,N,
+P475,N,
+P497,Y,https://github.com/zkPoTs/kaizen
+P503,N,
+P586,N,
+P602,Y,https://github.com/NikolasHaimerl/Advancing-Blockchain-Based-Federated-Learning-Through-Verifiable-Off-Chain-Computations
